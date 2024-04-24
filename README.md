@@ -1,9 +1,11 @@
 
 # Network Engineering Pro
 
-Guides and resources focused on Free and Open Source Software (FOSS) for Android, Linux, and Windows. Note [this caveat](https://itsfoss.com/what-is-foss/#free-in-free-and-open-source-software-does-not-mean-free-of-cost) regarding the term "free."
+We will soon be establishing guides and resources focused on Free and Open Source Software (FOSS) for Android, Linux, and Windows. Note [this caveat](https://itsfoss.com/what-is-foss/#free-in-free-and-open-source-software-does-not-mean-free-of-cost) regarding the term "free."
 
 Additionally, privacy and/or security will likewise be a major focus. Topics such as browser hardening and private, privacy-focused DNS services will be explored in detail.
+
+>For now, you can find some recommendations at [https://sundevil.bio.link/](https://sundevil.bio.link/). This information will soon be added to this website in a redesigned format.
 
 
 ## 🚀 About Me
