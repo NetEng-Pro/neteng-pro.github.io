@@ -20,7 +20,7 @@ Additionally, privacy and/or security will likewise be a major focus. Topics suc
 
 ---
 ## 🚀 About Me
-I'm a network security enginneer specializing in Palo Alto Networks solutions, including PAN-OS Next-Gen Firewalls (NGFWs) and Panorama management server. I have dabbled with Android development for some time and have recently taken an interest in substituting open-source apps instead of commercial and/or closed-source programs.
+I'm a Network Security Enginneer specializing in [Palo Alto Networks](https://www.paloaltonetworks.com) solutions, including PAN-OS [Next-Gen Firewalls](https://docs.paloaltonetworks.com/pan-os) (NGFWs) and [Panorama management server](https://docs.paloaltonetworks.com/panorama). I have dabbled with Android development for some time and have recently taken an interest in substituting open-source apps instead of commercial and/or closed-source programs.
 
 &NonBreakingSpace; <!-- space for clarity -->
 
@@ -31,4 +31,4 @@ I'm a network security enginneer specializing in Palo Alto Networks solutions, i
 &NonBreakingSpace; <!-- space for clarity -->
 
 ---
-&copy; 2024 &nbsp; [Scott Lopez](mailto:website@neteng.pro)
+2024 &nbsp; [Scott Lopez](mailto:website@neteng.pro)
