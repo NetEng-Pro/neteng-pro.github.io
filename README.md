@@ -31,4 +31,4 @@ I'm a Network Security Enginneer specializing in [Palo Alto Networks](https://ww
 &NonBreakingSpace; <!-- space for clarity -->
 
 ---
-2024 &nbsp; [Scott Lopez](mailto:website@neteng.pro)
+Logo &nbsp; &copy; &nbsp; 2024 &nbsp; [Scott Lopez](mailto:website@neteng.pro)
