@@ -1,11 +1,11 @@
 
 # Network Engineering Pro
 
-I will soon be setting up guides and resources focused on Free and Open Source Software (FOSS), primarily focused on Android. However, some Linux and Windows projects will be highlighted as well. Note [this caveat](https://itsfoss.com/what-is-foss/#free-in-free-and-open-source-software-does-not-mean-free-of-cost) regarding the term "free."
+I am currently developing a website featuring guides and resources dedicated to Free and Open Source Software (FOSS), with a primary focus on Android. The platform will also showcase select Linux and Windows projects. Please be aware of [the distinction in the term "free."](https://itsfoss.com/what-is-foss/#free-in-free-and-open-source-software-does-not-mean-free-of-cost)
 
-Additionally, privacy and/or security will likewise be a major focus. Topics such as browser hardening and private, privacy-focused DNS services will be explored in detail.
+Moreover, the website will prioritize discussions on privacy and security. Detailed topics like browser hardening and private, privacy-focused DNS services will be thoroughly explored. Be sure to stay tuned for updates as we delve into these critical themes!
 
->*For now, you can find some recommendations at [https://sundevil.bio.link/](https://sundevil.bio.link/). This information will soon be added to this website in a redesigned format.*
+>*For now, you may find some recommendations at [https://sundevil.bio.link/](https://sundevil.bio.link/). This information will soon be added to this website in a redesigned format.*
 
 &NonBreakingSpace; <!-- space for clarity -->
 
@@ -13,14 +13,14 @@ Additionally, privacy and/or security will likewise be a major focus. Topics suc
 
 * FOSS apps and programs
 * FOSS app guide for Android
-* Browser Hardening
+* Browser Security & Privacy Hardening
 * Privacy-centric DNS Services
 
 &NonBreakingSpace; <!-- space for clarity -->
 
 ---
 ## 🚀 About Me
-I'm a Network Security Enginneer specializing in [Palo Alto Networks](https://www.paloaltonetworks.com) solutions, including PAN-OS [Next-Gen Firewalls](https://docs.paloaltonetworks.com/pan-os) (NGFWs) and [Panorama management server](https://docs.paloaltonetworks.com/panorama). I have dabbled with Android development for some time and have recently taken an interest in substituting open-source apps instead of commercial and/or closed-source programs.
+I'm a Network Security Enginneer specializing in [Palo Alto Networks](https://www.paloaltonetworks.com) solutions, including PAN-OS [Next-Gen Firewalls](https://docs.paloaltonetworks.com/pan-os) (NGFWs) and [Panorama management server](https://docs.paloaltonetworks.com/panorama). I have dabbled with Android development for some time and have recently taken an interest in substituting open source apps for commercial and/or closed source programs.
 
 &NonBreakingSpace; <!-- space for clarity -->
 
@@ -31,4 +31,5 @@ I'm a Network Security Enginneer specializing in [Palo Alto Networks](https://ww
 &NonBreakingSpace; <!-- space for clarity -->
 
 ---
-Logo &nbsp; &copy; 2024 &nbsp; [Scott Lopez](mailto:website@neteng.pro)
+
+Graphics &nbsp; &copy; 2024 &nbsp; [Scott Lopez](mailto:website@neteng.pro)
