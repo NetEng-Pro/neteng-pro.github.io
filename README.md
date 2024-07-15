@@ -34,12 +34,13 @@
 &NonBreakingSpace; <!-- space for clarity -->
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://scottlopez.bio.link/)
+[![bio.link](https://img.shields.io/badge/bio.link-000000%7D?style=for-the-badge&logo=biolink&logoColor=white)](https://scottlopez.bio.link/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/scottlopez)
+[![mastodon](https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&logo=Mastodon&logoColor=white)](https://noc.social/@sundevil311)
 
-[![cc-by-sa](https://forthebadge.com/images/badges/cc-by-sa.png)
+[![cc-by-sa](https://forthebadge.com/images/badges/cc-by-sa.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 <!-- space for clarity &NonBreakingSpace; -->
 
 ---
-Graphics &nbsp; &copy; 2024 &nbsp; [Scott Lopez](mailto:website@neteng.pro)
+Network Engineering Pro &nbsp; &copy; 2024 &nbsp; by [Scott Lopez](mailto:website@neteng.pro) is licensed under CC BY 4.0
