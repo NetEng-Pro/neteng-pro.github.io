@@ -8,7 +8,7 @@
 
 ## 💡 Collective Knowledge
 
-  **Recognizing the limitations of individual-driven privacy websites and outdated lists, we are dedicated to offering a broad range of current and diverse views on privacy-centric apps and projects. Although I initially launched this project independently, I wholeheartedly embrace and encourage community input to enrich our collective knowledge base.**
+  **Recognizing the limitations of individual-driven privacy websites and outdated lists, we are dedicated to offering a broad range of current and diverse views on privacy-centric apps and projects.** Although I initially launched this project independently, I wholeheartedly embrace and encourage community input to enrich our collective knowledge base.
 
   The distinctive feature that sets this project apart is the inclusive approach to gathering insights. *Our primary short-term objective is to curate an up-to-date list of recommended FOSS (and occasionally closed-source) apps for Android users.* Once made public, we anticipate that the list will evolve through collaborative efforts, with the community leading Discussions and driving updates.
 
