@@ -14,7 +14,7 @@
 
   >*For now, you may find some recommendations at [https://sundevil.bio.link/](https://sundevil.bio.link/). This information will soon be added to this website in a redesigned format.*
 
-<!-- space for clarity &NonBreakingSpace; -->
+&NonBreakingSpace; <!-- space for clarity -->
 
 ## Topics of Interest
   * FOSS apps and programs
@@ -22,7 +22,7 @@
   * Browser Security & Privacy Hardening
   * Privacy-centric DNS Services
 
-&NonBreakingSpace; <!-- space for clarity -->
+<!-- space for clarity &NonBreakingSpace; -->
 
 ---
 ## 🚀 About Me
@@ -36,6 +36,8 @@
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://scottlopez.bio.link/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/scottlopez)
+
+[![cc-by-sa](https://forthebadge.com/images/badges/cc-by-sa.png)
 
 <!-- space for clarity &NonBreakingSpace; -->
 
