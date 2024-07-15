@@ -21,8 +21,6 @@
 
   >*For now, you may find some recommendations at [https://sundevil.bio.link/](https://sundevil.bio.link/). This information will soon be added to this website in a redesigned format.*
 
-<!-- space for clarity &NonBreakingSpace; -->
-
 ---
 ## 🚀 About Me
   
@@ -33,8 +31,8 @@
 &NonBreakingSpace; <!-- space for clarity -->
 
 ## 🔗 Links
-[![bio.link](https://img.shields.io/badge/bio.link-000000%7D?style=for-the-badge&logo=biolink&logoColor=white)](https://scottlopez.bio.link/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/scottlopez)<br>
+[![bio.link](https://img.shields.io/badge/bio.link-000000%7D?style=for-the-badge&logo=biolink&logoColor=white)](https://scottlopez.bio.link/)<br>
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/scottlopez)
 
 [![mastodon](https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&logo=Mastodon&logoColor=white)](https://noc.social/@sundevil311)<br>
 [![xda](https://img.shields.io/badge/xda%20developers-2DAAE9?style=for-the-badge&logo=xda-developers&logoColor=white)](https://xda.neteng.pro)
