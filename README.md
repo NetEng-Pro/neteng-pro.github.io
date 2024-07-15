@@ -23,9 +23,9 @@
 
 ---
 ## 🚀 About Me
-  
+ 
   I'm a Network Security Enginneer specializing in [Palo Alto Networks](https://www.paloaltonetworks.com) solutions, including PAN-OS [Next-Gen Firewalls](https://docs.paloaltonetworks.com/pan-os) (NGFWs) and [Panorama management server](https://docs.paloaltonetworks.com/panorama).
-  
+ 
   I have dabbled with Android development for some time and have recently taken an interest in substituting open-source apps for commercial and/or closed-source programs.
 
 &NonBreakingSpace; <!-- space for clarity -->
