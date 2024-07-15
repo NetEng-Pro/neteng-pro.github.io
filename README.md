@@ -22,12 +22,14 @@
   * Browser Security & Privacy Hardening
   * Privacy-centric DNS Services
 
-<!-- space for clarity &NonBreakingSpace; -->
+&NonBreakingSpace; <!-- space for clarity -->
 
 ---
 ## 🚀 About Me
   
-  I'm a Network Security Enginneer specializing in [Palo Alto Networks](https://www.paloaltonetworks.com) solutions, including PAN-OS [Next-Gen Firewalls](https://docs.paloaltonetworks.com/pan-os) (NGFWs) and [Panorama management server](https://docs.paloaltonetworks.com/panorama). I have dabbled with Android development for some time and have recently taken an interest in substituting open-source apps for commercial and/or closed-source programs.
+  I'm a Network Security Enginneer specializing in [Palo Alto Networks](https://www.paloaltonetworks.com) solutions, including PAN-OS [Next-Gen Firewalls](https://docs.paloaltonetworks.com/pan-os) (NGFWs) and [Panorama management server](https://docs.paloaltonetworks.com/panorama).
+  
+  I have dabbled with Android development for some time and have recently taken an interest in substituting open-source apps for commercial and/or closed-source programs.
 
 &NonBreakingSpace; <!-- space for clarity -->
 
@@ -35,7 +37,7 @@
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://scottlopez.bio.link/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/scottlopez)
 
-&NonBreakingSpace; <!-- space for clarity -->
+<!-- space for clarity &NonBreakingSpace; -->
 
 ---
 Graphics &nbsp; &copy; 2024 &nbsp; [Scott Lopez](mailto:website@neteng.pro)
