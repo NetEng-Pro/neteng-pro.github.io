@@ -5,6 +5,11 @@
 
   Moreover, the website will prioritize discussions on privacy and security. Detailed topics like browser hardening and private, privacy-focused DNS services will be thoroughly explored. Be sure to stay tuned for updates as we delve into these critical themes!
 
+## Topics of Interest
+  * FOSS apps and programs
+  * FOSS app guide for Android
+  * Browser Security & Privacy Hardening
+  * Privacy-centric DNS Services
 
 ## 💡 Collective Knowledge
 
@@ -16,11 +21,7 @@
 
 &NonBreakingSpace; <!-- space for clarity -->
 
-## Topics of Interest
-  * FOSS apps and programs
-  * FOSS app guide for Android
-  * Browser Security & Privacy Hardening
-  * Privacy-centric DNS Services
+
 
 <!-- space for clarity &NonBreakingSpace; -->
 
@@ -34,9 +35,13 @@
 &NonBreakingSpace; <!-- space for clarity -->
 
 ## 🔗 Links
-[![bio.link](https://img.shields.io/badge/bio.link-000000%7D?style=for-the-badge&logo=biolink&logoColor=white)](https://scottlopez.bio.link/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/scottlopez)
-[![mastodon](https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&logo=Mastodon&logoColor=white)](https://noc.social/@sundevil311)
+[![bio.link](https://img.shields.io/badge/bio.link-000000%7D?style=for-the-badge&logo=biolink&logoColor=white)](https://scottlopez.bio.link/)<br>
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/scottlopez)<br>
+
+[![mastodon](https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&logo=Mastodon&logoColor=white)](https://noc.social/@sundevil311)<br>
+
+[![xda](https://img.shields.io/badge/xda%20developers-2DAAE9?style=for-the-badge&logo=xda-developers&logoColor=white)](https://xda.neteng.pro)
 
 [![cc-by-sa](https://forthebadge.com/images/badges/cc-by-sa.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
