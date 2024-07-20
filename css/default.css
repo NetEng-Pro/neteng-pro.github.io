@@ -4,11 +4,12 @@ body {
 }
 
 table {
-  border-spacing:0;
+  border-spacing: 0;
+  float: left;
 }
 
 th,td {
-  padding:5px;
+  padding: 5px;
   background-color: transparent;
 }
 
