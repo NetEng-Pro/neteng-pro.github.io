@@ -3,7 +3,7 @@
 
   I am actively developing a website that will specialize in guides and resources dedicated to Free and Open Source Software (FOSS), with a primary focus on Android. The platform will also feature select Linux and Windows projects. It's important to note the [nuanced meaning of "free"](https://itsfoss.com/what-is-foss/#free-in-free-and-open-source-software-does-not-mean-free-of-cost) in this context.
 
-  The platform will center around discussions on privacy and security, covering in-depth topics such as browser hardening and private, privacy-focused DNS services. Stay tuned for updates as we delve deeper into these vital themes!
+  Our platform will center around discussions on privacy and security, covering in-depth topics such as browser hardening and private, privacy-focused DNS services. Stay tuned for updates as we delve deeper into these vital themes!
 
 ## Topics of Interest
   * FOSS apps and programs
@@ -29,7 +29,9 @@
  
   I'm a Network Security Enginneer specializing in [Palo Alto Networks](https://www.paloaltonetworks.com) solutions, including PAN-OS [Next-Gen Firewalls](https://docs.paloaltonetworks.com/pan-os) (NGFWs) and [Panorama management server](https://docs.paloaltonetworks.com/panorama).
  
-  I have dabbled with Android development for some time and have recently taken an interest in substituting open-source apps for commercial and/or closed-source programs. I have additionally been exploring various self-hosted solutions and plan to provide *Best Practices* documentation for beginners, among other content.
+  I have dabbled with Android development for some time and have recently taken an interest in substituting open-source apps for commercial and/or closed-source programs.
+  
+  I have additionally been exploring various self-hosted solutions and plan to provide *Best Practices* documentation for beginners, among other content.
 
 &NonBreakingSpace; <!-- space for clarity -->
 
@@ -42,7 +44,7 @@
 
 &NonBreakingSpace; <!-- space for clarity -->
 
-[![cc-by-sa](https://forthebadge.com/images/badges/cc-by-sa.png)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![cc-by](https://forthebadge.com/images/badges/cc-by.png)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
-**Network Engineering Pro** &nbsp; &copy; 2024 &nbsp; by **[Scott Lopez](mailto:website@neteng.pro)** is licensed under **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**
+**[Network Engineering Pro](https://www.neteng.pro/)** &copy; 2024 by [Scott Lopez](mailto:website@neteng.pro) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
