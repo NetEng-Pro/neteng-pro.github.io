@@ -47,4 +47,4 @@
 [![cc-by](https://forthebadge.com/images/badges/cc-by.png)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
-**[Network Engineering Pro](https://www.neteng.pro/)** &copy; 2024 by [Scott Lopez](mailto:website@neteng.pro) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
+**[Network Engineering Pro](https://www.neteng.pro/)** &copy; 2024 by **[Scott Lopez](mailto:website@neteng.pro)** is licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)**
