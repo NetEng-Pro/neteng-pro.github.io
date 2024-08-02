@@ -1,6 +1,6 @@
 /*********************************
  * NetEng-Pro Default Stylesheet *
- * Last Updated: 7/26/2024       *
+ * Last Updated: 8/2/2024        *
  ********************************/
 
 body {
@@ -18,6 +18,8 @@ table {
 th,td {
   padding: 5px;
   background-color: transparent;
+  text-align: center; 
+  vertical-align: middle;
 }
 
 td {
@@ -26,5 +28,7 @@ td {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 18px;
+  font-variant: small-caps;
+  text-transform: lowercase;
 }
