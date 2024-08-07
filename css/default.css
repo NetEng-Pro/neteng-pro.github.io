@@ -33,3 +33,21 @@ tr {
   text-align: center; 
   vertical-align: middle;
 }
+
+.ghtable {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ghtable-tr {
+  width: auto;
+  height: auto;
+}
+
+.badgetable {
+  width: 25%;
+  margin-right: auto;
+  margin-left: 0px
+}
