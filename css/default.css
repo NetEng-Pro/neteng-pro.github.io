@@ -54,5 +54,10 @@ tr {
 .badgetable {
   width: 25%;
   margin-right: auto;
-  margin-left: 0px
+  margin-left: 0px;
+}
+
+.badgetable-td {
+    width: 50%;
+    height: auto;
 }
