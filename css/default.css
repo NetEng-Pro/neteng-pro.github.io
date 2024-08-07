@@ -41,23 +41,17 @@ tr {
 
 .ghtable {
   width: 50%;
-  height: auto;
   margin-left: auto;
   margin-right: auto;
 }
 
 .ghtable-tr {
-  width: auto;
-  height: auto;
+  width: fit-content;
+  height: fit-content;
 }
 
 .badgetable {
   width: 25%;
   margin-right: auto;
   margin-left: 0px;
-}
-
-.badgetable-td {
-    width: 50%;
-    height: auto;
 }
