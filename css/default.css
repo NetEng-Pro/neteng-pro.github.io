@@ -64,7 +64,7 @@ tr {
 }
 
 .ghtable {
-  width: 50%;
+  width: 25%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -75,7 +75,12 @@ tr {
 }
 
 .badgetable {
-  width: 25%;
+  width: 15%;
   margin-right: auto;
   margin-left: 0px;
+}
+
+.badgetable-td {
+  width: fit-content;
+  height: fit-content;
 }
