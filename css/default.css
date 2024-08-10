@@ -1,6 +1,6 @@
 /*********************************
  * NetEng-Pro Default Stylesheet *
- * Last Updated: 8/9/2024        *
+ * Last Updated: 8/10/2024        *
  ********************************/
 
 body {
@@ -19,7 +19,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: #004080;
+  color: #0000FF;
   text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: #0000FF;
+  color: #004080;
   text-decoration: underline;
 }
 
