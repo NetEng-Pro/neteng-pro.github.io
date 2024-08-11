@@ -85,6 +85,18 @@ tr {
   font-size: 14px;
 }
 
+.ccbadge {
+  width: 10%;
+  margin-right: auto;
+  margin-left: 0px;
+}
+
+.ccbadge-td {
+  padding: 0px;
+  width: fit-content;
+  height: fit-content;
+}
+
 .badgetable {
   width: 15%;
   margin-right: auto;
