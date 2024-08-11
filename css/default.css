@@ -75,6 +75,7 @@ tr {
 }
 
 .ghtable-tr {
+  padding: 0px;
   width: fit-content;
   height: fit-content;
 }
@@ -86,7 +87,7 @@ tr {
 }
 
 .badgetable-td {
-  padding: 0px;
+  padding: 1px;
   width: fit-content;
   height: fit-content;
 }
