@@ -78,6 +78,11 @@ tr {
   margin-right: auto;
 }
 
+.logo-td {
+  width: fit-content;
+  height: fit-content;
+ }
+
 /* github callout table */
 .ghtable {
   width: 40%;
