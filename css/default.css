@@ -76,17 +76,17 @@ tr {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
-  padding: 0px;
 }
 
-/* .logo-td {
+.logo-td {
+  padding: 5px;
   width: fit-content;
   height: fit-content;
- } */
+ }
 
 /* github callout table */
 .ghtable {
-  width: 40%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -111,7 +111,7 @@ tr {
   margin-left: 0px;
 }
 
-/* badge table cell data */
+/* badge table cell datstyle="width:30%;height:auto;"a */
 .badgetable-td {
   padding: 1px;
   width: fit-content;
