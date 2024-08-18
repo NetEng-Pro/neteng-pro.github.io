@@ -3,7 +3,7 @@
 
   I am actively developing a website that will specialize in guides and resources dedicated to Free and Open Source Software (FOSS), with a primary focus on Android. The platform will also feature select Linux and Windows projects. It's important to note the [nuanced meaning of "free"](https://itsfoss.com/what-is-foss/#free-in-free-and-open-source-software-does-not-mean-free-of-cost) in this context.
 
-  Our platform will center around discussions on privacy and security, covering in-depth topics such as browser hardening and private, privacy-focused DNS services. Stay tuned for updates as we delve deeper into these vital themes!
+  Our platform will center around discussions on privacy and security, covering in-depth topics such as browser hardening and privacy-focused DNS services. Stay tuned for updates as we delve deeper into these vital themes!
 
 ## Topics of Interest
   * FOSS apps and programs
