@@ -72,7 +72,16 @@ tr {
   vertical-align: middle;
 }
 
-.logo {
+/*.container {
+  height: 150px;
+  width: 100%;
+  border: 1px solid;
+  padding-inline: 1rem;
+  overflow: hidden;
+  resize: vertical;
+} */
+
+ .logo {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
@@ -80,8 +89,9 @@ tr {
 
 .logo-td {
   padding: 5px;
-  width: fit-content;
-  height: fit-content;
+  align-content: center;
+/*  width: fit-content;
+  height: fit-content;*/
  }
 
 /* github callout table */
