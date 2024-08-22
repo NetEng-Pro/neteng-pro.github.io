@@ -1,13 +1,15 @@
 
 # Network Engineering Pro
 
-  I am actively developing a website that will specialize in guides and resources dedicated to Free and Open Source Software (FOSS), with a primary focus on Android. The platform will also feature select Linux and Windows projects. It's important to note the [nuanced meaning of "free"](https://itsfoss.com/what-is-foss/#free-in-free-and-open-source-software-does-not-mean-free-of-cost) in this context.
+  I am actively developing a website that will specialize in guides and resources dedicated to Free/Libre and Open Source Software (FLOSS), with a primary focus on Android. The platform will also feature select Linux and Windows projects. It's important to note the [nuanced meaning of "free"](https://www.gnu.org/philosophy/free-sw.html) in this context.
+ 
+- Here's a [less technical explanation](https://itsfoss.com/what-is-foss/#free-in-free-and-open-source-software-does-not-mean-free-of-cost)
 
   Our platform will center around discussions on privacy and security, covering in-depth topics such as browser hardening and privacy-focused DNS services. Stay tuned for updates as we delve deeper into these vital themes!
 
 ## Topics of Interest
-  * FOSS apps and programs
-  * FOSS app guides for Android, Linux, and Windows
+  * FLOSS apps and programs
+  * FLOSS app guides for Android, Linux, and Windows
   * Self-hosting guide and recommendations
   * Browser Privacy & Security Hardening
   * Privacy-centric DNS Services
