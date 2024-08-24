@@ -53,14 +53,14 @@ h2 {
   text-transform: lowercase;
 }
 
-/* universal table settings */
+/* parent table settings */
 table {
   border-spacing: 0;
   background-color: transparent;
   align-content: center;
 }
 
-/* universal table heading and cell data settings */
+/* parent table heading and cell data */
 th,td {
   padding: 0;
   text-align: center;
@@ -68,7 +68,7 @@ th,td {
   align-content: center;
 }
 
-/* universal table row settings */
+/* parent table row */
 tr {
   padding: 0;
   text-align: center;
@@ -76,15 +76,7 @@ tr {
   align-content: center;
 }
 
-/*.container {
-  height: 150px;
-  width: 100%;
-  border: 1px solid;
-  padding-inline: 1rem;
-  overflow: hidden;
-  resize: vertical;
-} */
-
+/* NetEng-Pro Logo */
  .logo {
   width: 75%;
   margin-left: auto;
@@ -127,7 +119,7 @@ tr {
   margin-left: 0;
 }
 
-/* badge table cell datstyle="width:30%;height:auto;"a */
+/* badge table cell data */
 .badgetable-td {
   padding: 1px;
   width: fit-content;
