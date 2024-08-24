@@ -62,7 +62,7 @@ table {
 
 /* universal table heading and cell data settings */
 th,td {
-  padding: 0px;
+  padding: 0;
   text-align: center;
   vertical-align: middle;
   align-content: center;
@@ -70,7 +70,7 @@ th,td {
 
 /* universal table row settings */
 tr {
-  padding: 0px;
+  padding: 0;
   text-align: center;
   vertical-align: middle;
   align-content: center;
@@ -117,14 +117,14 @@ tr {
 
 /* copyright and license */
 .footer {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* display of badges */
 .badgetable {
   width: 5%;
   margin-right: auto;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 /* badge table cell datstyle="width:30%;height:auto;"a */
