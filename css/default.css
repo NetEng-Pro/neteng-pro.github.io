@@ -1,6 +1,6 @@
 /*********************************
  * NetEng-Pro Default Stylesheet *
- * Last Updated: 8/23/2024       *
+ * Last Updated: 8/24/2024       *
  ********************************/
 
 body {
@@ -41,6 +41,8 @@ a:active {
 }
 
 h1 {
+  font-family: 'Arial','Helvetica','Verdana',sans-serif;
+  font-size: 20px;
   text-align: center;
   align-content: center;
 }
@@ -48,7 +50,7 @@ h1 {
 h2 {
   text-align: center;
   font-family: 'Arial','Helvetica','Verdana',sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-variant: small-caps;
   text-transform: lowercase;
 }
@@ -76,7 +78,7 @@ tr {
   align-content: center;
 }
 
-/* NetEng-Pro Logo */
+/* NetEng-Pro logo table */
  .logo {
   width: 75%;
   margin-left: auto;
@@ -108,7 +110,7 @@ tr {
 }
 
 /* copyright and license */
-.footer {
+.copyright {
   font-size: 12px;
 }
 
