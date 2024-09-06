@@ -1,36 +1,36 @@
 /*********************************
  * NetEng-Pro Default Stylesheet *
- * Last Updated: 8/24/2024       *
+ * Last Updated: 8/26/2024       *
  ********************************/
 
 body {
-  font-family: 'Arial','Helvetica','Verdana',sans-serif;
+  font-family: "Arial", "Helvetica", "Verdana", sans-serif;
   font-size: 16px;
-  margin: 5px;
+  margin: 10px;
   background-color: #252525;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* parent link element */
 a {
-  font-family: 'Arial','Helvetica','Verdana',sans-serif;
+  font-family: "Arial", "Helvetica", "Verdana", sans-serif;
   text-decoration: none;
   align-content: center;
 }
 
 /* unvisited link */
 a:link {
-  color: #0080C0;
+  color: #0080c0;
 }
 
 /* visited link */
 a:visited {
-  color: #0000FF;
+  color: #0000ff;
 }
 
 /* mouse over link */
 a:hover {
-  color: #4040C0;
+  color: #4040c0;
   text-decoration: underline;
 }
 
@@ -41,16 +41,15 @@ a:active {
 }
 
 h1 {
-  font-family: 'Arial','Helvetica','Verdana',sans-serif;
+  font-family: "Arial", "Helvetica", "Verdana", sans-serif;
   font-size: 20px;
   text-align: center;
-  align-content: center;
 }
 
 h2 {
-  text-align: center;
-  font-family: 'Arial','Helvetica','Verdana',sans-serif;
+  font-family: "Arial", "Helvetica", "Verdana", sans-serif;
   font-size: 18px;
+  text-align: center;
   font-variant: small-caps;
   text-transform: lowercase;
 }
@@ -58,13 +57,15 @@ h2 {
 /* parent table settings */
 table {
   border-spacing: 0;
+  padding: 0;
   background-color: transparent;
   align-content: center;
+  text-align: center;
+  vertical-align: middle;
 }
 
 /* parent table heading and cell data */
 th,td {
-  padding: 0;
   text-align: center;
   vertical-align: middle;
   align-content: center;
@@ -72,41 +73,40 @@ th,td {
 
 /* parent table row */
 tr {
-  padding: 0;
   text-align: center;
   vertical-align: middle;
   align-content: center;
 }
 
 /* NetEng-Pro logo table */
- .logo {
-  width: 75%;
+header .logo {
+  width: 50%;
+  padding: 0;
   margin-left: auto;
   margin-right: auto;
   align-content: center;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.logo-td {
-  padding: 5px;
-  align-content: center;
-/*  width: fit-content;
-  height: fit-content;*/
- }
+/* subheading */
+/* header .subhead {
+  font-size: 18px;
+  text-align: center;
+  font-variant: small-caps;
+  text-transform: lowercase;
+} */
 
 /* github callout table */
-.ghtable {
-  width: 50%;
+main-content .ghtable {
+  width: 40%;
+  padding: 5px;
+  font-size: 18px;
   margin-left: auto;
   margin-right: auto;
   align-content: center;
-}
-
-/* github table rows */
-.ghtable-tr {
-  padding: 5px;
-  width: fit-content;
-  height: fit-content;
-  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 /* copyright and license */
@@ -117,13 +117,13 @@ tr {
 /* display of badges */
 .badgetable {
   width: 5%;
+  padding: 5px;
   margin-right: auto;
   margin-left: 0;
 }
 
 /* badge table cell data */
-.badgetable-td {
-  padding: 1px;
+/* .badgetable-td {
   width: fit-content;
   height: fit-content;
-}
+} */
