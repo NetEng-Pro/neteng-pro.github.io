@@ -79,7 +79,7 @@ tr {
 }
 
 /* NetEng-Pro logo table */
-header .logo {
+.logo {
   width: 50%;
   padding: 0;
   margin-left: auto;
@@ -98,7 +98,7 @@ header .logo {
 } */
 
 /* github callout table */
-main-content .ghtable {
+#main-content .ghtable {
   width: 40%;
   padding: 5px;
   font-size: 18px;
