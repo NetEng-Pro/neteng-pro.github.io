@@ -1,6 +1,6 @@
 /*********************************
  * NetEng-Pro Default Stylesheet *
- * Last Updated: 8/26/2024       *
+ * Last Updated: 9/7/2024        *
  ********************************/
 
 body {
@@ -80,7 +80,7 @@ tr {
 
 /* NetEng-Pro logo table */
 .logo {
-  width: 50%;
+  width: 60%;
   padding: 0;
   margin-left: auto;
   margin-right: auto;
@@ -99,8 +99,8 @@ tr {
 
 /* github callout table */
 #main-content .ghtable {
-  width: 40%;
-  padding: 5px;
+  width: 50%;
+  padding: 1px;
   font-size: 18px;
   margin-left: auto;
   margin-right: auto;
@@ -109,9 +109,20 @@ tr {
   vertical-align: middle;
 }
 
-/* copyright and license */
-.copyright {
+#license {
   font-size: 12px;
+  vertical-align: middle;
+}
+
+#license .badge {
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+/* copyright and license */
+#license .copyright {
+  font-size: 12px;
+  vertical-align: middle;
 }
 
 /* display of badges */
