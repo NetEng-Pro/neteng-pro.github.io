@@ -1,76 +1,92 @@
 <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
 <!--
 Network Engineering Pro © 2024 by Scott Lopez is licensed under
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 License URL:  https://creativecommons.org/licenses/by/4.0/
     Contact: support@neteng.pro
-             https://linktr.ee/scottlopez/
+    https://linktr.ee/scottlopez/
 -->
-<html lang="en">
-  <head>
-    <title>FLOSS, Android, Privacy, Security, DNS - Network Engineering Pro</title>
 
-    <base href="https://www.neteng.pro" target="_blank" />
-    <link rel="canonical" href="https://www.neteng.pro" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>FLOSS, Android, Privacy, Security, DNS - Network Engineering Pro</title>
+  <meta
+    name="description"
+    content="
+      Dive into the realm of FLOSS, Android, browser hardening, privacy, security, and DNS filtering at Network Engineering Pro.
+      Join the free software community and contribute your expertise!
+    "
+  />
+  <meta name="author" content="Scott Lopez" />
+  <meta name="keywords" content="foss, floss, free software, open source, android, privacy, security, dns, hardening" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; form-action 'self'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests; block-all-mixed-content" />
-    <meta http-equiv="Cache-Control" content="no-store, max-age=0" />
-    <meta http-equiv="Clear-Site-Data" content="cache, cookies, storage" />
-    <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp" />
-    <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin" />
-    <meta http-equiv="Cross-Origin-Resource-Policy" content="same-origin" />
-    <meta http-equiv="Referrer-Policy" content="no-referrer" />
-    <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains" />
-    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
-    <meta http-equiv="X-Frame-Options" content="deny" />
-    <meta http-equiv="X-Permitted-Cross-Domain-Policies" content="none" />
-    <meta http-equiv="Permissions-Policy" content="accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(), encrypted-media=(), fullscreen=(), 
-    geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), 
-    sync-xhr=(self), usb=(), web-share=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(), gamepad=(), hid=(), idle-detection=(), interest-cohort=(), serial=(), unload=(), interest-cohort=()" />
+  <base href="https://www.neteng.pro/" target="_blank" />
+  <link rel="canonical" href="https://www.neteng.pro/" />
+  
+  <!-- BEGIN FAVICONS -->
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  <!-- For Chrome on Android -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <!-- END FAVICONS -->
 
-    <meta name="keywords" content="foss,floss,free software,open source,android,privacy,security,dns,hardening" />
-    <meta name="description" content="Dive into the realm of FLOSS, Android, browser hardening, privacy, security, and DNS filtering at Network Engineering Pro. Join the free software community and contribute your expertise!" />
-    <meta name="author" content="Scott Lopez" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <!--
+    Security meta tags based on OWASP recommendations.
+    See https://owasp.org/www-project-secure-headers/ci/headers_add.json for all recommended policies.
+  -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; form-action 'self'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests; block-all-mixed-content" />
+  <meta http-equiv="Cache-Control" content="no-store, max-age=0" />
+  <meta http-equiv="Clear-Site-Data" content="cache, cookies, storage" />
+  <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp" />
+  <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin" />
+  <meta http-equiv="Cross-Origin-Resource-Policy" content="same-origin" />
+  <meta http-equiv="Referrer-Policy" content="no-referrer" />
+  <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options" content="deny" />
+  <meta http-equiv="X-Permitted-Cross-Domain-Policies" content="none" />
 
-    <meta name="facebook-domain-verification" content="bx4ham0zkpvzztzu213bhpt76m9siq" />
+  <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="css/default.css" type="text/css" />
 
-    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
-    <link rel="stylesheet" href="css/default.css" type="text/css" />
+  <!-- social/og meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Network Engineering Pro" />
+  <meta property="og:url" content="https://www.neteng.pro" />
+  <meta property="og:description" content="
+      Dive into the realm of FLOSS, Android, browser hardening, privacy, security, and DNS filtering at Network Engineering Pro.
+      Join the free software community and contribute your expertise!
+    "
+  />
+  <meta property="og:image" content="https://www.neteng.pro/img/banner-1080.png" />
+  <meta property="og:image:secure_url" content="https://www.neteng.pro/img/banner-1080.png" />
+  <meta property="og:image:alt" content="Network Engineering Pro" />
+  <meta property="og:image:width" content="1920" />
+  <meta property="og:image:height" content="1080" />
+  <meta property="og:locale" content="en_US" />
 
-    <!-- BEGIN FAVICONS -->
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  <!-- twitter meta -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@NetEng_Pro" />
+  <meta name="twitter:creator" content="@ScottGLopez" />
+  <meta name="twitter:title" content="Network Engineering Pro" />
+  <meta name="twitter:description" content="
+      Dive into the realm of FLOSS, Android, browser hardening, privacy, security, and DNS filtering at Network Engineering Pro.
+      Join the free software community and contribute your expertise!
+    "
+  />
+  <meta name="twitter:image" content="https://www.neteng.pro/img/banner-1080.png" />
+  <meta name="twitter:image:alt" content="Network Engineering Pro" />
+  <!-- end social meta -->
+  
+  <meta name="facebook-domain-verification" content="bx4ham0zkpvzztzu213bhpt76m9siq" />
 
-    <!-- For Chrome on Android -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    <!-- END FAVICONS -->
-
-    <!-- social/og meta -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Network Engineering Pro" />
-    <meta property="og:url" content="https://www.neteng.pro" />
-    <meta property="og:description" content="Dive into the realm of FLOSS, Android, browser hardening, privacy, security, and DNS filtering at Network Engineering Pro. Join the free software community and contribute your expertise!" />
-    <meta property="og:image" content="https://www.neteng.pro/img/banner-1080.png" />
-    <meta property="og:image:secure_url" content="https://www.neteng.pro/img/banner-1080.png" />
-    <meta property="og:image:alt" content="Network Engineering Pro" />
-    <meta property="og:image:width" content="1920" />
-    <meta property="og:image:height" content="1080" />
-    <meta property="og:locale" content="en_US" />
-
-    <!-- twitter meta -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@NetEng_Pro" />
-    <meta name="twitter:creator" content="@ScottGLopez" />
-    <meta name="twitter:title" content="Network Engineering Pro" />
-    <meta name="twitter:description" content="Dive into the realm of FLOSS, Android, browser hardening, privacy, security, and DNS filtering at Network Engineering Pro. Join the free software community and contribute your expertise!" />
-    <meta name="twitter:image" content="https://www.neteng.pro/img/banner-1080.png" />
-    <meta name="twitter:image:alt" content="Network Engineering Pro" />
-    <!-- end social meta -->
-
-  </head>
+</head>
 <body>
 
     <!-- BEGIN TITLE -->
