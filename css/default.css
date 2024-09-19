@@ -1,7 +1,15 @@
-/*********************************
- * NetEng-Pro Default Stylesheet *
- * Last Updated: 9/9/2024        *
- ********************************/
+/* Copyright (C) 2024 Scott Lopez
+
+Authors:
+* Scott Lopez <website@neteng.pro>
+
+This file is free software: you can redistribute it and/or modify
+it under the terms of the GNU Free Document License as published by
+the Free Software Foundation, either version 1.3 of the License, or
+(at your option) any later version.
+ */
+ 
+@charset UTF-8;
 
 body {
   font-family: "Arial", "Helvetica", sans-serif;
@@ -49,7 +57,7 @@ h1 {
 /* subheading */
 h2 {
   font-family: "Arial", "Helvetica", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   text-transform: lowercase;
   font-variant: small-caps;
