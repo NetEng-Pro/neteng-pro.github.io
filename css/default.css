@@ -1,9 +1,14 @@
-/* Copyright (C) 2024 Scott Lopez
+/*
+Copyright © 2024 Scott Lopez
 
-Authors:
-* Scott Lopez <website@neteng.pro>
+Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+Permissions beyond the scope of this license may be available (see following paragraphs).
+  License: https://creativecommons.org/licenses/by/4.0/
+  SPDX: https://spdx.org/licenses/CC-BY-4.0.html
 
-This file is free software: you can redistribute it and/or modify
+This file is part of Network Engineering Pro.
+
+Network Engineering Pro is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
@@ -12,6 +17,12 @@ This file is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
+  License: https://www.gnu.org/licenses/gpl-3.0.html
+  SPDX: https://spdx.org/licenses/GPL-3.0-or-later.html
+
+Author: Scott Lopez
+Contact: <website@neteng.pro>
+https://linktr.ee/scottlopez/
 */
 
 body {
@@ -55,6 +66,15 @@ h1 {
   font-family: "Arial", "Helvetica", sans-serif;
   font-size: 22px;
   text-align: center;
+  align-content: center;
+}
+
+/* copyright heading */
+.head1 {
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
 }
 
 /* subheading */
@@ -64,6 +84,17 @@ h2 {
   text-align: center;
   text-transform: lowercase;
   font-variant: small-caps;
+  align-content: center;
+}
+
+/* copyright subheading */
+.head2 {
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  align-content: center;
 }
 
 /* license subheading */
