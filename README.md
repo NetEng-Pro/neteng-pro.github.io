@@ -1,40 +1,74 @@
 # Network Engineering Pro
 
-I am actively developing a community that will specialize in guides and resources dedicated to Free/Libre and Open Source Software (FLOSS), with a primary focus on Android. The platform will also feature select Linux and Windows projects. It's important to note the [nuanced meaning of "free"](https://www.gnu.org/philosophy/free-sw.html) in this context.
- 
-* Here's a [less technical explanation](https://itsfoss.com/what-is-foss/#free-in-free-and-open-source-software-does-not-mean-free-of-cost)
+I am actively developing a community that will specialize in guides and
+resources dedicated to Free/Libre and Open Source Software (FLOSS), with a
+primary focus on Android. The platform will also feature select Linux and
+Windows projects. It's important to note the
+[nuanced meaning of "free"](https://www.gnu.org/philosophy/free-sw.html) in this
+context.
 
-It's important to grasp this concept, as NetEng-Pro is a member of the [Free Software Foundation](https://www.fsf.org). Accordingly, one of this community's primary objectives is to advance truly free software (by the [FSF/GNU's definition](https://www.gnu.org/philosophy/free-sw.html#fs-definition)). That said, we evaluate all available options.
+- Here's a
+  [less technical explanation](https://itsfoss.com/what-is-foss/#free-in-free-and-open-source-software-does-not-mean-free-of-cost)
 
-Our platform will center around discussions on privacy and security, covering in-depth topics such as browser hardening and privacy-focused DNS services. Stay tuned for updates as we delve deeper into these vital themes!
+It's important to grasp this concept, as NetEng-Pro is a member of the
+[Free Software Foundation](https://www.fsf.org). Accordingly, one of this
+community's primary objectives is to advance truly free software (by the
+[FSF/GNU's definition](https://www.gnu.org/philosophy/free-sw.html#fs-definition)).
+That said, we evaluate all available options.
+
+Our platform will center around discussions on privacy and security, covering
+in-depth topics such as browser hardening and privacy-focused DNS services. Stay
+tuned for updates as we delve deeper into these vital themes!
 
 ## Topics of Interest
-  * FLOSS apps and programs
-  * App guide for Android (and potentially Linux)
-  * Self-hosting guide and recommendations
-  * Browser privacy & security hardening
-  * Privacy-centric DNS services
+
+- FLOSS apps and programs
+- App guide for Android (and potentially Linux)
+- Self-hosting guide and recommendations
+- Browser privacy & security hardening
+- Privacy-centric DNS services
 
 &NonBreakingSpace; <!-- space for clarity -->
 
 ## 💡 Collective Knowledge
 
-**Recognizing the limitations of individual-driven privacy websites and outdated lists, we are dedicated to offering a broad range of current and diverse views on privacy-centric apps and projects.** Although this project was launched independently, I wholeheartedly encourage (and expect) community input to enrich and maintain our collective knowledge base.
+**Recognizing the limitations of individual-driven privacy websites and outdated
+lists, we are dedicated to offering a broad range of current and diverse views
+on privacy-centric apps and projects.** Although this project was launched
+independently, I wholeheartedly encourage (and expect) community input to enrich
+and maintain our collective knowledge base.
 
-Individual-driven projects and lists inevitably become outdated quickly; it is my belief that effective lists and privacy documentation ***MUST*** be community-driven and maintained. I'm getting the ball rolling, but I hope you'll join me! NetEng-Pro Discussions on GitHub will serve as our collaboration platform.
+Individual-driven projects and lists inevitably become outdated quickly; it is
+my belief that effective lists and privacy documentation **_MUST_** be
+community-driven and maintained. I'm getting the ball rolling, but I hope you'll
+join me! NetEng-Pro Discussions on GitHub will serve as our collaboration
+platform.
 
-*Our primary short-term objective is to curate an up-to-date list of recommended FLOSS (and occasionally notable closed-source) apps for Android users.* This list is intended as a starting point. Once complete, I anticipate that it will evolve through collaborative efforts, with the community leading Discussions and driving updates.
+_Our primary short-term objective is to curate an up-to-date list of recommended
+FLOSS (and occasionally notable closed-source) apps for Android users._ This
+list is intended as a starting point. Once complete, I anticipate that it will
+evolve through collaborative efforts, with the community leading Discussions and
+driving updates.
 
->*For now, you can find some recommendations at [https://sundevil.bio.link/](https://sundevil.bio.link/). This information will soon be added to this website in a redesigned format.*
+> _For now, you can find some recommendations at
+> [https://sundevil.bio.link/](https://sundevil.bio.link/). This information
+> will soon be added to this website in a redesigned format._
 
 ---
-## 🚀 About Me
- 
-I'm a Network Security Enginneer specializing in [Palo Alto Networks](https://www.paloaltonetworks.com) solutions, including PAN-OS [Next-Gen Firewalls](https://docs.paloaltonetworks.com/pan-os) (NGFWs) and [Panorama management server](https://docs.paloaltonetworks.com/panorama).
 
-I have dabbled with Android development for some time and have recently taken an interest in substituting free software or open source apps for commercial and/or closed-source programs.
-  
-Additionally, I've been exploring various self-hosted solutions and plan to provide *Best Practices* documentation for beginners, among other content.
+## 🚀 About Me
+
+I'm a Network Security Enginneer specializing in
+[Palo Alto Networks](https://www.paloaltonetworks.com) solutions, including
+PAN-OS [Next-Gen Firewalls](https://docs.paloaltonetworks.com/pan-os) (NGFWs)
+and [Panorama management server](https://docs.paloaltonetworks.com/panorama).
+
+I have dabbled with Android development for some time and have recently taken an
+interest in substituting free software or open source apps for commercial and/or
+closed-source programs.
+
+Additionally, I've been exploring various self-hosted solutions and plan to
+provide _Best Practices_ documentation for beginners, among other content.
 
 &NonBreakingSpace; <!-- space for clarity -->
 
@@ -50,4 +84,12 @@ Additionally, I've been exploring various self-hosted solutions and plan to prov
 [![cc-by](https://forthebadge.com/images/badges/cc-by.png)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
-**[Network Engineering Pro](https://www.neteng.pro/)** &copy; 2024 by **[Scott Lopez](mailto:support@neteng.pro)** is licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)**
+
+**[Network Engineering Pro](https://www.neteng.pro/)**  Copyright &copy;  2024 by
+**[Scott Lopez](mailto:support@neteng.pro)** is licensed under
+**[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)**
+This file comes with
+ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to
+redistribute it under certain conditions. A copy of the GNU General Public
+License has been included in the "COPYING" file. If for some reason the file is
+not present, see <[https://www.gnu.org/licenses](https://www.gnu.org/licenses/)>.
