@@ -1,7 +1,7 @@
 /*
 Copyright © 2024 Scott Lopez
 
-Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+Licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0")
 Permissions beyond the scope of this license may be available (see following paragraphs).
   License: https://creativecommons.org/licenses/by/4.0/
   SPDX: https://spdx.org/licenses/CC-BY-4.0.html
@@ -9,7 +9,7 @@ Permissions beyond the scope of this license may be available (see following par
 This file is part of Network Engineering Pro.
 
 Network Engineering Pro is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
+it under the terms of the GNU General Public License ("GPL") as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
@@ -28,7 +28,7 @@ https://linktr.ee/scottlopez/
 body {
   font-family: "Arial", "Helvetica", sans-serif;
   font-size: 16px;
-  margin: 5px;
+  margin: 4px;
   background-color: #252525;
   color: #ffffff;
 }
@@ -131,27 +131,36 @@ tr {
 
 /* NetEng-Pro logo table */
 .logo {
-  width: 60%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
 
 /* github callout table */
 #main-content .ghtable {
-  width: 75%;
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
 }
 
-#license {
+#licensing {
   font-size: 12px;
   vertical-align: middle;
 }
 
-/* #license .badge {
+.copyright {
   font-size: 12px;
   vertical-align: middle;
-} */
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.license {
+  font-size: 12px;
+  vertical-align: middle;
+  margin-left: 0;
+  margin-right: auto;
+}
 
 /* copyright and license */
 /* #license .copyright {
@@ -162,7 +171,6 @@ tr {
 /* display of badges */
 .badgetable {
   width: 5%;
-  padding: 1px;
   margin-right: auto;
   margin-left: 0;
 }
