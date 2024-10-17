@@ -64,7 +64,7 @@ a:active {
 /* primary heading */
 h1 {
   font-family: "Arial", "Helvetica", sans-serif;
-  font-size: 22px;
+  font-size: 24px;
   text-align: center;
   align-content: center;
 }
@@ -80,7 +80,7 @@ h1 {
 /* subheading */
 h2 {
   font-family: "Arial", "Helvetica", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   text-transform: lowercase;
   font-variant: small-caps;
@@ -106,6 +106,7 @@ h2 {
 
 /* table element */
 table {
+  font-family: "Arial", "Helvetica", sans-serif;
   border-spacing: 0;
   padding: 0;
   background-color: transparent;
@@ -138,9 +139,10 @@ tr {
 
 /* github callout table */
 #main-content .ghtable {
-  width: 65%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
+  font-size: 18px;
 }
 
 #licensing {
@@ -162,6 +164,12 @@ tr {
   margin-right: auto;
 }
 
+.cwlink {
+  font-size: 12px;
+  align-content: center;
+  text-align: center;
+}
+
 /* copyright and license */
 /* #license .copyright {
   font-size: 12px;
@@ -170,13 +178,13 @@ tr {
 
 /* display of badges */
 .badgetable {
-  width: 5%;
+  width: 75%;
   margin-right: auto;
-  margin-left: 0;
+  margin-left: auto;
 }
 
 /* badge table cell data */
-/* .badgetable-td {
+.fit {
   width: fit-content;
   height: fit-content;
-} */
+}
