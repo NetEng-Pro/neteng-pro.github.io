@@ -61,40 +61,37 @@ a:active {
   text-decoration: underline;
 }
 
-/* primary heading */
+/* primary heading (h1) */
 h1 {
   font-family: "Arial", "Helvetica", sans-serif;
-  font-size: 24px;
   text-align: center;
   align-content: center;
 }
 
-/* copyright heading */
-.head1 {
-  font-family: "Arial", "Helvetica", sans-serif;
+/* copyright heading 1 */
+h1 .cw-h1 {
   font-size: 20px;
-  text-align: center;
-  align-content: center;
 }
 
-/* subheading */
+/* subheading (h2) */
 h2 {
   font-family: "Arial", "Helvetica", sans-serif;
-  font-size: 20px;
   text-align: center;
-  text-transform: lowercase;
+  align-content: center;
+  /*  text-transform: lowercase; */
   font-variant: small-caps;
+}
+
+h3 {
+  font-family: "Arial", "Helvetica", sans-serif;
+  text-align: center;
   align-content: center;
 }
 
-/* copyright subheading */
-.head2 {
-  font-family: "Arial", "Helvetica", sans-serif;
+/* copyright heading 3 */
+h3 .cw-h3 {
   font-size: 14px;
-  text-align: center;
-  text-transform: lowercase;
   font-variant: small-caps;
-  align-content: center;
 }
 
 /* license subheading */
@@ -130,45 +127,13 @@ tr {
   align-content: center;
 }
 
-/* NetEng-Pro logo table */
-.logo {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-/* github callout table */
-#main-content .ghtable {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 18px;
-}
 
-#licensing {
-  font-size: 12px;
-  vertical-align: middle;
-}
 
-.copyright {
-  font-size: 12px;
-  vertical-align: middle;
-  margin-left: 0;
-  margin-right: auto;
-}
 
-.license {
-  font-size: 12px;
-  vertical-align: middle;
-  margin-left: 0;
-  margin-right: auto;
-}
 
-.cwlink {
-  font-size: 12px;
-  align-content: center;
-  text-align: center;
-}
+
+
 
 /* copyright and license */
 /* #license .copyright {
@@ -176,15 +141,6 @@ tr {
   vertical-align: middle;
 } */
 
-/* display of badges */
-.badgetable {
-  width: 75%;
-  margin-right: auto;
-  margin-left: auto;
-}
 
-/* badge table cell data */
-.fit {
-  width: fit-content;
-  height: fit-content;
-}
+
+

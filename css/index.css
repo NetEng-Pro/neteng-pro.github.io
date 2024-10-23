@@ -1,0 +1,89 @@
+/*
+Copyright © 2024 Scott Lopez
+
+Licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0")
+Permissions beyond the scope of this license may be available (see following paragraphs).
+  License: https://creativecommons.org/licenses/by/4.0/
+  SPDX: https://spdx.org/licenses/CC-BY-4.0.html
+
+This file is part of Network Engineering Pro.
+
+Network Engineering Pro is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License ("GPL") as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This file is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+  License: https://www.gnu.org/licenses/gpl-3.0.html
+  SPDX: https://spdx.org/licenses/GPL-3.0-or-later.html
+
+Author: Scott Lopez
+Contact: <website@neteng.pro>
+https://linktr.ee/scottlopez/
+*/
+
+/* index heading 1 */
+h1 .index-h1 {
+  font-size: 24px;
+}
+
+/* index heading 2 */
+h2 .index-h2 {
+  font-size: 20px;
+}
+
+/* NetEng-Pro logo table */
+table .logo {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* github callout table */
+table .ghtable {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+#licensing {
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.copyright {
+  font-size: 12px;
+  vertical-align: middle;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.license {
+  font-size: 12px;
+  vertical-align: middle;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.cwlink {
+  font-size: 12px;
+  align-content: center;
+  text-align: center;
+}
+
+/* display of badges */
+table .badgetable {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Font Awesome table cell data */
+td .fa {
+  width: 18px;
+  height: 18px;
+}

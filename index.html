@@ -40,13 +40,13 @@
     <meta
       name="description"
       content="
-        Explore Free/Libre and Open Source Software (FLOSS) for Android & Linux, cybersecurity, and privacy at Network Engineering Pro. 
-        Join our community and start contributing today!"
+        Explore Free/Libre and Open Source Software (FLOSS) for Android & Linux, cybersecurity, and digital privacy at Network Engineering Pro.
+        Join the community and start contributing today!"
     />
     <meta name="author" content="Scott Lopez" />
     <meta
       name="keywords"
-      content="foss, floss, free software, open source, android, linux, privacy, security"
+      content="foss, floss, free software, open source, android, linux, privacy, security, cybersecurity"
     />
     <meta
       name="robots"
@@ -57,34 +57,42 @@
     <base href="https://www.neteng.pro/" target="_self" />
 
     <!-- BEGIN FAVICONS -->
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
     <!-- For Chrome on Android -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <!-- END FAVICONS -->
 
     <!--
     Security meta tags based on OWASP recommendations.
     See https://owasp.org/www-project-secure-headers/ci/headers_add.json for all recommended policies.
       Exceptions:
-      - [+] `style-src 'unsafe-inline'`   : Required for troubleshooting.
-      - [+] `script-src: 'unsafe-inline'` : Required for troubleshooting.
-      - [+] `img-src data:`               : Required for Ace (code editor) CSS.
+      - [+] `default-src 'self'`   : Added per MDNS recommendations.
+      - [+] `script-src 'self' creativecommons.org www.creativecommons.org github.com forthebadge.com img.shields.io;`   : Required for external resources.
+      - [+] `style-src 'self' creativecommons.org www.creativecommons.org github.com forthebadge.com img.shields.io;`   : Required for external resources.
+      - [+] `img-src 'self' data: creativecommons.org www.creativecommons.org github.com forthebadge.com img.shields.io;`   : Required for code editor and external resources.
+      - [+] `font-src 'self';`   : Allow same-origin resources.
+      - [+] `media-src 'self';`   : Allow same-origin resources.
+      - [+] `connect-src 'self';`   : Allow same-origin network requests.
+      - [+] `base-uri 'self';`   : Added per MDNS recommendations.
     -->
     <meta
       http-equiv="Content-Security-Policy"
       content="
-    default-src 'self' *.creativecommons.org github.com forthebadge.com img.shields.io;
+    default-src 'self';
+    script-src 'self' creativecommons.org www.creativecommons.org github.com forthebadge.com img.shields.io;
+    style-src 'self' creativecommons.org www.creativecommons.org github.com forthebadge.com img.shields.io;
+    img-src 'self' data: creativecommons.org www.creativecommons.org github.com forthebadge.com img.shields.io;
+    font-src 'self';
+    media-src 'self';
+    connect-src 'self';
     base-uri 'self';
-    script-src 'self' *.creativecommons.org github.com forthebadge.com img.shields.io;
-    style-src 'self' *.creativecommons.org github.com forthebadge.com img.shields.io;
-    img-src 'self' data: *.creativecommons.org github.com forthebadge.com img.shields.io;
     form-action 'self';
-    connect-src 'none';
     object-src 'none';
     frame-ancestors 'none';
     upgrade-insecure-requests;
     block-all-mixed-content;
-  "
+    <!-- report-uri https://your-report-collector.example.com/csp-reports; -->
+"
     />
     <meta http-equiv="Cache-Control" content="no-store, max-age=0" />
     <meta http-equiv="Clear-Site-Data" content="cache, cookies, storage" />
@@ -104,23 +112,27 @@
       content="accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(self), usb=(), web-share=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(), gamepad=(), hid=(), idle-detection=(), interest-cohort=(), serial=(), unload=()"
     />
 
-    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
-    <link rel="stylesheet" href="css/default.css" type="text/css" />
-
+    <!-- BEGIN STYLESHEETS -->
+    <!-- normalize styles -->
+    <link rel="stylesheet" href="./css/normalize.css" type="text/css" />
     <!-- Font Awesome solid and brands -->
-    <link rel="stylesheet" href="css/fontawesome.css" type="text/css" />
-    <link rel="stylesheet" href="css/brands.css" type="text/css" />
-    <link rel="stylesheet" href="css/solids.css" type="text/css" />
+    <link rel="stylesheet" href="./css/fontawesome.css" type="text/css" />
+    <link rel="stylesheet" href="./css/brands.css" type="text/css" />
+    <link rel="stylesheet" href="./css/solids.css" type="text/css" />
+    <!-- main stylesheets -->
+    <link rel="stylesheet" href="./css/default.css" type="text/css" />
+    <link rel="stylesheet" href="./css/index.css" type="text/css" />
+    <!-- END STYLESHEETS -->
 
-    <!-- social/og meta -->
+    <!-- SOCIAL/OG META -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Network Engineering Pro" />
-    <meta property="og:url" content="https://www.neteng.pro" />
+    <meta property="og:url" content="https://www.neteng.pro/" />
     <meta
       property="og:description"
       content="
-        Explore Free/Libre and Open Source Software (FLOSS) for Android & Linux, cybersecurity, and privacy at Network Engineering Pro. 
-        Join our community and start contributing today!"
+        Explore Free/Libre and Open Source Software (FLOSS) for Android & Linux, cybersecurity, and digital privacy at Network Engineering Pro.
+        Join the community and start contributing today!"
     />
     <meta
       property="og:image"
@@ -135,7 +147,7 @@
     <meta property="og:image:height" content="1080" />
     <meta property="og:locale" content="en_US" />
 
-    <!-- twitter meta -->
+    <!-- TWITTER META -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@NetEng_Pro" />
     <meta name="twitter:creator" content="@ScottGLopez" />
@@ -143,21 +155,22 @@
     <meta
       name="twitter:description"
       content="
-        Explore Free/Libre and Open Source Software (FLOSS) for Android & Linux, cybersecurity, and privacy at Network Engineering Pro. 
-        Join our community and start contributing today!"
+        Explore Free/Libre and Open Source Software (FLOSS) for Android & Linux, cybersecurity, and digital privacy at Network Engineering Pro.
+        Join the community and start contributing today!"
     />
     <meta
       name="twitter:image"
       content="https://www.neteng.pro/img/banner-1080.png"
     />
     <meta name="twitter:image:alt" content="Network Engineering Pro" />
-    <!-- end social meta -->
+    <!-- END SOCIAL META -->
 
     <meta
       name="facebook-domain-verification"
       content="bx4ham0zkpvzztzu213bhpt76m9siq"
     />
   </head>
+
   <body>
     <!-- BEGIN TITLE -->
     <header>
@@ -170,18 +183,18 @@
                 src="./img/logo-slogan.png"
                 alt="Network Engineering Pro"
               />
-              <h1>Network Engineering Pro</h1>
+              <h1 class="index-h1">Network Engineering Pro</h1>
             </hgroup>
           </td>
         </tr>
         <tr>
           <td>
-            <h2>floss | android | security | privacy</h2>
+            <h2 class="index-h2">floss | android | security | privacy</h2>
           </td>
         </tr>
       </table>
     </header>
-    <!-- END PAGE TITLE -->
+    <!-- END TITLE -->
 
     <!-- BEGIN MAIN CONTENT -->
     <section id="main-content">
@@ -282,7 +295,7 @@
         <a
           rel="cc:attributionURL dct:creator"
           property="cc:attributionName"
-          href="https://linktr.ee/scottlopez"
+          href="https://linktr.ee/scottlopez/"
         >
           <b>Scott Lopez</b>
         </a>
@@ -307,7 +320,7 @@
           >
             <img
               style="
-                height: 14px !important;
+                height: 10px !important;
                 margin-left: 3px;
                 vertical-align: text-bottom;
               "
@@ -323,7 +336,7 @@
           >
             <img
               style="
-                height: 14px !important;
+                height: 10px !important;
                 margin-left: 3px;
                 vertical-align: text-bottom;
               "
@@ -339,7 +352,6 @@
           .
         </p>
         &nbsp;
-        <p></p>
       </div>
     </section>
     <!-- END LICENSE INFO -->
@@ -363,7 +375,7 @@
                 target="_blank"
               >
                 <img
-                  style="width: auto; height: 22px"
+                  style="width: auto; height: 16px"
                   src="https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&logo=Mastodon&logoColor=white"
                   alt="Mastodon"
                 />
@@ -372,16 +384,16 @@
             <td>
               <a
                 rel="noopener noreferrer author"
-                href="mailto:support@neteng.pro"
+                href="mailto:website@neteng.pro"
               >
                 <img
-                  style="width: auto; height: 22px"
+                  style="width: auto; height: 16px"
                   src="https://img.shields.io/badge/E--mail-4080C0?style=for-the-badge&logo=maildotru"
                   alt="E-mail"
                 />
               </a>
             </td>
-            <td class="fit">
+            <td class="fa">
               <!-- Font Awesome social icons -->
               <a
                 rel="noopener noreferrer"
@@ -390,7 +402,7 @@
                 <span class="fa-brands fa-square-facebook"></span>
               </a>
             </td>
-            <td class="fit">
+            <td class="fa">
               <a
                 rel="noopener noreferrer"
                 href="https://www.instagram.com/neteng_pro/"
@@ -398,7 +410,7 @@
                 <span class="fa-brands fa-square-instagram"></span>
               </a>
             </td>
-            <td class="fit">
+            <td class="fa">
               <a
                 rel="noopener noreferrer me"
                 href="https://noc.social/@neteng_pro"

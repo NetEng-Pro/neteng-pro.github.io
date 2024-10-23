@@ -38,48 +38,58 @@
     <meta
       name="description"
       content="
-         Copyright and Licensing Information for Network Engineering Pro and all content thereof."
+         Copyright and Licensing Information for Network Engineering Pro"
     />
     <meta name="author" content="Scott Lopez" />
     <meta
       name="keywords"
-      content="foss, floss, free software, open source, android, privacy, security, dns, hardening"
+      content="foss, floss, free software, open source, android, linux, privacy, security, cybersecurity"
     />
     <meta
       name="robots"
       content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
     />
 
-    <link rel="canonical" href="https://www.neteng.pro/" />
-    <base href="https://www.neteng.pro/" target="_self" />
+    <link rel="canonical" href="https://www.neteng.pro/license.html" />
+    <base href="https://www.neteng.pro/license.html" target="_self" />
 
     <!-- BEGIN FAVICONS -->
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
     <!-- For Chrome on Android -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <!-- END FAVICONS -->
 
     <!--
     Security meta tags based on OWASP recommendations.
     See https://owasp.org/www-project-secure-headers/ci/headers_add.json for all recommended policies.
       Exceptions:
-      - [+] `style-src 'unsafe-inline'`   : Required for troubleshooting.
-      - [+] `script-src: 'unsafe-inline'` : Required for troubleshooting.
-      - [+] `img-src data:`               : Required for Ace (code editor) CSS.
+      - [+] `default-src 'self'`   : Added per MDNS recommendations.
+      - [+] `script-src 'self' creativecommons.org www.creativecommons.org github.com forthebadge.com img.shields.io;`   : Required for external resources.
+      - [+] `style-src 'self' creativecommons.org www.creativecommons.org github.com forthebadge.com img.shields.io;`   : Required for external resources.
+      - [+] `img-src 'self' data: creativecommons.org www.creativecommons.org github.com forthebadge.com img.shields.io;`   : Required for code editor and external resources.
+      - [+] `font-src 'self';`   : Allow same-origin resources.
+      - [+] `media-src 'self';`   : Allow same-origin resources.
+      - [+] `connect-src 'self';`   : Allow same-origin network requests.
+      - [+] `base-uri 'self';`   : Added per MDNS recommendations.
     -->
     <meta
       http-equiv="Content-Security-Policy"
       content="
-    default-src 'self' https://*.creativecommons.org https://github.com https://forthebadge.com https://img.shields.io;
-    script-src 'self' https://*.creativecommons.org https://github.com https://forthebadge.com https://img.shields.io;
-    style-src 'self' https://*.creativecommons.org https://github.com https://forthebadge.com https://img.shields.io;
-    img-src 'self' data: https://*.creativecommons.org https://github.com https://forthebadge.com https://img.shields.io;
+    default-src 'self';
+    script-src 'self' creativecommons.org www.creativecommons.org github.com forthebadge.com img.shields.io;
+    style-src 'self' creativecommons.org www.creativecommons.org github.com forthebadge.com img.shields.io;
+    img-src 'self' data: creativecommons.org www.creativecommons.org github.com forthebadge.com img.shields.io;
+    font-src 'self';
+    media-src 'self';
+    connect-src 'self';
+    base-uri 'self';
     form-action 'self';
     object-src 'none';
     frame-ancestors 'none';
     upgrade-insecure-requests;
     block-all-mixed-content;
-  "
+    <!-- report-uri https://your-report-collector.example.com/csp-reports; -->
+"
     />
     <meta http-equiv="Cache-Control" content="no-store, max-age=0" />
     <meta http-equiv="Clear-Site-Data" content="cache, cookies, storage" />
@@ -99,23 +109,23 @@
       content="accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(self), usb=(), web-share=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(), gamepad=(), hid=(), idle-detection=(), interest-cohort=(), serial=(), unload=()"
     />
 
-    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
-    <link rel="stylesheet" href="css/default.css" type="text/css" />
+    <link rel="stylesheet" href="./css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="./css/default.css" type="text/css" />
 
     <!-- Font Awesome solid and brands -->
-    <link rel="stylesheet" href="css/fontawesome.css" type="text/css" />
-    <link rel="stylesheet" href="css/brands.css" type="text/css" />
-    <link rel="stylesheet" href="css/solids.css" type="text/css" />
+    <link rel="stylesheet" href="./css/fontawesome.css" type="text/css" />
+    <link rel="stylesheet" href="./css/brands.css" type="text/css" />
+    <link rel="stylesheet" href="./css/solids.css" type="text/css" />
 
     <!-- social/og meta -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Network Engineering Pro" />
-    <meta property="og:url" content="https://www.neteng.pro" />
+    <meta property="og:url" content="https://www.neteng.pro/" />
     <meta
       property="og:description"
       content="
-        Explore Free/Libre and Open Source Software (FLOSS) for Android & Linux, cybersecurity, online privacy, browser hardening, DNS filtering, and more at Network Engineering Pro. 
-        Join our community via Discussions and start contributing today!"
+        Explore Free/Libre and Open Source Software (FLOSS) for Android & Linux, cybersecurity, and privacy at Network Engineering Pro. 
+        Join the community and start contributing today!"
     />
     <meta
       property="og:image"
@@ -138,8 +148,8 @@
     <meta
       name="twitter:description"
       content="
-        Explore Free/Libre and Open Source Software (FLOSS) for Android & Linux, cybersecurity, online privacy, browser hardening, DNS filtering, and more at Network Engineering Pro. 
-        Join our community via Discussions and start contributing today!"
+        Explore Free/Libre and Open Source Software (FLOSS) for Android & Linux, cybersecurity, and privacy at Network Engineering Pro. 
+        Join the community and start contributing today!"
     />
     <meta
       name="twitter:image"
@@ -153,12 +163,13 @@
       content="bx4ham0zkpvzztzu213bhpt76m9siq"
     />
   </head>
+
   <body>
     <!-- BEGIN TITLE -->
     <header>
       <hgroup>
-        <h1 class="head1"><em>Copyright and Licensing</em></h1>
-        <h2 class="head2">Network Engineering Pro</h2>
+        <h1 class="cw-h1"><em>Copyright and Licensing</em></h1>
+        <h3 class="cw-h3">Network Engineering Pro</h3>
       </hgroup>
     </header>
     <!-- END PAGE TITLE -->
@@ -311,7 +322,8 @@
         rel="cc:morePermissions"
       >
         as defined further within this document
-      </a>.
+      </a>
+      .
     </p>
     Canonical URI:
     <a
