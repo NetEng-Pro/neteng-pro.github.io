@@ -1,10 +1,17 @@
 /*
+Network Engineering Pro, a Free/Libre and Open Source Software community
 Copyright © 2024 Scott Lopez
 
-Licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0")
+I. Creative Commons Attribution 4.0 International
+
+Licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
+You are free to: (1) share and (2) adapt upon the material for any purpose, even commercially.
+Attribution (e.g., appropriate credit) must be given per the terms of the license.
 Permissions beyond the scope of this license may be available (see following paragraphs).
   License: https://creativecommons.org/licenses/by/4.0/
-  SPDX: https://spdx.org/licenses/CC-BY-4.0.html
+  SPDX Reference: https://spdx.org/licenses/CC-BY-4.0.html
+
+II. GNU General Public License
 
 This file is part of Network Engineering Pro.
 
@@ -18,36 +25,44 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
   License: https://www.gnu.org/licenses/gpl-3.0.html
-  SPDX: https://spdx.org/licenses/GPL-3.0-or-later.html
+  SPDX Reference: https://spdx.org/licenses/GPL-3.0-or-later.html
 
 Author: Scott Lopez
 Contact: <website@neteng.pro>
 https://linktr.ee/scottlopez/
 */
 
+/* NetEng-Pro logo table */
+.logo {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* index heading 1 */
-h1 .index-h1 {
+.index-h1 {
   font-size: 24px;
 }
 
 /* index heading 2 */
-h2 .index-h2 {
+.index-h2 {
   font-size: 20px;
 }
 
-/* NetEng-Pro logo table */
-table .logo {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* github callout table */
-table .ghtable {
+.ghtable {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
   font-size: 18px;
+}
+
+.community {
+  font-size: 22px;
+}
+
+.voice {
+  font-size: 20px;
 }
 
 #licensing {
@@ -76,14 +91,14 @@ table .ghtable {
 }
 
 /* display of badges */
-table .badgetable {
+.badgetable {
   width: 75%;
   margin-right: auto;
   margin-left: auto;
 }
 
 /* Font Awesome table cell data */
-td .fa {
+.fa {
   width: 18px;
   height: 18px;
 }

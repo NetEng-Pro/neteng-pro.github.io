@@ -1,10 +1,17 @@
 /*
+Network Engineering Pro, a Free/Libre and Open Source Software community
 Copyright © 2024 Scott Lopez
 
-Licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0")
+I. Creative Commons Attribution 4.0 International
+
+Licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
+You are free to: (1) share and (2) adapt upon the material for any purpose, even commercially.
+Attribution (e.g., appropriate credit) must be given per the terms of the license.
 Permissions beyond the scope of this license may be available (see following paragraphs).
   License: https://creativecommons.org/licenses/by/4.0/
-  SPDX: https://spdx.org/licenses/CC-BY-4.0.html
+  SPDX Reference: https://spdx.org/licenses/CC-BY-4.0.html
+
+II. GNU General Public License
 
 This file is part of Network Engineering Pro.
 
@@ -18,7 +25,7 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
   License: https://www.gnu.org/licenses/gpl-3.0.html
-  SPDX: https://spdx.org/licenses/GPL-3.0-or-later.html
+  SPDX Reference: https://spdx.org/licenses/GPL-3.0-or-later.html
 
 Author: Scott Lopez
 Contact: <website@neteng.pro>
@@ -127,20 +134,8 @@ tr {
   align-content: center;
 }
 
-
-
-
-
-
-
-
-
 /* copyright and license */
 /* #license .copyright {
   font-size: 12px;
   vertical-align: middle;
 } */
-
-
-
-
