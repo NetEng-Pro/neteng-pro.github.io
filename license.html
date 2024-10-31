@@ -4,17 +4,24 @@
     <meta charset="utf-8" />
 
     <!--
+    Network Engineering Pro, a Free/Libre and Open Source Community
     Copyright © 2024 Scott Lopez
-    
-    Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+    I. Creative Commons Attribution 4.0 International
+
+    Licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
+    You are free to: (a) share and (b) adapt upon this material for any purpose, even commercially.
+    Attribution (e.g., appropriate credit) must be given per the terms of the license.
     Permissions beyond the scope of this license may be available (see following paragraphs).
-    License: https://creativecommons.org/licenses/by/4.0/
-    SPDX: https://spdx.org/licenses/CC-BY-4.0.html
+      License: https://creativecommons.org/licenses/by/4.0/
+      SPDX Reference: https://spdx.org/licenses/CC-BY-4.0.html
+
+    II. GNU General Public License
 
     This file is part of Network Engineering Pro.
 
     Network Engineering Pro is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
+    it under the terms of the GNU General Public License ("GNU GPL") as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
@@ -22,8 +29,8 @@
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
-    License: https://www.gnu.org/licenses/gpl-3.0.html
-    SPDX: https://spdx.org/licenses/GPL-3.0-or-later.html
+      License: https://www.gnu.org/licenses/gpl-3.0.html
+      SPDX Reference: https://spdx.org/licenses/GPL-3.0-or-later.html
 
     Author: Scott Lopez
     Contact: <website@neteng.pro>
@@ -109,13 +116,15 @@
       content="accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(self), usb=(), web-share=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(), gamepad=(), hid=(), idle-detection=(), interest-cohort=(), serial=(), unload=()"
     />
 
+    <!-- BEGIN STYLESHEETS -->
     <link rel="stylesheet" href="./css/normalize.css" type="text/css" />
-    <link rel="stylesheet" href="./css/default.css" type="text/css" />
-
     <!-- Font Awesome solid and brands -->
     <link rel="stylesheet" href="./css/fontawesome.css" type="text/css" />
     <link rel="stylesheet" href="./css/brands.css" type="text/css" />
     <link rel="stylesheet" href="./css/solids.css" type="text/css" />
+    <link rel="stylesheet" href="./css/default.css" type="text/css" />
+    <link rel="stylesheet" href="./css/license.css" type="text/css" />
+    <!-- END STYLESHEETS -->
 
     <!-- social/og meta -->
     <meta property="og:type" content="website" />
@@ -169,7 +178,7 @@
     <header>
       <hgroup>
         <h1 class="cw-h1"><em>Copyright and Licensing</em></h1>
-        <h3 class="cw-h3">Network Engineering Pro</h3>
+        <span class="subhead">Network Engineering Pro</span>
       </hgroup>
     </header>
     <!-- END PAGE TITLE -->
@@ -177,165 +186,164 @@
     <!-- BEGIN MAIN CONTENT -->
     <section id="cright">
       &nbsp;
-      <span class="copy">
-        <h2 id="copyrt"><u>Copyright</u></h2>
-      </span>
+      <h2 id="cw-h2">Copyright</h2>
 
       <div
-        class="ccom"
         xmlns:cc="http://creativecommons.org/ns#"
         xmlns:dct="http://purl.org/dc/terms/"
+        class="ccom"
       >
-        <span>
-          <a
-            property="dct:title"
-            rel="cc:attributionURL"
-            href="https://www.neteng.pro"
-          >
-            <strong>Network Engineering Pro</strong>
-          </a>
-          ("NetEng-Pro")
+        <a
+          property="dct:title"
+          rel="cc:attributionURL"
+          href="https://www.neteng.pro"
+        >
+          <strong>Network Engineering Pro</strong>
+        </a>
+        ("NetEng-Pro"),
+        <br />
+        a Free/Libre and Open Source Software (FLOSS)
+        <span rel="dct:type" href="http://purl.org/dc/dcmitype/Text">
+          Community
         </span>
         <br />
-        is a Free/Libre and Open Source Software (FLOSS)
-        <span rel="dct:type" href="http://purl.org/dc/dcmitype/Text">
-          community
-        </span>
-        with an emphasis on Android & Linux, security, and privacy.
-        <p>
-          <b>
-            Copyright &copy; 2024
-            <a
-              rel="cc:attributionURL dct:creator"
-              property="cc:attributionName"
-              href="https://linktr.ee/scottlopez"
-            >
-              Scott Lopez
-            </a>
-          </b>
-        </p>
+        <b>
+          Copyright &copy; 2024
+          <a
+            rel="cc:attributionURL dct:creator"
+            property="cc:attributionName"
+            href="https://linktr.ee/scottlopez"
+          >
+            Scott Lopez
+          </a>
+        </b>
       </div>
     </section>
 
     &nbsp;
     <hr />
 
-    <span class="license">
-      <h2 id="lic"><u>Licensing</u></h2>
-    </span>
+    <section id="licensing">
+      <h2 id="cw-h2">Licensing</h2>
 
-    <h3>Licenses</h3>
-    <p>
-      Network Engineering Pro is available under one&mdash;or both&mdash;of the
-      following licenses:
-    </p>
-    <ul>
-      <li>Creative Commons Attribution 4.0 International ("CC BY 4.0")</li>
-      <li>
-        GNU General Public License ("GNU GPL"), either version 3 of the License,
-        or (at your option) any later version
-      </li>
-    </ul>
+      <span class="lic-nav">Licenses</span>
+      <p>
+        Network Engineering Pro is available under one&mdash;or both&mdash;of
+        the following licenses:
+      </p>
+      <ul>
+        <li>Creative Commons Attribution 4.0 International ("CC BY 4.0")</li>
+        <li>
+          GNU General Public License ("GNU GPL"), either version 3 of the
+          License, or (at your option) any later version
+        </li>
+      </ul>
 
-    &nbsp;
+      &nbsp;
 
-    <p><b>Are you sure you can do that?</b></p>
-    <ul>
-      <li>
-        <p>
-          "You may offer the licensed material under other licenses in addition
-          to the CC license (a practice commonly referred to as “dual
-          licensing”)."
-        </p>
-        <a
-          href="https://creativecommons.org/faq/#can-i-enter-into-separate-or-supplemental-agreements-with-users-of-my-work"
-        >
-          Separate agreements | Creative Commons FAQ
-        </a>
-      </li>
-      <li>
-        <p>
-          You can clearly see that both that both the
-          <a href="https://www.gnu.org/licenses/license-list.html#GPLOther">
-            GNU GPL
-          </a>
-          and
-          <a href="https://www.gnu.org/licenses/license-list.html#ccby">
-            CC BY 4.0
-          </a>
-          are categorized as "free licenses, compatible with the GNU GPL."
-        </p>
-        <a href="https://www.gnu.org/licenses/license-list.html#OtherLicenses">
-          Licenses for Other Works | GNU - Various Licenses and Comments About
-          Them
-        </a>
-      </li>
-      <li>
-        <p>
+      <p><b>Are you sure you can do that?</b></p>
+      <ul>
+        <li>
+          <p>
+            "You may offer the licensed material under other licenses in
+            addition to the CC license (a practice commonly referred to as “dual
+            licensing”)."
+          </p>
           <a
-            href="https://www.gnu.org/licenses/gpl-faq.html#WhatDoesCompatMean"
+            href="https://creativecommons.org/faq/#can-i-enter-into-separate-or-supplemental-agreements-with-users-of-my-work"
           >
-            What does it mean to say a license is “compatible with the GPL?" |
-            GNU GPL FAQ
+            Separate agreements | Creative Commons FAQ
           </a>
-        </p>
-      </li>
-    </ul>
+        </li>
+        <li>
+          <p>
+            You can clearly see that both that both the
+            <a href="https://www.gnu.org/licenses/license-list.html#GPLOther">
+              GNU GPL
+            </a>
+            and
+            <a href="https://www.gnu.org/licenses/license-list.html#ccby">
+              CC BY 4.0
+            </a>
+            are categorized as "free licenses, compatible with the GNU GPL."
+          </p>
+          <a
+            href="https://www.gnu.org/licenses/license-list.html#OtherLicenses"
+          >
+            Licenses for Other Works | GNU - Various Licenses and Comments About
+            Them
+          </a>
+        </li>
+        <li>
+          <p>
+            <a
+              href="https://www.gnu.org/licenses/gpl-faq.html#WhatDoesCompatMean"
+            >
+              What does it mean to say a license is “compatible with the GPL?" |
+              GNU GPL FAQ
+            </a>
+          </p>
+        </li>
+      </ul>
+    </section>
 
     <hr />
 
-    <h4 id="cc-by">Creative Commons Attribution 4.0 International</h4>
-    <p>
-      Licensed under
+    <section id="license1">
+      <h3 id="cw-h3">Creative Commons Attribution 4.0 International</h3>
+      <p>
+        Licensed under
+        <a
+          href="https://creativecommons.org/licenses/by/4.0/"
+          target="_blank"
+          rel="license noopener noreferrer"
+          style="display: inline-block"
+        >
+          Creative Commons Attribution 4.0 International
+        </a>
+        <img
+          style="
+            height: 18px !important;
+            margin-left: 3px;
+            vertical-align: text-bottom;
+          "
+          src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
+          alt="CC"
+        />
+        <img
+          style="
+            height: 18px !important;
+            margin-left: 3px;
+            vertical-align: text-bottom;
+          "
+          src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
+          alt="BY"
+        />
+      </p>
+      <p>
+        Permissions beyond the scope of this license may be available
+        <a
+          xmlns:cc="http://creativecommons.org/ns#"
+          href="./license.html"
+          rel="cc:morePermissions"
+        >
+          as defined further within this document
+        </a>
+        .
+      </p>
+      Canonical URI:
       <a
         href="https://creativecommons.org/licenses/by/4.0/"
         target="_blank"
         rel="license noopener noreferrer"
-        style="display: inline-block"
       >
-        Creative Commons Attribution 4.0 International
+        https://creativecommons.org/licenses/by/4.0/
       </a>
-      <img
-        style="
-          height: 18px !important;
-          margin-left: 3px;
-          vertical-align: text-bottom;
-        "
-        src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
-        alt="CC"
-      />
-      <img
-        style="
-          height: 18px !important;
-          margin-left: 3px;
-          vertical-align: text-bottom;
-        "
-        src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
-        alt="BY"
-      />
-    </p>
-    <p>
-      Permissions beyond the scope of this license may be available
-      <a
-        xmlns:cc="http://creativecommons.org/ns#"
-        href="./license.html"
-        rel="cc:morePermissions"
-      >
-        as defined further within this document
-      </a>
-      .
-    </p>
-    Canonical URI:
-    <a
-      href="https://creativecommons.org/licenses/by/4.0/"
-      target="_blank"
-      rel="license noopener noreferrer"
-    >
-      https://creativecommons.org/licenses/by/4.0/
-    </a>
+    </section>
+
     <hr />
 
-    <section id="lic2">
+    <section id="license2">
       <div class="gpl">
         <p>Insert</p>
       </div>

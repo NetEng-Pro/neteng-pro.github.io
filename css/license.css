@@ -32,75 +32,49 @@ Contact: <website@neteng.pro>
 https://linktr.ee/scottlopez/
 */
 
-/* NetEng-Pro logo table */
-.logo {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* index heading 1 */
-.index-h1 {
+/* heading 1 */
+.cw-h1 {
   font-size: 24px;
 }
 
-/* index heading 2 */
-.index-h2 {
+/* heading 2 */
+.cw-h2 {
   font-size: 20px;
-  /*  text-transform: lowercase; */
-  font-variant: small-caps;
+  text-decoration: underline;
 }
 
-/* github callout table */
-.ghtable {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
+.cw-h3 {
   font-size: 18px;
 }
 
-.community {
-  font-size: 22px;
+/* page subheading */
+.subhead {
+  font-size: 16px;
+  font-variant: small-caps;
 }
 
-.voice {
-  font-size: 20px;
-}
-
-#licensing {
-  font-size: 12px;
-  vertical-align: middle;
-}
-
-.copyright {
+/* copyright statement */
+.ccom {
   font-size: 12px;
   vertical-align: middle;
   margin-left: 0;
   margin-right: auto;
 }
 
-.license {
-  font-size: 12px;
-  vertical-align: middle;
-  margin-left: 0;
-  margin-right: auto;
+/* licensing subheading */
+.lic-nav {
+  font-size: 18px;
 }
 
-.cwlink {
-  font-size: 12px;
-  align-content: center;
+/* license subheading */
+.copy {
   text-align: center;
+  align-content: center;
+  vertical-align: middle;
 }
 
-/* display of badges */
-.badgetable {
-  width: 75%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-/* Font Awesome table cell data */
-.fa {
-  width: 18px;
-  height: 18px;
-}
+/* copyright and license */
+/* #license .copyright {
+  font-size: 12px;
+  vertical-align: middle;
+} */
