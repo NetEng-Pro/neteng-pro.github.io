@@ -22,10 +22,10 @@ end_of_line = crlf
 [*.css]
 indent_size = 2
 
-# ; JavaScript files -
-# [*.{js,ts}]
-# curly_bracket_next_line = true
-# quote_type = single
+; JavaScript files -
+[*.{js,ts}]
+curly_bracket_next_line = true
+quote_type = single
 
 ; JSON files (normal and commented version) -
 [*.{json,jsonc}]
