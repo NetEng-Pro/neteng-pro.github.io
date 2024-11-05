@@ -92,6 +92,29 @@ Web: <https://linktr.ee/scottlopez/>
   text-align: center;
 }
 
+.cwlic {
+  text-decoration: none;
+}
+
+.cwlic:hover {
+  text-decoration: underline;
+}
+
+.cwlic:focus,
+.cwlic:active {
+  transition: none;
+}
+
+.block {
+  height: 50vh;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  resize: none;
+  outline: none;
+}
+
 /* display of badges */
 .badgetable {
   width: 75%;
@@ -101,6 +124,6 @@ Web: <https://linktr.ee/scottlopez/>
 
 /* Font Awesome table cell data */
 .fa {
-  width: 18px;
-  height: 18px;
+  width: 25px;
+  height: 25px;
 }
