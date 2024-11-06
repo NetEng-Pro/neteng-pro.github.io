@@ -51,7 +51,7 @@ evolve through collaborative efforts, with the community leading Discussions and
 driving updates.
 
 > _For now, you can find some recommendations at
-> [https://links.neteng.pro/](https://links.neteng.pro/). This information
+> [https://links.neteng.pro](https://links.neteng.pro/). This information
 > will soon be added to this website in a redesigned format._
 
 ---
@@ -96,6 +96,6 @@ Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**. Yo
 
 This is free software, and you are welcome to redistribute it under the **[GNU GPL 3.0](https://spdx.org/licenses/GPL-3.0-or-later.html)** or later.
 
-For details, see [Copyright and Licensing](https://wwww.neteng.pro/license.html).
+For details, see [Copyright and Licensing](https://www.neteng.pro/license.html).
 
 </code>
