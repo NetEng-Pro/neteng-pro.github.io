@@ -79,6 +79,7 @@
       - [+] `connect-src 'self';`   : Allow same-origin network requests.
       - [+] `base-uri 'self';`   : Added per MDNS recommendations.
     -->
+    <!--
     <meta
       http-equiv="Content-Security-Policy"
       content="
@@ -95,9 +96,9 @@
     frame-ancestors 'none';
     upgrade-insecure-requests;
     block-all-mixed-content;
-    <!-- report-uri https://your-report-collector.example.com/csp-reports; -->
+    report-uri https://your-report-collector.example.com/csp-reports;
 "
-    />
+    /> -->
     <meta http-equiv="Cache-Control" content="no-store, max-age=0" />
     <meta http-equiv="Clear-Site-Data" content="cache, cookies, storage" />
     <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp" />
@@ -176,10 +177,8 @@
   <body>
     <!-- BEGIN TITLE -->
     <header>
-      <hgroup>
         <h1 class="cw-h1"><em>Copyright and Licensing</em></h1>
-        <span class="subhead">Network Engineering Pro</span>
-      </hgroup>
+        <!-- <span class="subh">Network Engineering Pro</span> -->
     </header>
     <!-- END PAGE TITLE -->
 
@@ -194,11 +193,11 @@
       &nbsp;
 
       <code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
-        <p><div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" class="ccom">
-          <a property="dct:title" rel="cc:attributionURL" href="https://www.neteng.pro"><strong>Network Engineering Pro</strong></a> (NetEng-Pro), <span rel="dct:type" href="http://purl.org/dc/dcimtype/Text">a Free/Libre and Open Source Community</span><br />
-        Copyright &copy; 2024 <strong><a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://linktr.ee/scottlopez/">Scott Lopez</a></strong>
+      <div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" class="ccom">
+      <a property="dct:title" rel="cc:attributionURL" href="https://www.neteng.pro"><strong>Network Engineering Pro</strong></a> (NetEng-Pro), <span rel="dct:type" href="http://purl.org/dc/dcimtype/Text">a Free/Libre and Open Source Community</span>
+      
+      <p>Copyright &copy; 2024 <strong><a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://linktr.ee/scottlopez/">Scott Lopez</a></strong>
         <br />This material comes with ABSOLUTELY NO WARRANTY.</p>
-        
         <p><em>Unless otherwise noted, NetEng-Pro in its' entirety is available, exclusively, under one or both of the following two licenses.</em></p>
         </div>
       </code>

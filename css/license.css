@@ -48,9 +48,11 @@ Web: <https://linktr.ee/scottlopez/>
 }
 
 /* page subheading */
-.subhead {
+.subh {
   font-size: 16px;
   font-variant: small-caps;
+  text-align: center;
+  align-content: center;
 }
 
 /* copyright statement */

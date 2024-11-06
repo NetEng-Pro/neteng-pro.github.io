@@ -75,11 +75,6 @@ h1 {
   align-content: center;
 }
 
-/* copyright heading 1 */
-h1 .cw-h1 {
-  font-size: 20px;
-}
-
 /* subheading (h2) */
 h2 {
   font-family: "Arial", "Helvetica", sans-serif;
@@ -91,19 +86,6 @@ h3 {
   font-family: "Arial", "Helvetica", sans-serif;
   text-align: center;
   align-content: center;
-}
-
-/* copyright heading 3 */
-h3 .cw-h3 {
-  font-size: 14px;
-  font-variant: small-caps;
-}
-
-/* license subheading */
-.copy {
-  text-align: center;
-  align-content: center;
-  vertical-align: middle;
 }
 
 /* table element */
@@ -131,9 +113,3 @@ tr {
   vertical-align: middle;
   align-content: center;
 }
-
-/* copyright and license */
-/* #license .copyright {
-  font-size: 12px;
-  vertical-align: middle;
-} */

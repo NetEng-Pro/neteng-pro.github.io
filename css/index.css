@@ -34,7 +34,7 @@ Web: <https://linktr.ee/scottlopez/>
 
 /* NetEng-Pro logo table */
 .logo {
-  width: 60%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -86,12 +86,6 @@ Web: <https://linktr.ee/scottlopez/>
   margin-right: auto;
 }
 
-.cwlink {
-  font-size: 12px;
-  align-content: center;
-  text-align: center;
-}
-
 .cwlic {
   text-decoration: none;
 }
@@ -119,11 +113,14 @@ Web: <https://linktr.ee/scottlopez/>
 .badgetable {
   width: 75%;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 0;
 }
 
 /* Font Awesome table cell data */
 .fa {
   width: 25px;
   height: 25px;
+  text-align: center;
+  vertical-align: middle;
+  align-content: center;
 }
