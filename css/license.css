@@ -32,84 +32,56 @@ Email: <website@neteng.pro>
 Web: <https://linktr.ee/scottlopez/>
 */
 
-body {
-  font-family: "Arial", "Helvetica", sans-serif;
+/* heading 1 */
+#cw-h1 {
+  font-size: 24px;
+}
+
+/* heading 2 */
+#cw-h2 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+#cw-h3 {
+  font-size: 18px;
+}
+
+/* page subheading */
+.subh {
   font-size: 16px;
-  margin: 4px;
-  background-color: #252525;
-  color: #ffffff;
-}
-
-/* parent link element */
-a {
-  text-decoration: none;
-  align-content: center;
-}
-
-/* unvisited link */
-a:link {
-  color: #0080c0;
-}
-
-/* visited link */
-a:visited {
-  color: #0000ff;
-}
-
-/* mouse over link */
-a:hover {
-  color: #4040c0;
-  text-decoration: underline;
-}
-
-/* selected link */
-a:active {
-  color: #004080;
-  text-decoration: underline;
-}
-
-/* primary heading (h1) */
-h1 {
-  font-family: "Arial", "Helvetica", sans-serif;
+  font-variant: small-caps;
   text-align: center;
   align-content: center;
 }
 
-/* subheading (h2) */
-h2 {
-  font-family: "Arial", "Helvetica", sans-serif;
-  text-align: center;
-  align-content: center;
+/* copyright statement */
+.ccom {
+  font-size: 12px;
+  vertical-align: middle;
+  margin-left: 0;
+  margin-right: auto;
 }
 
-h3 {
-  font-family: "Arial", "Helvetica", sans-serif;
-  text-align: center;
-  align-content: center;
+/* licensing subheading */
+.lic-nav {
+  font-size: 18px;
 }
 
-/* table element */
-table {
-  font-family: "Arial", "Helvetica", sans-serif;
-  border-spacing: 0;
-  padding: 0;
-  background-color: transparent;
-  align-content: center;
+/* license formats available */
+.formats {
+  font-size: 10px;
+}
+
+/* license subheading */
+.copy {
   text-align: center;
+  align-content: center;
   vertical-align: middle;
 }
 
-/* table heading and cell data elements */
-th,
-td {
-  text-align: center;
+/* copyright and license */
+/* #license .copyright {
+  font-size: 12px;
   vertical-align: middle;
-  align-content: center;
-}
-
-/* table row element */
-tr {
-  text-align: center;
-  vertical-align: middle;
-  align-content: center;
-}
+} */

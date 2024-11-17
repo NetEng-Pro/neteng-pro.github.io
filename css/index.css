@@ -32,83 +32,92 @@ Email: <website@neteng.pro>
 Web: <https://linktr.ee/scottlopez/>
 */
 
-body {
-  font-family: "Arial", "Helvetica", sans-serif;
-  font-size: 16px;
-  margin: 4px;
-  background-color: #252525;
-  color: #ffffff;
+/* NetEng-Pro logo table */
+.logo {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* parent link element */
-a {
+/* index heading 1 */
+.index-h1 {
+  font-size: 24px;
+}
+
+/* index heading 2 */
+.index-h2 {
+  font-size: 20px;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+/* github callout table */
+.ghtable {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+.community {
+  font-size: 22px;
+}
+
+.voice {
+  font-size: 20px;
+}
+
+/* #licensing {
+  font-size: 12px;
+  vertical-align: middle;
+} */
+
+.copyright {
+  font-size: 12px;
+  vertical-align: middle;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.cwlic {
   text-decoration: none;
-  align-content: center;
 }
 
-/* unvisited link */
-a:link {
-  color: #0080c0;
-}
-
-/* visited link */
-a:visited {
-  color: #0000ff;
-}
-
-/* mouse over link */
-a:hover {
-  color: #4040c0;
+.cwlic:hover {
   text-decoration: underline;
 }
 
-/* selected link */
-a:active {
-  color: #004080;
-  text-decoration: underline;
+.cwlic:focus,
+.cwlic:active {
+  transition: none;
 }
 
-/* primary heading (h1) */
-h1 {
-  font-family: "Arial", "Helvetica", sans-serif;
-  text-align: center;
-  align-content: center;
+.prewrap {
+  display: block;
+  white-space: pre-wrap;
 }
 
-/* subheading (h2) */
-h2 {
-  font-family: "Arial", "Helvetica", sans-serif;
-  text-align: center;
-  align-content: center;
+/* .block {
+  height: 50vh;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  resize: none;
+  outline: none;
+} */
+
+/* display of badges */
+.badgetable {
+  width: 50%;
+  margin-right: auto;
+  margin-left: 0;
 }
 
-h3 {
-  font-family: "Arial", "Helvetica", sans-serif;
-  text-align: center;
-  align-content: center;
-}
-
-/* table element */
-table {
-  font-family: "Arial", "Helvetica", sans-serif;
-  border-spacing: 0;
-  padding: 0;
-  background-color: transparent;
-  align-content: center;
-  text-align: center;
-  vertical-align: middle;
-}
-
-/* table heading and cell data elements */
-th,
-td {
-  text-align: center;
-  vertical-align: middle;
-  align-content: center;
-}
-
-/* table row element */
-tr {
+/* Font Awesome table cell data */
+.fa {
+  width: 30px;
+  height: 30px;
   text-align: center;
   vertical-align: middle;
   align-content: center;

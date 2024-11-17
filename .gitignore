@@ -10,6 +10,7 @@
 *.userosscache
 *.sln.docstates
 img/.old/*
+license/.old/*
 css/diagnostic.css
 fiverserver.config.js
 

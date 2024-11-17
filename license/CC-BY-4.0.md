@@ -1,4 +1,4 @@
-Attribution 4.0 International
+# Attribution 4.0 International
 
 =======================================================================
 
@@ -12,7 +12,7 @@ terms and conditions, or any related information. Creative Commons
 disclaims all liability for damages resulting from their use to the
 fullest extent possible.
 
-Using Creative Commons Public Licenses
+## Using Creative Commons Public Licenses
 
 Creative Commons public licenses provide a standard set of terms and
 conditions that creators and other rights holders may use to share
@@ -33,7 +33,7 @@ exhaustive, and do not form part of our licenses.
      material not subject to the license. This includes other CC-
      licensed material, or material used under an exception or
      limitation to copyright. More considerations for licensors:
-     wiki.creativecommons.org/Considerations_for_licensors
+     <https://wiki.creativecommons.org/Considerations_for_licensors>
 
      Considerations for the public: By using one of our public
      licenses, a licensor grants the public permission to use the
@@ -50,11 +50,11 @@ exhaustive, and do not form part of our licenses.
      Although not required by our licenses, you are encouraged to
      respect those requests where reasonable. More considerations
      for the public:
-     wiki.creativecommons.org/Considerations_for_licensees
+     <https://wiki.creativecommons.org/Considerations_for_licensees>
 
 =======================================================================
 
-Creative Commons Attribution 4.0 International Public License
+## Creative Commons Attribution 4.0 International Public License
 
 By exercising the Licensed Rights (defined below), You accept and agree
 to be bound by the terms and conditions of this Creative Commons
@@ -66,7 +66,7 @@ consideration of benefits the Licensor receives from making the
 Licensed Material available under these terms and conditions.
 
 
-Section 1 -- Definitions.
+### Section 1 -- Definitions.
 
   a. Adapted Material means material subject to Copyright and Similar
      Rights that is derived from or based upon the Licensed Material
@@ -130,7 +130,7 @@ Section 1 -- Definitions.
      under this Public License. Your has a corresponding meaning.
 
 
-Section 2 -- Scope.
+### Section 2 -- Scope.
 
   a. License grant.
 
@@ -207,7 +207,7 @@ Section 2 -- Scope.
           reserves any right to collect such royalties.
 
 
-Section 3 -- License Conditions.
+### Section 3 -- License Conditions.
 
 Your exercise of the Licensed Rights is expressly made subject to the
 following conditions.
@@ -259,7 +259,7 @@ following conditions.
           Material from complying with this Public License.
 
 
-Section 4 -- Sui Generis Database Rights.
+### Section 4 -- Sui Generis Database Rights.
 
 Where the Licensed Rights include Sui Generis Database Rights that
 apply to Your use of the Licensed Material:
@@ -281,7 +281,7 @@ replace Your obligations under this Public License where the Licensed
 Rights include other Copyright and Similar Rights.
 
 
-Section 5 -- Disclaimer of Warranties and Limitation of Liability.
+### Section 5 -- Disclaimer of Warranties and Limitation of Liability.
 
   a. UNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE
      EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS
@@ -310,7 +310,7 @@ Section 5 -- Disclaimer of Warranties and Limitation of Liability.
      waiver of all liability.
 
 
-Section 6 -- Term and Termination.
+### Section 6 -- Term and Termination.
 
   a. This Public License applies for the term of the Copyright and
      Similar Rights licensed here. However, if You fail to comply with
@@ -339,7 +339,7 @@ Section 6 -- Term and Termination.
      License.
 
 
-Section 7 -- Other Terms and Conditions.
+### Section 7 -- Other Terms and Conditions.
 
   a. The Licensor shall not be bound by any additional or different
      terms or conditions communicated by You unless expressly agreed.
@@ -349,7 +349,7 @@ Section 7 -- Other Terms and Conditions.
      independent of the terms and conditions of this Public License.
 
 
-Section 8 -- Interpretation.
+### Section 8 -- Interpretation.
 
   a. For the avoidance of doubt, this Public License does not, and
      shall not be interpreted to, reduce, limit, restrict, or impose
@@ -375,21 +375,22 @@ Section 8 -- Interpretation.
 
 =======================================================================
 
-Creative Commons is not a party to its public licenses.
-Notwithstanding, Creative Commons may elect to apply one of its public
-licenses to material it publishes and in those instances will be
-considered the “Licensor.” The text of the Creative Commons public
-licenses is dedicated to the public domain under the CC0 Public Domain
-Dedication. Except for the limited purpose of indicating that material
-is shared under a Creative Commons public license or as otherwise
-permitted by the Creative Commons policies published at
+Creative Commons is not a party to its public
+licenses. Notwithstanding, Creative Commons may elect to apply one of
+its public licenses to material it publishes and in those instances
+will be considered the “Licensor.” The text of the Creative Commons
+public licenses is dedicated to the public domain under the CC0 Public
+Domain Dedication. Except for the limited purpose of indicating that
+material is shared under a Creative Commons public license or as
+otherwise permitted by the Creative Commons policies published at
 creativecommons.org/policies, Creative Commons does not authorize the
 use of the trademark "Creative Commons" or any other trademark or logo
 of Creative Commons without its prior written consent including,
 without limitation, in connection with any unauthorized modifications
 to any of its public licenses or any other arrangements,
 understandings, or agreements concerning use of licensed material. For
-the avoidance of doubt, this paragraph does not form part of the public
-licenses.
+the avoidance of doubt, this paragraph does not form part of the
+public licenses.
 
-Creative Commons may be contacted at creativecommons.org.
+Creative Commons may be contacted at <creativecommons.org>.
+

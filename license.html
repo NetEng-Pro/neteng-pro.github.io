@@ -4,17 +4,24 @@
     <meta charset="utf-8" />
 
     <!--
+    Network Engineering Pro, a Free/Libre and Open Source Community
     Copyright © 2024 Scott Lopez
-    
-    Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+    I. Creative Commons Attribution 4.0 International
+
+    Licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
+    You are free to: (a) share and (b) adapt upon this material for any purpose, even commercially.
+    Attribution (e.g., appropriate credit) must be given per the terms of the license.
     Permissions beyond the scope of this license may be available (see following paragraphs).
-    License: https://creativecommons.org/licenses/by/4.0/
-    SPDX: https://spdx.org/licenses/CC-BY-4.0.html
+      License: https://creativecommons.org/licenses/by/4.0/
+      SPDX Reference: https://spdx.org/licenses/CC-BY-4.0.html
+
+    II. GNU General Public License 3.0
 
     This file is part of Network Engineering Pro.
 
     Network Engineering Pro is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
+    it under the terms of the GNU General Public License ("GNU GPL 3.0") as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
@@ -22,65 +29,72 @@
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
-    License: https://www.gnu.org/licenses/gpl-3.0.html
-    SPDX: https://spdx.org/licenses/GPL-3.0-or-later.html
+      License: https://www.gnu.org/licenses/gpl-3.0.html
+      SPDX Reference: https://spdx.org/licenses/GPL-3.0-or-later.html
 
     Author: Scott Lopez
-    Contact: <website@neteng.pro>
-    https://linktr.ee/scottlopez/
+    Email: <website@neteng.pro>
+    Web: <https://linktr.ee/scottlopez/>
     -->
 
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=yes"
-    />
+      content="width=device-width, initial-scale=1.0, user-scalable=yes" />
     <title>Copyright and Licensing - Network Engineering Pro</title>
     <meta
       name="description"
       content="
-         Copyright and Licensing Information for Network Engineering Pro and all content thereof."
-    />
+         Copyright and Licensing Information for Network Engineering Pro" />
     <meta name="author" content="Scott Lopez" />
     <meta
       name="keywords"
-      content="foss, floss, free software, open source, android, privacy, security, dns, hardening"
-    />
+      content="foss, floss, free software, open source, android, linux, privacy, security, cybersecurity" />
     <meta
       name="robots"
-      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
-    />
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
-    <link rel="canonical" href="https://www.neteng.pro/" />
-    <base href="https://www.neteng.pro/" target="_self" />
+    <link rel="canonical" href="https://www.neteng.pro/license.html" />
+    <base href="https://www.neteng.pro/license.html" target="_self" />
 
     <!-- BEGIN FAVICONS -->
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
     <!-- For Chrome on Android -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <!-- END FAVICONS -->
 
     <!--
     Security meta tags based on OWASP recommendations.
     See https://owasp.org/www-project-secure-headers/ci/headers_add.json for all recommended policies.
       Exceptions:
-      - [+] `style-src 'unsafe-inline'`   : Required for troubleshooting.
-      - [+] `script-src: 'unsafe-inline'` : Required for troubleshooting.
-      - [+] `img-src data:`               : Required for Ace (code editor) CSS.
+      - [+] `default-src 'self'`   : Added per MDNS recommendations.
+      - [+] `script-src 'self' creativecommons.org www.creativecommons.org github.com forthebadge.com img.shields.io;`   : Required for external resources.
+      - [+] `style-src 'self' creativecommons.org www.creativecommons.org github.com forthebadge.com img.shields.io;`   : Required for external resources.
+      - [+] `img-src 'self' data: creativecommons.org www.creativecommons.org github.com forthebadge.com img.shields.io;`   : Required for code editor and external resources.
+      - [+] `font-src 'self';`   : Allow same-origin resources.
+      - [+] `media-src 'self';`   : Allow same-origin resources.
+      - [+] `connect-src 'self';`   : Allow same-origin network requests.
+      - [+] `base-uri 'self';`   : Added per MDNS recommendations.
     -->
+    <!--
     <meta
       http-equiv="Content-Security-Policy"
       content="
-    default-src 'self' https://*.creativecommons.org https://github.com https://forthebadge.com https://img.shields.io;
-    script-src 'self' https://*.creativecommons.org https://github.com https://forthebadge.com https://img.shields.io;
-    style-src 'self' https://*.creativecommons.org https://github.com https://forthebadge.com https://img.shields.io;
-    img-src 'self' data: https://*.creativecommons.org https://github.com https://forthebadge.com https://img.shields.io;
+    default-src 'self';
+    script-src 'self' creativecommons.org www.creativecommons.org mirrors.creativecommons.org github.com forthebadge.com img.shields.io;
+    style-src 'self' creativecommons.org www.creativecommons.org mirrors.creativecommons.org github.com forthebadge.com img.shields.io;
+    img-src 'self' data: creativecommons.org www.creativecommons.org mirrors.creativecommons.org github.com forthebadge.com img.shields.io;
+    font-src 'self';
+    media-src 'self';
+    connect-src 'self';
+    base-uri 'self';
     form-action 'self';
     object-src 'none';
     frame-ancestors 'none';
     upgrade-insecure-requests;
     block-all-mixed-content;
-  "
-    />
+    report-uri https://your-report-collector.example.com/csp-reports;
+"
+    /> -->
     <meta http-equiv="Cache-Control" content="no-store, max-age=0" />
     <meta http-equiv="Clear-Site-Data" content="cache, cookies, storage" />
     <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp" />
@@ -89,42 +103,39 @@
     <meta http-equiv="Referrer-Policy" content="no-referrer" />
     <meta
       http-equiv="Strict-Transport-Security"
-      content="max-age=31536000; includeSubDomains"
-    />
+      content="max-age=31536000; includeSubDomains" />
     <meta http-equiv="X-Content-Type-Options" content="nosniff" />
     <meta http-equiv="X-Frame-Options" content="deny" />
     <meta http-equiv="X-Permitted-Cross-Domain-Policies" content="none" />
     <meta
       http-equiv="Permissions-Policy"
-      content="accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(self), usb=(), web-share=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(), gamepad=(), hid=(), idle-detection=(), interest-cohort=(), serial=(), unload=()"
-    />
+      content="accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(self), usb=(), web-share=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(), gamepad=(), hid=(), idle-detection=(), interest-cohort=(), serial=(), unload=()" />
 
-    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
-    <link rel="stylesheet" href="css/default.css" type="text/css" />
-
+    <!-- BEGIN STYLESHEETS -->
+    <link rel="stylesheet" href="./css/normalize.css" type="text/css" />
     <!-- Font Awesome solid and brands -->
-    <link rel="stylesheet" href="css/fontawesome.css" type="text/css" />
-    <link rel="stylesheet" href="css/brands.css" type="text/css" />
-    <link rel="stylesheet" href="css/solids.css" type="text/css" />
+    <link rel="stylesheet" href="./css/fontawesome.css" type="text/css" />
+    <link rel="stylesheet" href="./css/brands.css" type="text/css" />
+    <link rel="stylesheet" href="./css/solids.css" type="text/css" />
+    <link rel="stylesheet" href="./css/default.css" type="text/css" />
+    <link rel="stylesheet" href="./css/license.css" type="text/css" />
+    <!-- END STYLESHEETS -->
 
     <!-- social/og meta -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Network Engineering Pro" />
-    <meta property="og:url" content="https://www.neteng.pro" />
+    <meta property="og:url" content="https://www.neteng.pro/" />
     <meta
       property="og:description"
       content="
-        Explore Free/Libre and Open Source Software (FLOSS) for Android & Linux, cybersecurity, online privacy, browser hardening, DNS filtering, and more at Network Engineering Pro. 
-        Join our community via Discussions and start contributing today!"
-    />
+        Explore Free/Libre and Open Source Software (FLOSS) for Android & Linux, cybersecurity, and privacy at Network Engineering Pro. 
+        Join the community and start contributing today!" />
     <meta
       property="og:image"
-      content="https://www.neteng.pro/img/banner-1080.png"
-    />
+      content="https://www.neteng.pro/img/banner-1080.png" />
     <meta
       property="og:image:secure_url"
-      content="https://www.neteng.pro/img/banner-1080.png"
-    />
+      content="https://www.neteng.pro/img/banner-1080.png" />
     <meta property="og:image:alt" content="Network Engineering Pro" />
     <meta property="og:image:width" content="1920" />
     <meta property="og:image:height" content="1080" />
@@ -138,194 +149,210 @@
     <meta
       name="twitter:description"
       content="
-        Explore Free/Libre and Open Source Software (FLOSS) for Android & Linux, cybersecurity, online privacy, browser hardening, DNS filtering, and more at Network Engineering Pro. 
-        Join our community via Discussions and start contributing today!"
-    />
+        Explore Free/Libre and Open Source Software (FLOSS) for Android & Linux, cybersecurity, and privacy at Network Engineering Pro. 
+        Join the community and start contributing today!" />
     <meta
       name="twitter:image"
-      content="https://www.neteng.pro/img/banner-1080.png"
-    />
+      content="https://www.neteng.pro/img/banner-1080.png" />
     <meta name="twitter:image:alt" content="Network Engineering Pro" />
     <!-- end social meta -->
 
     <meta
       name="facebook-domain-verification"
-      content="bx4ham0zkpvzztzu213bhpt76m9siq"
-    />
+      content="bx4ham0zkpvzztzu213bhpt76m9siq" />
   </head>
+
   <body>
     <!-- BEGIN TITLE -->
     <header>
-      <hgroup>
-        <h1 class="head1"><em>Copyright and Licensing</em></h1>
-        <h2 class="head2">Network Engineering Pro</h2>
-      </hgroup>
+      <h1 class="cw-h1"><em>Copyright and Licensing</em></h1>
+      <!-- <span class="subh">Network Engineering Pro</span> -->
     </header>
     <!-- END PAGE TITLE -->
 
+    &nbsp;
+
+    <hr />
+
     <!-- BEGIN MAIN CONTENT -->
     <section id="cright">
-      &nbsp;
-      <span class="copy">
-        <h2 id="copyrt"><u>Copyright</u></h2>
-      </span>
+      <h2 id="cw-h2">Copyright</h2>
 
-      <div
-        class="ccom"
-        xmlns:cc="http://creativecommons.org/ns#"
-        xmlns:dct="http://purl.org/dc/terms/"
-      >
-        <span>
+      &nbsp;
+
+      <code
+        style="
+          height: 50vh;
+          width: 100%;
+          background: transparent;
+          border: none;
+          border-radius: 0;
+          resize: none;
+          outline: none;
+        ">
+        <div
+          xmlns:cc="http://creativecommons.org/ns#"
+          xmlns:dct="http://purl.org/dc/terms/"
+          class="ccom">
           <a
             property="dct:title"
             rel="cc:attributionURL"
             href="https://www.neteng.pro"
+            ><strong>Network Engineering Pro</strong></a
           >
-            <strong>Network Engineering Pro</strong>
-          </a>
-          ("NetEng-Pro")
-        </span>
-        <br />
-        is a Free/Libre and Open Source Software (FLOSS)
-        <span rel="dct:type" href="http://purl.org/dc/dcmitype/Text">
-          community
-        </span>
-        with an emphasis on Android & Linux, security, and privacy.
-        <p>
-          <b>
-            Copyright &copy; 2024
-            <a
-              rel="cc:attributionURL dct:creator"
-              property="cc:attributionName"
-              href="https://linktr.ee/scottlopez"
+          (NetEng-Pro),
+          <span rel="dct:type" href="http://purl.org/dc/dcimtype/Text"
+            >a Free/Libre and Open Source Community</span
+          >
+
+          <p
+            >Copyright &copy; 2024
+            <strong
+              ><a
+                rel="cc:attributionURL dct:creator"
+                property="cc:attributionName"
+                href="https://linktr.ee/scottlopez/"
+                >Scott Lopez</a
+              ></strong
             >
-              Scott Lopez
-            </a>
-          </b>
-        </p>
-      </div>
+            <br />This material comes with ABSOLUTELY NO WARRANTY.</p
+          >
+          <p
+            ><em
+              >Unless otherwise noted, NetEng-Pro in its' entirety is available,
+              exclusively, under one or both of the following two licenses.</em
+            ></p
+          >
+        </div>
+      </code>
     </section>
 
     &nbsp;
+
     <hr />
 
-    <span class="license">
-      <h2 id="lic"><u>Licensing</u></h2>
-    </span>
+    <section id="licensing">
+      <h2 id="cw-h2">Licensing</h2>
 
-    <h3>Licenses</h3>
-    <p>
-      Network Engineering Pro is available under one&mdash;or both&mdash;of the
-      following licenses:
-    </p>
-    <ul>
-      <li>Creative Commons Attribution 4.0 International ("CC BY 4.0")</li>
-      <li>
-        GNU General Public License ("GNU GPL"), either version 3 of the License,
-        or (at your option) any later version
-      </li>
-    </ul>
+      <h4 class="lic-nav"><i>Licenses</i></h4>
+      <p>
+        Network Engineering Pro is available under one&mdash;or both&mdash;of
+        the following licenses:
+      </p>
+      <ul>
+        <li>Creative Commons Attribution 4.0 International ("CC BY 4.0")</li
+        ><br />
+        <li>
+          GNU General Public License ("GNU GPL"), either version 3 of the
+          License, or (at your option) any later version
+        </li>
+      </ul>
 
-    &nbsp;
+      &nbsp;
 
-    <p><b>Are you sure you can do that?</b></p>
-    <ul>
-      <li>
-        <p>
-          "You may offer the licensed material under other licenses in addition
-          to the CC license (a practice commonly referred to as “dual
-          licensing”)."
-        </p>
-        <a
-          href="https://creativecommons.org/faq/#can-i-enter-into-separate-or-supplemental-agreements-with-users-of-my-work"
-        >
-          Separate agreements | Creative Commons FAQ
-        </a>
-      </li>
-      <li>
-        <p>
-          You can clearly see that both that both the
-          <a href="https://www.gnu.org/licenses/license-list.html#GPLOther">
-            GNU GPL
-          </a>
-          and
-          <a href="https://www.gnu.org/licenses/license-list.html#ccby">
-            CC BY 4.0
-          </a>
-          are categorized as "free licenses, compatible with the GNU GPL."
-        </p>
-        <a href="https://www.gnu.org/licenses/license-list.html#OtherLicenses">
-          Licenses for Other Works | GNU - Various Licenses and Comments About
-          Them
-        </a>
-      </li>
-      <li>
-        <p>
+      <p><b>Are you sure you can do that?</b></p>
+      <ul>
+        <li>
+          <p>
+            "You may offer the licensed material under other licenses in
+            addition to the CC license (a practice commonly referred to as “dual
+            licensing”)."
+          </p>
           <a
-            href="https://www.gnu.org/licenses/gpl-faq.html#WhatDoesCompatMean"
-          >
-            What does it mean to say a license is “compatible with the GPL?" |
-            GNU GPL FAQ
+            href="https://creativecommons.org/faq/#can-i-enter-into-separate-or-supplemental-agreements-with-users-of-my-work">
+            Separate agreements | Creative Commons FAQ
           </a>
-        </p>
-      </li>
-    </ul>
+        </li>
+        <li>
+          <p>
+            You can clearly see that both that both the
+            <a href="https://www.gnu.org/licenses/license-list.html#GPLOther">
+              GNU GPL
+            </a>
+            and
+            <a href="https://www.gnu.org/licenses/license-list.html#ccby">
+              CC BY 4.0
+            </a>
+            are categorized as "free licenses, compatible with the GNU GPL."
+          </p>
+          <a
+            href="https://www.gnu.org/licenses/license-list.html#OtherLicenses">
+            Licenses for Other Works | GNU - Various Licenses and Comments About
+            Them
+          </a>
+        </li>
+        <li>
+          <p>
+            <a
+              href="https://www.gnu.org/licenses/gpl-faq.html#WhatDoesCompatMean">
+              What does it mean to say a license is “compatible with the GPL?" |
+              GNU GPL FAQ
+            </a>
+          </p>
+        </li>
+      </ul>
+    </section>
 
     <hr />
 
-    <h4 id="cc-by">Creative Commons Attribution 4.0 International</h4>
-    <p>
-      Licensed under
-      <a
-        href="https://creativecommons.org/licenses/by/4.0/"
-        target="_blank"
-        rel="license noopener noreferrer"
-        style="display: inline-block"
-      >
-        Creative Commons Attribution 4.0 International
-      </a>
-      <img
-        style="
-          height: 18px !important;
-          margin-left: 3px;
-          vertical-align: text-bottom;
-        "
-        src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
-        alt="CC"
-      />
-      <img
-        style="
-          height: 18px !important;
-          margin-left: 3px;
-          vertical-align: text-bottom;
-        "
-        src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
-        alt="BY"
-      />
-    </p>
-    <p>
-      Permissions beyond the scope of this license may be available
-      <a
-        xmlns:cc="http://creativecommons.org/ns#"
-        href="./license.html"
-        rel="cc:morePermissions"
-      >
-        as defined further within this document
-      </a>.
-    </p>
-    Canonical URI:
-    <a
-      href="https://creativecommons.org/licenses/by/4.0/"
-      target="_blank"
-      rel="license noopener noreferrer"
-    >
-      https://creativecommons.org/licenses/by/4.0/
-    </a>
+    <section id="license1">
+      <h3 id="cw-h3">Creative Commons Attribution 4.0 International</h3>
+        <p class="formats"
+          >Formats: <a href="./license/CC-BY-4.0.xmp">XMP</a> |
+          <a href=".license/CC-BY-4.0">Markdown</a></p
+        >
+      <p>
+        Licensed under
+        <a
+          href="https://creativecommons.org/licenses/by/4.0/"
+          target="_blank"
+          rel="license noopener noreferrer"
+          style="display: inline-block">
+          Creative Commons Attribution 4.0 International
+        </a>
+        <img
+          style="
+            height: 16px !important;
+            margin-left: 3px;
+            vertical-align: text-bottom;
+          "
+          src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
+          alt="CC" />
+        <img
+          style="
+            height: 16px !important;
+            margin-left: 3px;
+            vertical-align: text-bottom;
+          "
+          src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
+          alt="BY" />
+      </p>
+      <p>
+        Permissions beyond the scope of this license may be available
+        <a
+          xmlns:cc="http://creativecommons.org/ns#"
+          href="#permissions"
+          rel="cc:morePermissions">
+          as defined further within this document
+        </a>
+        .
+      </p>
+      <code style="display: block; white-space: pre-wrap">
+        - Canonical URL:
+        <a
+          href="https://creativecommons.org/licenses/by/4.0/"
+          target="_blank"
+          rel="license noopener noreferrer">
+          https://creativecommons.org/licenses/by/4.0/</a
+        >
+      </code>
+    </section>
+
     <hr />
 
-    <section id="lic2">
+    <section id="license2">
       <div class="gpl">
-        <p>Insert</p>
+        <p>Insert - <a id="permissions">GNU GPL 3.0</a></p>
       </div>
     </section>
 
@@ -344,26 +371,22 @@
             <a
               rel="noopener noreferrer me"
               href="https://noc.social/@neteng_pro"
-              target="_blank"
-            >
+              target="_blank">
               <img
                 style="width: auto; height: 20px"
                 src="https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&logo=Mastodon&logoColor=white"
-                alt="Mastodon"
-              />
+                alt="Mastodon" />
             </a>
           </td>
           <td>
             <address>
               <a
                 rel="noopener noreferrer author"
-                href="mailto:support@neteng.pro"
-              >
+                href="mailto:support@neteng.pro">
                 <img
                   style="width: auto; height: 20px"
                   src="https://img.shields.io/badge/E--mail-4080C0?style=for-the-badge&logo=maildotru"
-                  alt="E-mail"
-                />
+                  alt="E-mail" />
               </a>
             </address>
           </td>

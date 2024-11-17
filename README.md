@@ -51,7 +51,7 @@ evolve through collaborative efforts, with the community leading Discussions and
 driving updates.
 
 > _For now, you can find some recommendations at
-> [https://sundevil.bio.link/](https://sundevil.bio.link/). This information
+> [https://links.neteng.pro](https://links.neteng.pro/). This information
 > will soon be added to this website in a redesigned format._
 
 ---
@@ -84,12 +84,18 @@ provide _Best Practices_ documentation for beginners, among other content.
 [![cc-by](https://forthebadge.com/images/badges/cc-by.png)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
+<code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
 
-**[Network Engineering Pro](https://www.neteng.pro/)**  Copyright &copy;  2024 by
-**[Scott Lopez](mailto:support@neteng.pro)** is licensed under
-**[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)**
-This file comes with
-ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to
-redistribute it under certain conditions. A copy of the GNU General Public
-License has been included in the "COPYING" file. If for some reason the file is
-not present, see <[https://www.gnu.org/licenses](https://www.gnu.org/licenses/)>.
+**[Network Engineering Pro](https://www.neteng.pro/)**, a Free/Libre and Open Source Software Community<br />
+Copyright &copy; 2024 **[Scott Lopez](https://linktr.ee/scottlopez/)**
+<br />This material comes with ABSOLUTELY NO WARRANTY.
+
+_Unless otherwise noted, NetEng-Pro in its' entirety is available, exclusively, under one or both of the following two licenses._
+
+Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**. You are free to: (a) share and (b) adapt upon this material for any purpose, even commercially.
+
+This is free software, and you are welcome to redistribute it under the **[GNU GPL 3.0](https://spdx.org/licenses/GPL-3.0-or-later.html)** or later.
+
+For details, see [Copyright and Licensing](https://www.neteng.pro/license.html).
+
+</code>
