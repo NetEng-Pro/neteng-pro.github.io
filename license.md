@@ -34,7 +34,16 @@ Web: <https://linktr.ee/scottlopez/>
 
 # <a id="top">Copyright and Licensing</a>
 
-&nbsp;
+**Table of Contents**
+
+- [Copyright](#copyright)
+- [Licensing](#licensing)
+- [Are you sure you can do that?](#questions)
+- [Contact](#contact)
+- [CC BY 4.0](#cc-by)
+- [GNU GPL](#gnu-gpl)
+
+---
 
 ## <a id="copyright">Copyright</a>
 
@@ -60,7 +69,7 @@ Network Engineering Pro is available under one&mdash;or both&mdash;of the follow
 
 &nbsp;
 
-### <a id="questions">Are you sure you can do that?</a>
+### <a id="questions">_Are you sure you can do that?_</a>
 
 - "You may offer the licensed material under other licenses in addition to the CC license (a practice commonly referred to as “dual licensing”)."
 
@@ -74,7 +83,7 @@ Network Engineering Pro is available under one&mdash;or both&mdash;of the follow
 
 &nbsp;
 
-### Contact
+### <a id="contact">_Contact_</a>
 
 For questions not covered here, or to request permissions not covered by the scope of either license, please email me at <website@neteng.pro>.
 
@@ -84,7 +93,7 @@ For questions not covered here, or to request permissions not covered by the sco
 
 ### <a id="cc-by">Creative Commons Attribution 4.0 International</a>
 
-Formats: [Markdown](./license/CC-BY-4.0.md) | [XMP](./license/CC-BY-4.0.xmp) | [RDF](./license/CC-BY-4.0.rdf)
+<sup>Formats: [Markdown](./license/CC-BY-4.0.md) | [XMP](./license/CC-BY-4.0.xmp) | [RDF](./license/CC-BY-4.0.rdf)</sup>
 
 Licensed under **Creative Commons Attribution 4.0 International** ("CC BY 4.0")<img height="14px" style="height:14px!important;margin-left:3px;vertical-align:text-bottom;" alt="CC"><img style="height:14px!important;margin-left:3px;vertical-align:text-bottom;" alt="BY">. Per the terms of the license, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially.
 
@@ -95,14 +104,13 @@ Absolutely no warranties are given or provided. The Licensed Material is provide
 
 Permissions beyond the scope of this license may be available as further defined within this document.
 
-<code style="display:block; white-space: pre-wrap">
+<code style="display: block; white-space: pre-wrap">
 
-Canonical URL:
-<https://creativecommons.org/licenses/by/4.0/>
-
-SPDX Reference:
-<https://spdx.org/licenses/CC-BY-4.0.html>
-</code>
+- SPDX Reference:
+  <https://spdx.org/licenses/CC-BY-4.0.html>
+- Canonical URL:
+  <https://creativecommons.org/licenses/by/4.0/>
+  </code>
 
 <sub>[Top](#top)</sub>
 
@@ -110,7 +118,7 @@ SPDX Reference:
 
 ### <a id="gnu-gpl">GNU General Public License</a>
 
-Formats: [Markdown](./license/COPYING.md)
+<sup>Formats: [Markdown](./license/COPYING.md)</sup>
 
 Network Engineering Pro (NetEng-Pro) is free software: you can redistribute it and/or modify
 it under the terms of the **GNU General Public License** ("GNU GPL") as published by
@@ -122,18 +130,19 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
-<code style="display:block; white-space: pre-wrap">
+<code style="display: block; white-space: pre-wrap">
 
-Canonical URL:
-<https://www.gnu.org/licenses/gpl-3.0.html>
+- SPDX Reference:
+  <https://spdx.org/licenses/GPL-3.0-or-later.html>
+- Canonical URL:
+  <https://www.gnu.org/licenses/gpl-3.0.html>
 
-SPDX Reference:
-<https://spdx.org/licenses/GPL-3.0-or-later.html>
 </code>
 
 <sub>[Top](#top)</sub>
 
 ---
+
 <code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
 
 **[Network Engineering Pro](https://www.neteng.pro/)**, a Free,/Libre and Open Source Software Community

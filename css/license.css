@@ -33,17 +33,17 @@ Web: <https://linktr.ee/scottlopez/>
 */
 
 /* heading 1 */
-.cw-h1 {
+#cw-h1 {
   font-size: 24px;
 }
 
 /* heading 2 */
-.cw-h2 {
+#cw-h2 {
   font-size: 20px;
   text-decoration: underline;
 }
 
-.cw-h3 {
+#cw-h3 {
   font-size: 18px;
 }
 
@@ -70,9 +70,7 @@ Web: <https://linktr.ee/scottlopez/>
 
 /* license formats available */
 .formats {
-  font-size: 14px;
-  text-transform: lowercase;
-  font-variant: small-caps;
+  font-size: 10px;
 }
 
 /* license subheading */
