@@ -67,19 +67,12 @@ Web: <https://linktr.ee/scottlopez/>
   font-size: 20px;
 }
 
-#licensing {
+/* #licensing {
   font-size: 12px;
   vertical-align: middle;
-}
+} */
 
 .copyright {
-  font-size: 12px;
-  vertical-align: middle;
-  margin-left: 0;
-  margin-right: auto;
-}
-
-.license {
   font-size: 12px;
   vertical-align: middle;
   margin-left: 0;
@@ -99,7 +92,12 @@ Web: <https://linktr.ee/scottlopez/>
   transition: none;
 }
 
-.block {
+.prewrap {
+  display: block;
+  white-space: pre-wrap;
+}
+
+/* .block {
   height: 50vh;
   width: 100%;
   background: transparent;
@@ -107,19 +105,19 @@ Web: <https://linktr.ee/scottlopez/>
   border-radius: 0;
   resize: none;
   outline: none;
-}
+} */
 
 /* display of badges */
 .badgetable {
-  width: 75%;
+  width: 50%;
   margin-right: auto;
   margin-left: 0;
 }
 
 /* Font Awesome table cell data */
 .fa {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   text-align: center;
   vertical-align: middle;
   align-content: center;
