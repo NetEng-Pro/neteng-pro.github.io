@@ -47,6 +47,17 @@ Web: <https://linktr.ee/scottlopez/>
   font-size: 18px;
 }
 
+.block {
+  height: 50vh;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  resize: none;
+  outline: none;
+  font-size: 14px;
+}
+
 /* page subheading */
 .subh {
   font-size: 16px;
@@ -69,11 +80,12 @@ Web: <https://linktr.ee/scottlopez/>
 }
 
 /* license formats available */
-.formats {
-  font-size: 10px;
-}
+/* .formats {
+  font-size: 14px;
+} /
 
 /* license subheading */
+
 .copy {
   text-align: center;
   align-content: center;
