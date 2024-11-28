@@ -95,7 +95,11 @@ For questions not covered here, or to request permissions not covered by the sco
 
 <sup>Formats: [Markdown](./license/CC-BY-4.0.md) | [XMP](./license/CC-BY-4.0.xmp) | [RDF](./license/CC-BY-4.0.rdf)</sup>
 
-Licensed under **Creative Commons Attribution 4.0 International** ("CC BY 4.0")<img height="14px" style="height:14px!important;margin-left:3px;vertical-align:text-bottom;" alt="CC"><img style="height:14px!important;margin-left:3px;vertical-align:text-bottom;" alt="BY">. Per the terms of the license, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially.
+Network Engineering Pro (the "Licensed Material") is licensed under **Creative Commons Attribution 4.0 International** ("CC BY 4.0")
+[<img style="display: inline-block; height: 16px !important; margin-left: 3px; vertical-align: text-bottom; text-decoration: none;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" />](https://creativecommons.org/licenses/by/4.0/)
+[<img style="display: inline-block; height: 16px !important; margin-left: 3px; vertical-align: text-bottom; text-decoration: none;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="BY" />](https://creativecommons.org/licenses/by/4.0/).
+
+Per the terms of the license, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially.
 
 **_Attribution_**<br />
 You must give appropriate credit, provide a link to the license, and indicate if changes were made. See the CC BY 4.0 for more details.
@@ -110,7 +114,8 @@ Permissions beyond the scope of this license may be available as further defined
   <https://spdx.org/licenses/CC-BY-4.0.html>
 - Canonical URL:
   <https://creativecommons.org/licenses/by/4.0/>
-  </code>
+
+</code>
 
 <sub>[Top](#top)</sub>
 
