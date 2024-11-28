@@ -102,11 +102,11 @@ Network Engineering Pro (the "Licensed Material") is licensed under **Creative C
 Per the terms of the license, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially.
 
 **_Attribution_**<br />
-You must give appropriate credit, provide a link to the license, and indicate if changes were made. See the CC BY 4.0 for more details.
+You must give appropriate credit, provide a link to the license, and indicate if changes were made.
 
-Absolutely no warranties are given or provided. The Licensed Material is provided as-is and as-available.
+Absolutely no warranties are given or provided. The Licensed Material is provided as-is and as-available. See the CC BY 4.0 for more details.
 
-Permissions beyond the scope of this license may be available as further defined within this document.
+Permissions beyond the scope of this license—and/or instead of those allowed by this license—may be available as further defined within this document.
 
 <code style="display: block; white-space: pre-wrap">
 
@@ -123,9 +123,9 @@ Permissions beyond the scope of this license may be available as further defined
 
 ### <a id="gnu-gpl">GNU General Public License</a>
 
-<sup>Formats: [Markdown](./license/COPYING.md)</sup>
+<sup>Formats: [Markdown](./license/COPYING.md) | [ODT](./license/COPYING.odt)</sup>
 
-Network Engineering Pro (NetEng-Pro) is free software: you can redistribute it and/or modify
+Network Engineering Pro ("NetEng-Pro") is free software: you can redistribute it and/or modify
 it under the terms of the **GNU General Public License** ("GNU GPL") as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
@@ -134,6 +134,8 @@ This material is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this material. If not, see <[https://www.gnu.org/licenses/](https://www.gnu.org/licenses/)>.
 
 <code style="display: block; white-space: pre-wrap">
 
@@ -159,6 +161,6 @@ _Unless otherwise noted, NetEng-Pro in its' entirety is available, exclusively, 
 
 Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**. You are free to: (a) share and (b) adapt upon this material for any purpose, even commercially.
 
-This is free software, and you are welcome to redistribute it under the **[GNU GPL 3.0](https://spdx.org/licenses/GPL-3.0-or-later.html)** or later.
+This is free software, and you are welcome to redistribute it under the conditions outlined herein, in accordance with the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**.
 
 </code>
