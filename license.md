@@ -11,12 +11,12 @@ Permissions beyond the scope of this license may be available (see following par
   License: https://creativecommons.org/licenses/by/4.0/
   SPDX Reference: https://spdx.org/licenses/CC-BY-4.0.html
 
-II. GNU General Public License 3.0
+II. GNU General Public License 
 
 This file is part of Network Engineering Pro.
 
 Network Engineering Pro is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License ("GNU GPL 3.0") as published by
+it under the terms of the GNU General Public License ("GNU GPL") as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
@@ -51,7 +51,7 @@ Web: <https://linktr.ee/scottlopez/>
 
 **[Network Engineering Pro](https://www.neteng.pro/)** ("NetEng-Pro"), a Free/Libre and Open Source Software Community
 
-Copyright &copy; 2024 **[Scott Lopez](https://linktr.ee/scottlopez/)**
+Copyright &copy; 2024 **[Scott Lopez](https://linktr.ee/scottlopez/)**<br />
 This material comes with ABSOLUTELY NO WARRANTY.
 
 _Unless otherwise noted, NetEng-Pro in its' entirety is available, exclusively, under one or both of the two licenses outlined below._
