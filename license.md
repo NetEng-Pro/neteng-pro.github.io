@@ -49,7 +49,7 @@ Web: <https://linktr.ee/scottlopez/>
 
 <code style="display:block; white-space:pre-wrap">
 
-**[Network Engineering Pro](https://www.neteng.pro/)** (NetEng-Pro), a Free/Libre and Open Source Software Community
+**[Network Engineering Pro](https://www.neteng.pro/)** ("NetEng-Pro"), a Free/Libre and Open Source Software Community
 
 Copyright &copy; 2024 **[Scott Lopez](https://linktr.ee/scottlopez/)**
 This material comes with ABSOLUTELY NO WARRANTY.
