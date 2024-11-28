@@ -14,7 +14,7 @@ Permissions beyond the scope of this license may be available (see following par
   License: https://creativecommons.org/licenses/by/4.0/
   SPDX Reference: https://spdx.org/licenses/CC-BY-4.0.html
 
-II. GNU General Public License 
+II. GNU General Public License
 
 This file is part of Network Engineering Pro.
 
