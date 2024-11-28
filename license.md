@@ -6,8 +6,11 @@ I. Creative Commons Attribution 4.0 International
 
 Licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
 You are free to: (a) share and (b) adapt upon this material for any purpose, even commercially.
+
 Attribution (e.g., appropriate credit) must be given per the terms of the license.
+
 Permissions beyond the scope of this license may be available (see following paragraphs).
+
   License: https://creativecommons.org/licenses/by/4.0/
   SPDX Reference: https://spdx.org/licenses/CC-BY-4.0.html
 
@@ -24,6 +27,7 @@ This file is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
+
   License: https://www.gnu.org/licenses/gpl-3.0.html
   SPDX Reference: https://spdx.org/licenses/GPL-3.0-or-later.html
 
@@ -152,7 +156,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 <code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
 
-**[Network Engineering Pro](https://www.neteng.pro/)**, a Free,/Libre and Open Source Software Community
+**[Network Engineering Pro](https://www.neteng.pro/)**, a Free/Libre and Open Source Software Community
 
 Copyright &copy; 2024 **[Scott Lopez](https://linktr.ee/scottlopez/)**
 <br />This material comes with ABSOLUTELY NO WARRANTY.
