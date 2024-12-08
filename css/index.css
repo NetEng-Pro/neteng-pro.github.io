@@ -5,18 +5,21 @@ Copyright © 2024 Scott Lopez
 I. Creative Commons Attribution 4.0 International
 
 Licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
-You are free to: (a) share and (b) adapt upon the material for any purpose, even commercially.
+You are free to: (a) share and (b) adapt upon this material for any purpose, even commercially.
+
 Attribution (e.g., appropriate credit) must be given per the terms of the license.
+
 Permissions beyond the scope of this license may be available (see following paragraphs).
+
   License: https://creativecommons.org/licenses/by/4.0/
   SPDX Reference: https://spdx.org/licenses/CC-BY-4.0.html
 
-II. GNU General Public License 3.0
+II. GNU General Public License
 
 This file is part of Network Engineering Pro.
 
 Network Engineering Pro is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License ("GNU GPL 3.0") as published by
+it under the terms of the GNU General Public License ("GNU GPL") as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
@@ -24,6 +27,7 @@ This file is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
+
   License: https://www.gnu.org/licenses/gpl-3.0.html
   SPDX Reference: https://spdx.org/licenses/GPL-3.0-or-later.html
 
@@ -41,23 +45,54 @@ Web: <https://linktr.ee/scottlopez/>
 
 /* index heading 1 */
 .index-h1 {
-  font-size: 24px;
+  font-size: 26px;
 }
 
 /* index heading 2 */
 .index-h2 {
-  font-size: 20px;
-  text-transform: lowercase;
+  font-size: 26px;
   font-variant: small-caps;
 }
 
-/* github callout table */
+.gh {
+  border-collapse: collapse;
+  border-spacing: 0;
+  /* margin: 0px auto; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gh td {
+  /* border-color: transparent; */
+  border-style: none;
+  /* border-width: 0; */
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.gh th {
+  /* border-color: transparent; */
+  border-style: none;
+  /* border-width: 0; */
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.gh .gh-tcell {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* github callout table
 .ghtable {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
   font-size: 18px;
-}
+} */
 
 .community {
   font-size: 22px;

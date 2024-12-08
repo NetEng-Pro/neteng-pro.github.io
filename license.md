@@ -55,8 +55,8 @@ Web: <https://linktr.ee/scottlopez/>
 
 **[Network Engineering Pro](https://www.neteng.pro/)** ("NetEng-Pro"), a Free/Libre and Open Source Software Community
 
-Copyright &copy; 2024 **[Scott Lopez](https://linktr.ee/scottlopez/)**<br />
-This material comes with ABSOLUTELY NO WARRANTY.
+Copyright &copy; 2024 **[Scott Lopez](https://linktr.ee/scottlopez/)**
+<br />This material comes with ABSOLUTELY NO WARRANTY.
 
 _Unless otherwise noted, NetEng-Pro in its' entirety is available, exclusively, under one or both of the two licenses outlined below._
 
