@@ -4,15 +4,19 @@ Copyright © 2024 Scott Lopez
 
 I. Creative Commons Attribution 4.0 International
 
-Licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
-You are free to: (a) share and (b) adapt upon this material for any purpose, even commercially.
+Network Engineering Pro (the "Licensed Material") is licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
 
-Attribution (e.g., appropriate credit) must be given per the terms of the license.
+Per the terms of the license, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially.
+You must give appropriate credit, provide a link to the license, and indicate if changes were made.
 
-Permissions beyond the scope of this license may be available (see following paragraphs).
+Absolutely NO WARRANTY is given or provided. The Licensed Material is provided strictly AS-IS and AS-AVAILABLE. See the CC BY 4.0 for full details.
 
-  License: https://creativecommons.org/licenses/by/4.0/
+Permissions beyond the scope of this license—and/or instead of those permitted by this license—may be available as further defined within this document.
+
   SPDX Reference: https://spdx.org/licenses/CC-BY-4.0.html
+  Canonical URL: https://creativecommons.org/licenses/by/4.0/
+
+---
 
 II. GNU General Public License
 
@@ -23,17 +27,19 @@ it under the terms of the GNU General Public License ("GNU GPL") as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-This file is distributed in the hope that it will be useful,
+This material is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
-  License: https://www.gnu.org/licenses/gpl-3.0.html
   SPDX Reference: https://spdx.org/licenses/GPL-3.0-or-later.html
+  Canonical URL: https://www.gnu.org/licenses/gpl-3.0.html
+
+---
 
 Author: Scott Lopez
 Email: <website@neteng.pro>
-Web: <https://linktr.ee/scottlopez/>
+Web: <https://linktr.ee/scottlopez>
 -->
 
 # <a id="top">Copyright and Licensing</a>
@@ -51,7 +57,7 @@ Web: <https://linktr.ee/scottlopez/>
 
 ## <a id="copyright">Copyright</a>
 
-<code style="display:block; white-space:pre-wrap">
+<code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
 
 **[Network Engineering Pro](https://www.neteng.pro/)** ("NetEng-Pro"), a Free/Libre and Open Source Software Community
 
@@ -79,11 +85,11 @@ Network Engineering Pro is available under one&mdash;or both&mdash;of the follow
 
   [Separate agreements | Creative Commons FAQ](https://creativecommons.org/faq/#can-i-enter-into-separate-or-supplemental-agreements-with-users-of-my-work)
 
-* Both the [GNU GPL](https://www.gnu.org/licenses/license-list.html#GPLOther) and [CC BY 4.0](https://www.gnu.org/licenses/license-list.html#ccby) are categorized as "free licenses, compatible with the GNU GPL."
+- Both the [GNU GPL](https://www.gnu.org/licenses/license-list.html#GPLOther) and [CC BY 4.0](https://www.gnu.org/licenses/license-list.html#ccby) are categorized as "free licenses, compatible with the GNU GPL."
 
   [Licenses for Other Works | GNU - Various Licenses and Comments About Them](https://www.gnu.org/licenses/license-list.html#OtherLicenses)
 
-* [What does it mean to say a license is “compatible with the GPL?" | GNU GPL FAQ](https://www.gnu.org/licenses/gpl-faq.html#WhatDoesCompatMean)
+- [What does it mean to say a license is “compatible with the GPL?" | GNU GPL FAQ](https://www.gnu.org/licenses/gpl-faq.html#WhatDoesCompatMean)
 
 &nbsp;
 
@@ -112,7 +118,7 @@ Absolutely no warranties are given or provided. The Licensed Material is provide
 
 Permissions beyond the scope of this license—and/or instead of those allowed by this license—may be available as further defined within this document.
 
-<code style="display: block; white-space: pre-wrap">
+<code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
 
 - SPDX Reference:
   <https://spdx.org/licenses/CC-BY-4.0.html>
@@ -141,7 +147,7 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with this material. If not, see <[https://www.gnu.org/licenses/](https://www.gnu.org/licenses/)>.
 
-<code style="display: block; white-space: pre-wrap">
+<code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
 
 - SPDX Reference:
   <https://spdx.org/licenses/GPL-3.0-or-later.html>

@@ -9,8 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
-img/.old/*
-license/.old/*
+.mdlint/
 css/diagnostic.css
 fiverserver.config.js
 
