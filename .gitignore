@@ -11,6 +11,7 @@
 *.sln.docstates
 .mdlint/
 css/diagnostic.css
+css/normalize.bak
 fiverserver.config.js
 
 # User-specific files (MonoDevelop/Xamarin Studio)
