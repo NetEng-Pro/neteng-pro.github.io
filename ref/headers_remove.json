@@ -1,3 +1,10 @@
+####
+# https://github.com/OWASP/www-project-secure-headers/blob/master/ci/headers_remove.json
+#
+# Obtained from the OWASP Secure Headers Project
+# File licensed under Apache License 2.0
+####
+
 {
   "last_update_utc": "2024-11-24 23:37:09",
   "headers": [
