@@ -1,3 +1,52 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later -->
+<!--
+
+Network Engineering Pro (NetEng-Pro), a Free/Libre and Open Source Community
+Copyright © 2024 Scott Lopez
+
+---
+
+I. Creative Commons Attribution 4.0 International
+
+Network Engineering Pro (the "Licensed Material") is licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
+To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
+
+Per the terms of the License, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially.
+You must give appropriate credit, provide a link to the License, and indicate if changes were made.
+
+The Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning
+the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability,
+fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether
+or not known or discoverable.
+
+Permissions beyond the scope of this License—or instead of those permitted by this License—may be available as further defined within this document.
+
+  SPDX Reference: https://spdx.org/licenses/CC-BY-4.0.html
+  Canonical URL: https://creativecommons.org/licenses/by/4.0/
+
+---
+
+II. GNU General Public License
+
+Network Engineering Pro is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License ("GNU GPL") as
+published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This material is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.
+
+See the GNU General Public License for more details.
+
+  SPDX Reference: https://spdx.org/licenses/GPL-3.0-or-later.html
+  Canonical URL: https://www.gnu.org/licenses/gpl-3.0.html
+
+---
+
+Author: Scott Lopez
+Email: <website@neteng.pro>
+Web: <https://bio.neteng.pro>
+
+-->
+
 # Network Engineering Pro
 
 I am actively developing a community that will specialize in guides and
@@ -23,7 +72,7 @@ tuned for updates as we delve deeper into these vital themes!
 ## Topics of Interest
 
 - FLOSS apps and programs
-- App guide for Android (and potentially Linux)
+- App guides for Android and Linux
 - Self-hosting guide and recommendations
 - Browser privacy & security hardening
 - Privacy-centric DNS services
@@ -84,18 +133,20 @@ provide _Best Practices_ documentation for beginners, among other content.
 [![cc-by](https://forthebadge.com/images/badges/cc-by.png)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
+
 <code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
 
-**[Network Engineering Pro](https://www.neteng.pro/)**, a Free/Libre and Open Source Software Community<br />
-Copyright &copy; 2024 **[Scott Lopez](https://linktr.ee/scottlopez/)**
-<br />This material comes with ABSOLUTELY NO WARRANTY.
+**[Network Engineering Pro](https://neteng.pro/)**, a Free/Libre and Open Source Software Community<br />  
+Copyright &copy; 2024 **[Scott Lopez](https://bio.neteng.pro)**
 
-_Unless otherwise noted, NetEng-Pro in its' entirety is available, exclusively, under one or both of the following two licenses._
+This material comes with ABSOLUTELY NO WARRANTY.
+
+_Unless otherwise noted, NetEng-Pro in its' entirety is available, exclusively, under the following licenses._
 
 Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**. You are free to: (a) share and (b) adapt upon this material for any purpose, even commercially.
 
 This is free software, and you are welcome to redistribute it under the **[GNU GPL 3.0](https://spdx.org/licenses/GPL-3.0-or-later.html)** or later.
 
-For details, see [Copyright and Licensing](https://www.neteng.pro/license.html).
+For details, see [Copyright and Licensing](./LICENSE.md).
 
 </code>
