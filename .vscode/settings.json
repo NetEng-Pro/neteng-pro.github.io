@@ -2,7 +2,6 @@
   "editor.tabSize": 2,
   "files.autoSave": "afterDelay",
   "editor.fontFamily": "'Lucida Console', 'Courier New', Consolas, monospace",
-  "editor.wordWrap": "on",
   "editor.accessibilitySupport": "off",
   "files.associations": {
     "*.htm": "html",
@@ -21,8 +20,18 @@
     "files.trimTrailingWhitespace": false,
     "editor.tabSize": 2,
     "editor.wordWrap": "wordWrapColumn",
-    "editor.accessibilitySupport": "off"
+    "editor.accessibilitySupport": "off",
+    "editor.codeLens": false
   },
   "editor.indentSize": "tabSize",
-  "editor.codeLens": false
+  "editor.codeLens": true,
+  "editor.codeLensFontFamily": "Lucida Console, Consolas, 'Courier New', monospace",
+  "prettier.bracketSameLine": true,
+  "yaml.format.proseWrap": "always",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wrappingStrategy": "advanced",
+  "html.format.wrapAttributes": "aligned-multiple",
+  "html.format.wrapLineLength": 100,
+  "editor.renderWhitespace": "all",
+  "editor.experimentalWhitespaceRendering": "off"
 }
