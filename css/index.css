@@ -55,8 +55,6 @@ Web: <https://bio.neteng.pro>
 /* index heading 1 */
 h1 .index-h1 {
   font-size: 26px;
-  text-align: center;
-  align-content: center;
 }
 
 /* index heading 2 */
@@ -64,6 +62,9 @@ h2 .index-h2 {
   font-size: 22px;
   text-transform: lowercase;
   font-variant: small-caps;
+}
+
+.center-index {
   text-align: center;
   align-content: center;
 }
@@ -173,13 +174,12 @@ h2 .index-h2 {
 
 /* display of badges */
 .badgetable {
-  width: 75%;
+  width: 50%;
   margin-right: auto;
   margin-left: 0;
   padding: 0;
   text-align: left;
   vertical-align: middle;
-  align-content: start;
 }
 
 /* Font Awesome table cell data */
