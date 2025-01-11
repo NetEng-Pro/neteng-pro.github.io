@@ -1,4 +1,4 @@
-<!-- SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later -->
+<!-- SPDX-License-Identifier: (CC-BY-4.0 OR GPL-3.0-or-later) -->
 <!--
 
 Network Engineering Pro (NetEng-Pro), a Free/Libre and Open Source Community
@@ -38,12 +38,12 @@ See the GNU General Public License for more details.
 ---
 
 Author: Scott Lopez
-Email: <website@neteng.pro>
+Email: <contact@neteng.pro>
 Web: <https://bio.neteng.pro>
 
 -->
 
-<a href="https://spdx.dev/learn/handling-license-info/">SPDX-License-Identifier:</a> CC-BY-4.0 OR GPL-3.0-or-later
+<a href="https://spdx.dev/learn/handling-license-info/">SPDX-License-Identifier:</a> (CC-BY-4.0 OR GPL-3.0-or-later)
 
 # <a id="top">Copyright and Licensing</a>
 
@@ -63,12 +63,18 @@ Web: <https://bio.neteng.pro>
 
 <code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
 
-**[Network Engineering Pro](https://neteng.pro/)** ("NetEng-Pro"), a Free/Libre and Open Source Software Community<br />
-Copyright &copy; 2024 **[Scott Lopez](https://bio.neteng.pro)**
+**[Network Engineering Pro](https://neteng.pro/)** (NetEng-Pro), a Free/Libre and Open  
+Source Software Community  
+Copyright &copy; 2024-2025 **[Scott Lopez](https://bio.neteng.pro)**
 
-This material comes with ABSOLUTELY NO WARRANTY. The Licensor offers the Licensed Material AS-IS and AS-AVAILABLE, and makes no representations or warranties of any kind concerning the Material.
+NetEng-Pro is provided as is and as available without any  
+warranties, express or implied. The Licensor makes no  
+representations or guarantees regarding the Licensed Material  
+and assumes no liability for its use.
 
-> _Unless otherwise noted, Network Engineering Pro ("NetEng-Pro") in its' entirety is available, exclusively, under the licenses outlined herein._
+> _Unless otherwise noted, Network Engineering Pro ("NetEng-Pro")  
+> in its' entirety is available, exclusively, under the licenses  
+> outlined herein._
 
 </code>
 
@@ -107,7 +113,7 @@ Network Engineering Pro is available under the following licenses:
 
 ### <a id="contact">_Contact_</a>
 
-For questions not covered here, or to request permissions not covered by the scope of either license, please email me at <website@neteng.pro>.
+For questions not covered here, or to request permissions not covered by the scope of either license, please email me at <contact@neteng.pro>.
 
 <sub>[Top](#top)</sub>
 
@@ -115,14 +121,13 @@ For questions not covered here, or to request permissions not covered by the sco
 
 ### <a id="cc-by">Creative Commons Attribution 4.0 International</a>
 
-<sup>Formats: [Markdown](./license/CC-BY-4.0.md) | [XMP](./license/CC-BY-4.0.xmp) | [RDF](./license/CC-BY-4.0.rdf)</sup>
+<sup>Formats: [XMP](license/CC-BY-4.0.xmp) | [Markdown](license/CC-BY-4.0.md) | [RDF](license/CC-BY-4.0.rdf)</sup>
 
 Network Engineering Pro (the "Licensed Material") is licensed under **Creative Commons Attribution 4.0 International** ("CC BY 4.0")
 [<img style="display: inline-block; height: 18px !important; margin-left: 3px; vertical-align: text-bottom; text-decoration: none;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" />](https://creativecommons.org/licenses/by/4.0/)
 [<img style="display: inline-block; height: 18px !important; margin-left: 3px; vertical-align: text-bottom; text-decoration: none;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="BY" />](https://creativecommons.org/licenses/by/4.0/).
 
-Per the terms of the License, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially.  
-You must give appropriate credit, provide a link to the License, and indicate if changes were made.
+Per the terms of the License, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially. You must give appropriate credit, provide a link to the License, and indicate if changes were made.
 
 The Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable.
 
@@ -143,9 +148,9 @@ Permissions beyond the scope of this License—or instead of those permitted by 
 
 ### <a id="gnu-gpl">GNU General Public License</a>
 
-<sup>Formats: [Markdown](./license/COPYING.md) | [ODT](./license/COPYING.odt)</sup>
+<sup>Formats: [Markdown](license/COPYING.md) | [ODT](license/COPYING.odt)</sup>
 
-Network Engineering Pro ("NetEng-Pro") is free software: you can redistribute it and/or modify it under the terms of the **GNU General Public License** ("GNU GPL") as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+Network Engineering Pro (NetEng-Pro) is free software: you can redistribute it and/or modify it under the terms of the **GNU General Public License** ("GNU GPL") as published by the [Free Software Foundation](https://www.fsf.org/), either version 3 of the License, or (at your option) any later version.
 
 This material is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
@@ -166,19 +171,55 @@ You should have received a copy of the GNU General Public License along with thi
 
 <code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
 
-**[Network Engineering Pro](https://neteng.pro/)** ("NetEng-Pro"), a Free/Libre and Open Source Software Community<br />
-Copyright &copy; 2024 **[Scott Lopez](https://bio.neteng.pro)**
+_**Website base structure provided by HTML5 Boilerplate:**_  
+<https://html5boilerplate.com/>
 
-Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**. You are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially.
+################################################################################
 
-This is free software: you can redistribute it and/or modify it under the terms of the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)** as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+Copyright (c) HTML5 Boilerplate
 
-> Attribution is required by both licenses: you must give appropriate credit, provide a link to the License, and indicate if changes were made.
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
 
-This material comes with ABSOLUTELY NO WARRANTY. The Licensor offers the Licensed Material AS-IS and AS-AVAILABLE, and makes no representations or warranties of any kind concerning the Material.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-> _Unless otherwise noted, NetEng-Pro in its' entirety is available, exclusively, under one or both of the above licenses._
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-For complete information, please consult the **_"[Licensing](#licensing)"_** section and review the associated license agreements in their entirety.
+</code>
+
+<sub>[Top](#top)</sub>
+
+---
+
+<code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
+
+**[Network Engineering Pro](https://neteng.pro/)** (NetEng-Pro), a Free/Libre and Open  
+Source Software Community<br />
+Copyright &copy; 2024-2025 **[Scott Lopez](https://bio.neteng.pro)**
+
+Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published  
+by the Free Software Foundation, either version 3 of the  
+License, or (at your option) any later version.
+
+This material is free to distribute, remix, adapt, and build  
+upon for any purpose, including commercial use. As free  
+software, it can be redistributed and modified under the  
+[specified terms](#gnu-gpl).
+
+NetEng-Pro is provided **_as is_** and **_as available_** without any  
+warranties, express or implied. The Licensor makes no  
+representations or guarantees regarding the Licensed Material  
+and assumes no liability for its use.
 
 </code>

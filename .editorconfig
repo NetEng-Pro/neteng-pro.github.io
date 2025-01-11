@@ -1,6 +1,9 @@
+# SPDX-License-Identifier: (CC-BY-4.0 OR GPL-3.0-or-later)
+# This file is part of Network Engineering Pro.
+#
 # EditorConfig helps developers define and maintain consistent
 # coding styles between different editors and IDEs
-# editorconfig.org
+# See http://editorconfig.org/ for full details
 
 ; top-most EditorConfig file
 root = true
@@ -21,6 +24,11 @@ end_of_line = crlf
 ; Cascading Stylesheets -
 [*.css]
 indent_size = 2
+
+; HTML files -
+[*.{html,htm}]
+indent_size = 2
+max_line_length = 100
 
 ; JavaScript files -
 [*.{js,ts}]

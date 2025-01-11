@@ -156,10 +156,11 @@ MD031:
 # MD032/blanks-around-lists : Lists should be surrounded by blank lines : https://github.com/DavidAnson/markdownlint/blob/v0.37.0/doc/md032.md
 MD032: true
 
+# DISABLED
 # MD033/no-inline-html : Inline HTML : https://github.com/DavidAnson/markdownlint/blob/v0.37.0/doc/md033.md
 MD033:
   # Allowed elements
-  allowed_elements: [a, br, code, img, sub, sup]
+  #allowed_elements: [a, br, code, img, sub, sup]
 
 # MD034/no-bare-urls : Bare URL used : https://github.com/DavidAnson/markdownlint/blob/v0.37.0/doc/md034.md
 MD034: true
@@ -190,12 +191,13 @@ MD040:
   # Require language only
   language_only: false
 
+# DISABLED
 # MD041/first-line-heading/first-line-h1 : First line in a file should be a top-level heading : https://github.com/DavidAnson/markdownlint/blob/v0.37.0/doc/md041.md
-MD041:
+#MD041:
   # Heading level
-  level: 1
+  #level: 1
   # RegExp for matching title in front matter
-  front_matter_title: '^\s*title\s*[:=]'
+  #front_matter_title: '^\s*title\s*[:=]'
 
 # MD042/no-empty-links : No empty links : https://github.com/DavidAnson/markdownlint/blob/v0.37.0/doc/md042.md
 MD042: true
@@ -203,7 +205,15 @@ MD042: true
 # MD043/required-headings : Required heading structure : https://github.com/DavidAnson/markdownlint/blob/v0.37.0/doc/md043.md
 MD043:
   # List of headings
-  headings: []
+  headings:
+    [
+        "*",
+        "# Head",
+        "## Item",
+        "*",
+        "## Foot",
+        "*"
+    ]
   # Match case of headings
   match_case: false
 
