@@ -4,6 +4,7 @@ SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
 This file is part of Network Engineering Pro
 */
 
+import CompressionPlugin from "compression-webpack-plugin";
 import CopyPlugin from "copy-webpack-plugin";
 import CssMinimizerPlugin from "css-minimizer-webpack-plugin";
 import HtmlWebpackPlugin from "html-webpack-plugin";
@@ -15,11 +16,11 @@ import common from "./webpack.common.mjs";
 export default merge(common, {
   mode: "production",
   output: {
-    filename: "js/[name].[contenthash].js", // Use contenthash for better caching
-    path: path.resolve(process.cwd(), "dist"), // Output directory for production
-    chunkFilename: "js/[name].[contenthash].js", // File name for dynamically loaded chunks
-    chunkFormat: "array-push", // Specify the chunk format
-    clean: true, // Clean the output directory before emit
+    filename: "js/[name].[contenthash].js",
+    path: path.resolve(process.cwd(), "dist"),
+    chunkFilename: "js/[name].[contenthash].js",
+    chunkFormat: "array-push",
+    clean: true,
   },
   target: "web", // Ensure the target is set to 'web' for browser environments
   optimization: {
@@ -27,13 +28,9 @@ export default merge(common, {
     minimizer: [
       new TerserPlugin({
         terserOptions: {
-          mangle: {
-            reserved: ["n", "t", "p"], // Prevent mangling of certain variables
-          },
-          compress: {
-            drop_console: true, // Remove console logs for better performance
-          },
+          compress: { drop_console: true }, // Remove console logs for better performance
           format: {
+            comments: false, // Removes comments while keeping minified output
             beautify: true, // Preserve whitespace in JavaScript files
           },
         },
@@ -50,27 +47,22 @@ export default merge(common, {
         },
       }),
     ],
-    splitChunks: {
-      chunks: "all", // Split chunks for better caching
-      minSize: 20000, // Minimum size for a chunk to be generated
-      maxSize: 70000, // Maximum size for a chunk before splitting
-      minChunks: 1, // Minimum number of chunks that must share a module before splitting
-      cacheGroups: {
-        defaultVendors: {
-          test: /[\\/]node_modules[\\/]/,
-          priority: -10, // Lower priority for vendor chunks
-          reuseExistingChunk: true, // Reuse existing chunk if possible
-        },
-        default: {
-          minChunks: 2,
-          priority: -20,
-          reuseExistingChunk: true, // Reuse existing chunk if possible
-        },
-      },
-    },
-    runtimeChunk: "single", // Create a single runtime bundle for all chunks
   },
   plugins: [
+    new CompressionPlugin({
+      filename: "[path][base].br",
+      algorithm: "brotliCompress",
+      test: /\.(js|css|html|svg)$/,
+      threshold: 10240,
+      minRatio: 0.7, // More aggressive Brotli compression
+    }),
+    new CompressionPlugin({
+      filename: "[path][base].gz",
+      algorithm: "gzip",
+      test: /\.(js|css|html|svg)$/,
+      threshold: 10240,
+      minRatio: 0.8, // Less aggressive Gzip compression
+    }),
     new HtmlWebpackPlugin({
       template: "./index.html", // Template for the HTML file
       minify: {
@@ -88,10 +80,10 @@ export default merge(common, {
     }),
     new CopyPlugin({
       patterns: [
-        { from: "img", to: "img" },
-        { from: "css", to: "css" },
-        { from: "pages", to: "pages" },
-        { from: "legal", to: "legal" },
+        { from: "img", to: "img", globOptions: { dot: false } },
+        { from: "css", to: "css", globOptions: { dot: false } },
+        { from: "pages", to: "pages", globOptions: { dot: false } },
+        { from: "legal", to: "legal", globOptions: { dot: false } },
         { from: "js/vendor", to: "js/vendor" },
         { from: "favicon.svg", to: "favicon.svg" },
         { from: "favicon.ico", to: "favicon.ico" },
@@ -108,7 +100,7 @@ export default merge(common, {
         { from: "bimi-svg-tiny-ps.xml", to: "bimi-svg-tiny-ps.xml" },
         { from: "site.webmanifest", to: "site.webmanifest" },
         { from: "sitemap.xml", to: "sitemap.xml" },
-        { from: "CNAME", to: "." }, // Corrected path to copy CNAME to the root directory
+        { from: "CNAME", to: "." }, // Correct path to copy CNAME to the root directory
       ],
     }),
   ],

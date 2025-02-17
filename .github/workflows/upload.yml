@@ -5,7 +5,7 @@
 # Webpack, Publish to npm" workflow completes successfully OR when manually
 # triggered.
 
-name: Deploy static content from /dist to GitHub Pages
+name: Deploy static content to GitHub Pages
 
 on:
   workflow_run:

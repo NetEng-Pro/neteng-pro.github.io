@@ -6,42 +6,45 @@ This file is part of Network Engineering Pro
 
 import autoprefixer from "autoprefixer";
 import path from "path";
+import webpack from "webpack";
 
 export default {
-  // Entry point for the application
+  mode: "none", // Explicitly set the mode (overridden by merge)
   entry: {
-    app: "./js/app.js", // Main JavaScript file
+    app: "./js/app.js",
   },
-  // Output configuration
   output: {
-    path: path.resolve(process.cwd(), "dist"), // Output directory
-    filename: "js/[name].[contenthash].js", // Output file name with contenthash for better caching
-    chunkFilename: "js/[name].[contenthash].js", // File name for dynamically loaded chunks
-    chunkFormat: "array-push", // Explicitly set the chunk format
-    clean: true, // Clean the output directory before emit
+    path: path.resolve(process.cwd(), "dist"),
+    filename: "js/[name].[contenthash].js",
+    chunkFilename: "js/[name].[contenthash].js",
+    chunkFormat: "array-push",
+    clean: true,
   },
-  // Target environment
-  target: "web", // Ensure the target is set to 'web' for browser environments
-  // Module rules
+  target: "web",
   module: {
     rules: [
       {
-        test: /\.js$/, // Apply this rule to .js files
-        exclude: /node_modules/, // Exclude node_modules directory
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
         use: [
           {
-            loader: "babel-loader", // Use Babel loader to transpile ES6+ code
+            loader: "babel-loader",
             options: {
-              presets: ["@babel/preset-env"], // Ensure you have @babel/preset-env installed
+              presets: ["@babel/preset-env"],
+              cacheDirectory: true, // Enable caching for faster builds
             },
           },
+          "astroturf/loader",
         ],
       },
       {
-        test: /\.css$/, // Apply this rule to .css files
+        test: /\.css$/,
         use: [
           "style-loader",
-          "css-loader",
+          {
+            loader: "css-loader",
+            options: { modules: { auto: true } }, // Auto-detect CSS Modules
+          },
           {
             loader: "postcss-loader",
             options: {
@@ -57,40 +60,40 @@ export default {
           },
         ],
       },
-      {
-        test: /\.jsx?$/, // Apply this rule to .jsx and .js files
-        use: ["babel-loader", "astroturf/loader"],
-      },
     ],
   },
-  // Optimization settings
   optimization: {
+    usedExports: true,
+    sideEffects: false,
     splitChunks: {
-      chunks: "all", // Split chunks for better caching
-      minSize: 20000, // Minimum size for a chunk to be generated
-      maxSize: 70000, // Maximum size for a chunk before splitting
-      minChunks: 1, // Minimum number of chunks that must share a module before splitting
+      chunks: "all",
+      minSize: 20000,
+      maxSize: 100000, // Increased max chunk size
+      minChunks: 1,
       cacheGroups: {
         defaultVendors: {
           test: /[\\/]node_modules[\\/]/,
-          priority: -10, // Lower priority for vendor chunks
-          reuseExistingChunk: true, // Reuse existing chunk if possible
+          name: "vendors",
+          priority: -10,
+          reuseExistingChunk: true,
         },
         default: {
           minChunks: 2,
           priority: -20,
-          reuseExistingChunk: true, // Reuse existing chunk if possible
+          reuseExistingChunk: true,
         },
       },
     },
-    runtimeChunk: "single", // Create a single runtime bundle for all chunks
+    runtimeChunk: "single",
   },
-  // Plugins
   plugins: [
-    // Add any necessary plugins here
+    new webpack.ProvidePlugin({
+      global: "globalThis",
+      self: "globalThis",
+      window: "globalThis",
+    }),
   ],
-  // Resolve settings
   resolve: {
-    extensions: [".js", ".json"], // Automatically resolve these extensions
+    extensions: [".js", ".json"],
   },
 };
