@@ -6,7 +6,7 @@
 # performed regardless of the outcome of the "Build/Test Webpack, Publish to
 # npm" workflow.
 
-name: Deploy static content from ./dist to Pages
+name: Deploy static content to GitHub Pages (Forced)
 
 on:
   workflow_dispatch:

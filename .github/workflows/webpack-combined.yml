@@ -13,7 +13,7 @@
 #
 # For more information see: https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
 
-name: Build/Test Webpack, Publish to npmjs
+name: Build/Test Webpack, Publish to npmjs and GPR
 
 on:
   #release:
