@@ -1,8 +1,11 @@
-/* SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later */
-/*
+/* ==========================================================================
+   SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
+   This file is part of Network Engineering Pro.
+   ========================================================================== */
 
+/*
 Network Engineering Pro (NetEng-Pro), a Free/Libre and Open Source Community
-Copyright © 2024 Scott Lopez
+Copyright © 2024-2025 Scott Lopez
 
 ---
 
@@ -25,8 +28,6 @@ Permissions beyond the scope of this License—or instead of those permitted by 
 
 II. GNU General Public License
 
-This file is part of Network Engineering Pro.
-
 Network Engineering Pro is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License ("GNU GPL") as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 This material is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
@@ -40,56 +41,34 @@ See the GNU General Public License for more details.
 ---
 
 Author: Scott Lopez
-Email: <website@neteng.pro>
+Email: <contact@neteng.pro>
 Web: <https://bio.neteng.pro>
-
 */
 
-/* NetEng-Pro logo table */
-.logo {
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* ==========================================================================
+   Responsive Tables
+   ========================================================================== */
 
-/* index heading 1 */
-h1 .index-h1 {
-  font-size: 26px;
-}
-
-/* index heading 2 */
-h2 .index-h2 {
-  font-size: 22px;
-  text-transform: lowercase;
-  font-variant: small-caps;
-}
-
-.center-index {
-  text-align: center;
-  align-content: center;
-}
-
+/* github table */
 .gh {
   border-collapse: collapse;
   border-spacing: 0;
-  /* margin: 0px auto; */
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .gh td {
-  /* border-color: transparent; */
-  border-style: none;
-  /* border-width: 0; */
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;
 }
 
 .gh th {
-  /* border-color: transparent; */
-  border-style: none;
-  /* border-width: 0; */
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
   font-weight: normal;
   overflow: hidden;
   padding: 10px 5px;
@@ -101,92 +80,173 @@ h2 .index-h2 {
   vertical-align: middle;
 }
 
-/* github callout table
-.ghtable {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 18px;
-} */
+@media screen and (width <= 767px) {
+  .gh {
+    width: auto !important;
+  }
+
+  .gh col {
+    width: auto !important;
+  }
+
+  .gh-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: auto 0;
+  }
+}
+
+/* social media / font awesome table */
+.soc {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 auto;
+}
+
+.soc td {
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.soc th {
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.soc .soc-fa {
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media screen and (width <= 767px) {
+  .soc {
+    width: auto !important;
+  }
+
+  .soc col {
+    width: auto !important;
+  }
+
+  .soc-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: auto 0;
+  }
+}
+
+/* badges table */
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 auto;
+}
+
+.tg td {
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg th {
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg .tg-cell {
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media screen and (width <= 767px) {
+  .tg {
+    width: auto !important;
+  }
+
+  .tg col {
+    width: auto !important;
+  }
+
+  .tg-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: auto 0;
+  }
+}
+
+/* ==========================================================================
+   CSS for index.html
+   ========================================================================== */
+
+.center-nav {
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.index1 {
+  font-size: 16px;
+  text-align: center;
+  font-style: italic;
+}
+
+.index2 {
+  font-size: 20px;
+  font-variant: small-caps;
+  text-align: center;
+}
 
 .community {
   font-size: 22px;
 }
 
-.voice {
+.voice1 {
   font-size: 20px;
+  font-weight: bold;
 }
 
-/* #licensing {
-  font-size: 12px;
-  vertical-align: middle;
-} */
+.voice2 {
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+}
 
 .copyright {
   font-size: 12px;
-  vertical-align: middle;
-  margin-left: 0;
-  margin-right: auto;
+  text-align: center;
 }
 
-.cwlic {
-  text-decoration: none;
-}
-
-.cwlic:hover {
-  text-decoration: underline;
-}
-
-.cwlic:focus,
-.cwlic:active {
-  transition: none;
-}
-
-/* code block for legal text */
-.block {
-  font-family: "Courier New", Courier, monospace;
-  height: 50vh;
-  width: 100%;
-  background: none;
-  border: none;
-  border-radius: 0;
-  resize: none;
-  outline: none;
-}
-
-/* not working properly
-.prewrap {
-  display: block;
-  white-space: pre-wrap;
-}
-
-.quote {
+.bquote {
   border-left: 3px solid #9e9e9e;
   padding-left: 10px;
-  margin-left: 40px;
+  margin-left: 30px;
   font-style: italic;
-} */
-
-/* social media */
-.socials {
-  margin: 0px auto;
 }
 
-/* display of badges */
-.badgetable {
-  width: 50%;
-  margin-right: auto;
-  margin-left: 0;
-  padding: 0;
-  text-align: left;
-  vertical-align: middle;
-}
-
-/* Font Awesome table cell data */
-.fa {
-  width: 40px;
-  height: 40px;
+.tandc {
+  font-size: 14px;
+  font-weight: bold;
   text-align: center;
-  vertical-align: middle;
-  align-content: center;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

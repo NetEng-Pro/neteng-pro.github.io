@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: (CC-BY-4.0 OR GPL-3.0-or-later)
+# SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
 # This file is part of Network Engineering Pro.
 #
 # EditorConfig helps developers define and maintain consistent
@@ -14,6 +14,7 @@ charset = utf-8
 end_of_line = lf
 indent_size = 2
 indent_style = space
+max_line_length = 80
 insert_final_newline = true
 trim_trailing_whitespace = true
 
@@ -28,7 +29,6 @@ indent_size = 2
 ; HTML files -
 [*.{html,htm}]
 indent_size = 2
-max_line_length = 100
 
 ; JavaScript files -
 [*.{js,ts}]

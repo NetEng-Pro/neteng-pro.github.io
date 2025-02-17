@@ -1,0 +1,14 @@
+{
+  "short_name": "NetEng-Pro",
+  "name": "Network Engineering Pro",
+  "icons": [
+    {
+      "src": "favicon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#191919",
+  "theme_color": "#ffc627"
+}

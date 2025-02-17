@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <!-- SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later -->
-<html lang="en">
+<!-- This file is part of Network Engineering Pro -->
+<html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
 
     <!--
-
     Network Engineering Pro (NetEng-Pro), a Free/Libre and Open Source Community
-    Copyright © 2024 Scott Lopez
+    Copyright © 2024-2025 Scott Lopez
 
     ---
 
@@ -32,7 +32,8 @@
 
     Network Engineering Pro is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License ("GNU GPL") as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-    This material is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+    This material is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+    FITNESS FOR A PARTICULAR PURPOSE.
 
     See the GNU General Public License for more details.
 
@@ -42,122 +43,47 @@
     ---
 
     Author: Scott Lopez
-    Email: <website@neteng.pro>
+    Email: <contact@neteng.pro>
     Web: <https://bio.neteng.pro>
-
     -->
 
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=yes"
-    />
-
-    <!-- HTML META TAGS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>
-      Open Source Software Community | Android, Linux, Security, Privacy -
+      Open Source Software Community | Android, Linux, Privacy, Security -
       Network Engineering Pro
     </title>
-    <meta
-      name="description"
-      content="Explore Free/Libre & Open Source Software, security, and digital privacy for Android & Linux at Network Engineering Pro.
-    Join the community & contribute today!"
-    />
-    <meta name="author" content="Scott Lopez" />
-    <meta
-      name="keywords"
-      content="foss, floss, free software, open source, android, linux, privacy, security, cybersecurity"
-    />
-    <meta
-      name="robots"
-      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
-    />
 
-    <link rel="canonical" href="https://neteng.pro/" />
-    <base href="https://neteng.pro/" target="_self" />
-
-    <!-- BEGIN FAVICONS -->
-    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
-    <!-- For Chrome on Android -->
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-    <!-- END FAVICONS -->
-
-    <!--
-    Security meta tags based on OWASP recommendations.
-    See https://owasp.org/www-project-secure-headers/ci/headers_add.json for all recommended policies.
-      Exceptions:
-      - [+] `base-uri 'self';`   : Added per MDNS recommendations.
-    -->
-    <!--
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="
-      default-src 'self';
-      form-action 'self';
-      object-src 'none';
-      frame-ancestors 'none';
-      upgrade-insecure-requests;
-      block-all-mixed-content;
-      base-uri 'self';
-      " />
-      -->
-    <!-- report-uri https://your-report-collector.example.com/csp-reports; -->
-
-    <meta http-equiv="Cache-Control" content="no-store, max-age=0" />
-    <meta http-equiv="Clear-Site-Data" content="cache, cookies, storage" />
-    <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp" />
-    <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin" />
-    <meta http-equiv="Cross-Origin-Resource-Policy" content="same-origin" />
-    <meta http-equiv="Referrer-Policy" content="no-referrer" />
-    <meta
-      http-equiv="Strict-Transport-Security"
-      content="max-age=31536000; includeSubDomains"
-    />
-    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
-    <meta http-equiv="X-Frame-Options" content="deny" />
-    <meta http-equiv="X-Permitted-Cross-Domain-Policies" content="none" />
-    <meta
-      http-equiv="Permissions-Policy"
-      content="accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(self), usb=(), web-share=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(), gamepad=(), hid=(), idle-detection=(), interest-cohort=(), serial=(), unload=()"
-    />
-
-    <!-- BEGIN STYLESHEETS -->
-    <!-- normalize stylesheet -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"
-      type="text/css"
-    />
-    <!-- <link rel="stylesheet" href="./css/normalize.css" type="text/css" /> -->
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
     <!-- Font Awesome solids and brands -->
     <script
       src="https://kit.fontawesome.com/f70f03cb45.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- main stylesheets -->
-    <link rel="stylesheet" href="./css/default.css" type="text/css" />
-    <link rel="stylesheet" href="./css/index.css" type="text/css" />
-    <!-- END STYLESHEETS -->
+      crossorigin="anonymous"></script>
+
+    <meta
+      name="description"
+      content="Explore Free/Libre & Open Source Software, security, and digital privacy for Android & Linux at Network Engineering Pro. Join the community & contribute today!" />
+    <meta name="author" content="Scott Lopez" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <link rel="canonical" href="https://neteng.pro" />
+    <base href="https://neteng.pro" target="_self" />
 
     <!-- FACEBOOK META TAGS -->
+    <meta
+      property="og:title"
+      content="Network Engineering Pro | Open Source Software Community" />
+    <meta property="og:type" content="website" />
     <meta property="og:url" content="neteng.pro" />
-    <meta property="og:title" content="Network Engineering Pro" />
+    <meta property="og:image" content="img/banner-og-1200x630.png" />
+    <meta property="og:image:alt" content="Network Engineering Pro" />
     <meta
       property="og:description"
-      content="Explore Free/Libre & Open Source Software, security, and digital privacy for Android & Linux at Network Engineering Pro.
-    Join the community & contribute today!"
-    />
-    <meta
-      property="og:image"
-      content="https://neteng.pro/img/banner-og-1200x630.png"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://neteng.pro/img/banner-og-1200x630.png"
-    />
-    <meta property="og:image:alt" content="Network Engineering Pro" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:locale" content="en_US" />
+      content="Explore Free/Libre & Open Source Software, security, and digital privacy for Android & Linux at Network Engineering Pro. Join the community & contribute today!" />
 
     <!-- TWITTER META TAGS -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -165,210 +91,287 @@
     <meta name="twitter:creator" content="@ScottGLopez" />
     <meta property="twitter:domain" content="neteng.pro" />
     <meta property="twitter:url" content="neteng.pro" />
-    <meta name="twitter:title" content="Network Engineering Pro" />
+    <meta
+      name="twitter:title"
+      content="Network Engineering Pro | Open Source Software Community" />
     <meta
       name="twitter:description"
-      content="Explore Free/Libre & Open Source Software, security, and digital privacy for Android & Linux at Network Engineering Pro.
-    Join the community & contribute today!"
-    />
-    <meta
-      name="twitter:image"
-      content="https://neteng.pro/img/banner-og-1200x630.png"
-    />
+      content="Explore Free/Libre & Open Source Software, security, and digital privacy for Android & Linux at Network Engineering Pro. Join the community & contribute today!" />
+    <meta name="twitter:image" content="img/banner-og-1200x630.png" />
     <meta name="twitter:image:alt" content="Network Engineering Pro" />
-
     <!-- Meta Tags Generated via dnschecker.org -->
+
+    <link rel="icon" href="favicon.ico" sizes="any" type="image/x-icon" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="favicon-apple.png" type="image/png" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#ffc627" />
+
+    <meta http-equiv="Referrer-Policy" content="no-referrer" />
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
 
     <meta
       name="facebook-domain-verification"
-      content="bx4ham0zkpvzztzu213bhpt76m9siq"
-    />
+      content="bx4ham0zkpvzztzu213bhpt76m9siq" />
   </head>
 
   <body>
-    <!-- BEGIN TITLE -->
-    <header>
-      <table class="logo">
-        <tr>
-          <td>
-            <hgroup>
-              <img
-                style="width: 40%; height: auto"
-                src="./img/banner.png"
-                alt="Network Engineering Pro"
-              />
-              <h2 class="index-h2" style="text-transform: lowercase; font-variant: small-caps;">
-                floss | android | linux | security | privacy
-              </h2>
-            </hgroup>
-          </td>
-        </tr>
-      </table>
+    <!-- BEGIN HEADER -->
+    <header id="header-nav">
+      <nav class="center-nav">
+        <a rel="noopener noreferrer" href="index.html" target="_self">home</a>
+        &nbsp; | &nbsp;
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/README.md#about-us"
+          target="_blank"
+          >about</a
+        >
+        &nbsp; | &nbsp;
+        <a
+          rel="noopener noreferrer"
+          href="https://join.neteng.pro"
+          target="_blank"
+          >join</a
+        >
+        &nbsp; | &nbsp;
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/NetEng-Pro/neteng-pro.github.io/discussions"
+          target="_blank"
+          >discussions</a
+        >
+        &nbsp; | &nbsp;
+        <a
+          rel="noopener noreferrer"
+          href="https://linktr.ee/neteng_pro"
+          target="_blank"
+          >link hub</a
+        >
+      </nav>
     </header>
+    <!-- END HEADER -->
+
+    &nbsp;
+
+    <!-- BEGIN TITLE -->
+    <hgroup id="site-title">
+      <img
+        class="logo"
+        src="img/logo-transparent-500x500.png"
+        alt="Network Engineering Pro"
+        width="200px"
+        height="200px" />
+      <h1 class="index1"
+        >Empowering choices, securing privacy<br />
+        with open solutions.</h1
+      >
+      <h2 class="index2">FLOSS | Android | Linux | Security | Privacy</h2>
+    </hgroup>
     <!-- END TITLE -->
 
     &nbsp;
 
-    <!-- BEGIN MAIN CONTENT -->
-    <section id="main-content">
-      <table class="gh">
-        <tr>
-          <td class="gh-tcell">
-            <!-- BEGIN NAV -->
-            <nav>
-              &nbsp;
-              <!-- space for clarity -->
-              <span class="community">
-                Join the community in
-                <a
-                  rel="noopener noreferrer"
-                  href="https://discuss.neteng.pro"
-                  target="_blank"
-                >
-                  NetEng-Pro Discussions</a
-                >!</span
-              >
-              <p>
-                <span class="voice">
-                  <strong>Make your voice heard!</strong>
-                </span>
-              </p>
-            </nav>
-            <!-- END NAV -->
-            &nbsp;
-          </td>
-        </tr>
-        <tr>
-          <td class="gh-tcell">
-            &nbsp;
-            <a
-              rel="noopener noreferrer"
-              href="https://github.neteng.pro"
-              target="_blank"
-            >
-              <img
-                style="width: auto; height: 100px"
-                src="./img/gh-logo.png"
-                alt="GitHub"
-              />
-            </a>
-            <p>
-              <i>
-                Visit us on
-                <a
-                  rel="noopener noreferrer"
-                  href="https://github.neteng.pro"
-                  target="_blank"
-                >
-                  GitHub!
-                </a>
-              </i>
-            </p>
-          </td>
-        </tr>
-      </table>
-    </section>
-    <!-- END MAIN CONTENT -->
+    <hr class="hr-styled" />
 
     &nbsp;
-    <p>&nbsp;</p>
+
+    <!-- BEGIN MAIN CONTENT-->
+    <section id="main-content">
+      <div class="gh-wrap">
+        <table class="gh">
+          <tbody>
+            <tr>
+              <td class="gh-tcell">
+                <h3
+                  >Join the community in
+                  <a
+                    rel="noopener noreferrer"
+                    href="https://github.com/NetEng-Pro/neteng-pro.github.io/discussions"
+                    target="_blank"
+                    >Discussions</a
+                  >!
+                </h3>
+                &nbsp;
+                <p class="voice1">Your voice matters!</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="gh-tcell">
+                <a
+                  rel="noopener noreferrer"
+                  href="https://github.com/NetEng-Pro"
+                  target="_blank">
+                  <img
+                    style="width: auto; height: 100px"
+                    src="img/gh-logo.png"
+                    alt="GitHub"
+                /></a>
+                <p class="voice2">
+                  Visit us on
+                  <a
+                    rel="noopener noreferrer"
+                    href="https://github.com/NetEng-Pro"
+                    target="_blank"
+                    >GitHub!</a
+                  >
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      &nbsp;
+
+      <p class="center-text">
+        Welcome! We're under construction at the moment, but be sure to check us
+        out on social media (links below)!
+      </p>
+    </section>
+    <!-- END MAIN CONTENT-->
+
+    &nbsp;
+
+    <!-- BEGIN SOCIAL MEDIA -->
+    <section id="social-media">
+      <div class="soc-wrap">
+        <table class="soc">
+          <tbody>
+            <tr>
+              <td class="soc-fa">
+                <p>
+                  <a
+                    rel="noopener noreferrer"
+                    href="https://facebook.com/neteng.pro">
+                    <span class="fa-brands fa-square-facebook fa-3x"></span>
+                  </a>
+                </p>
+              </td>
+              <td class="soc-fa">
+                <p>
+                  <a
+                    rel="noopener noreferrer"
+                    href="https://instagram.com/neteng_pro">
+                    <span class="fa-brands fa-square-instagram fa-3x"></span>
+                  </a>
+                </p>
+              </td>
+              <td class="soc-fa">
+                <p>
+                  <a rel="noopener noreferrer" href="https://x.com/NetEng_Pro"
+                    ><span class="fa-brands fa-square-twitter fa-3x"></span>
+                  </a>
+                </p>
+              </td>
+              <td class="soc-fa">
+                <p>
+                  <a
+                    rel="noopener noreferrer"
+                    href="https://threads.net/neteng_pro">
+                    <span class="fa-brands fa-square-threads fa-3x"></span>
+                  </a>
+                </p>
+              </td>
+              <td class="soc-fa">
+                <p>
+                  <a
+                    rel="noopener noreferrer"
+                    href="https://noc.social/@NetEng_Pro">
+                    <span class="fa-brands fa-mastodon fa-3x"></span>
+                  </a>
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- END SOCIAL MEDIA -->
+
+    <hr class="hr-styled" />
+
+    &nbsp;
+
+    <p class="tandc">
+      <a
+        rel="noopener noreferrer"
+        href="https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/LICENSE.md"
+        target="_blank"
+        >Copyright and Licensing</a
+      >
+      &nbsp; | &nbsp;
+      <a
+        rel="noopener noreferrer"
+        href="https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/TERMS.md"
+        target="_blank"
+        >Terms and Conditions</a
+      >
+    </p>
+
+    &nbsp;
 
     <!-- BEGIN BADGES -->
-    <footer>
-      <table class="socials">
-        <tr>
-          <td class="fa">
-            <!-- Font Awesome social icons -->
-            <a
-              rel="noopener noreferrer"
-              href="https://www.facebook.com/neteng.pro/"
-            >
-              <span class="fa-brands fa-square-facebook fa-2x"></span>
-            </a>
-          </td>
-          <td class="fa">
-            <a
-              rel="noopener noreferrer"
-              href="https://www.instagram.com/neteng_pro/"
-            >
-              <span class="fa-brands fa-square-instagram fa-2x"></span>
-            </a>
-          </td>
-          <td class="fa">
-            <a
-              rel="noopener noreferrer me"
-              href="https://x.com/@neteng_pro"
-              target="_blank"
-            >
-              <span class="fa-brands fa-square-x-twitter fa-2x"></span>
-            </a>
-          </td>
-        </tr>
-      </table>
-    </footer>
-
-    &nbsp;
-
+    <section id="badges">
+      <div class="tg-wrap">
+        <table class="tg">
+          <tbody>
+            <tr>
+              <td class="tg-cell">
+                <p>
+                  <a
+                    rel="noopener noreferrer"
+                    href="https://creativecommons.org/licenses/by/4.0/"
+                    target="_blank"
+                    ><img
+                      src="https://forthebadge.com/images/badges/cc-by.png"
+                      style="width: 180px; height: auto"
+                      alt="CC BY 4.0"
+                  /></a>
+                </p>
+              </td>
+              <td class="tg-cell">
+                <p>
+                  <a
+                    rel="noopener noreferrer"
+                    href="https://www.gnu.org/licenses/gpl-3.0.html"
+                    target="_blank"
+                    ><img
+                      src="img/gpl3.png"
+                      style="width: 80px; height: auto"
+                      alt="GPL 3.0 or Later"
+                  /></a>
+                  &nbsp; &nbsp;
+                </p>
+              </td>
+              <td class="tg-cell">
+                <p>
+                  <a
+                    rel="noopener noreferrer author"
+                    href="mailto:contact@neteng.pro">
+                    <img
+                      style="height: 30px; width: auto"
+                      src="https://img.shields.io/badge/E--mail-4080C0?style=for-the-badge&logo=maildotru"
+                      alt="E-mail"
+                  /></a>
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
     <!-- END BADGES -->
 
-    <hr />
-
-    <section id="badges">
-      <address>
-        <table class="badgetable">
-          <tr>
-            <td>
-              <a
-                rel="noopener noreferrer me"
-                href="https://noc.social/@neteng_pro"
-                target="_blank"
-              >
-                <img
-                  style="width: auto; height: 26px"
-                  src="https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&logo=Mastodon&logoColor=white"
-                  alt="Mastodon"
-              /></a>
-            </td>
-            <td>
-              <a
-                rel="noopener noreferrer author"
-                href="mailto:website@neteng.pro"
-              >
-                <img
-                  style="width: auto; height: 26px"
-                  src="https://img.shields.io/badge/E--mail-4080C0?style=for-the-badge&logo=maildotru"
-                  alt="E-mail"
-                />
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a
-                rel="noopener noreferrer"
-                href="https://creativecommons.org/licenses/by/4.0/"
-                target="_blank"
-                ><img
-                  src="https://forthebadge.com/images/badges/cc-by.png"
-                  alt="CC BY"
-                  style="width: 180px; height: auto"
-              /></a>
-            </td>
-          </tr>
-        </table>
-      </address>
-    </section>
-
     &nbsp;
 
-    <!-- BEGIN LICENSE AND COPYRIGHT -->
-    <section id="licensing">
+    <!-- BEGIN FOOTER -->
+    <footer id="licensing">
       <div
         xmlns:cc="http://creativecommons.org/ns#"
-        xmlns:dct="http://purl.org/dc/terms/"
-        class="copyright"
-      >
-        <code class="block">
+        xmlns:dct="http://purl.org/dc/terms/">
+        <code class="block" style="text-align: center">
           <p>
             <a
               property="dct:title"
@@ -378,7 +381,7 @@
               ><strong>Network Engineering Pro</strong></a
             >
             (NetEng-Pro), a Free/Libre and Open Source Community<br />
-            Copyright &copy; 2024
+            Copyright &copy; 2024-2025
             <a
               rel="cc:attributionURL dct:creator noopener noreferrer"
               property="cc:attributionName"
@@ -387,8 +390,6 @@
               ><strong>Scott Lopez</strong>
             </a>
           </p>
-
-          &nbsp;
 
           <p>
             Licensed under
@@ -412,8 +413,8 @@
                   text-decoration: none;
                 "
                 src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
-                alt="CC"
-            /></a>
+                alt="CC" />
+            </a>
             <a
               href="https://creativecommons.org/licenses/by/4.0/"
               target="_blank"
@@ -427,59 +428,29 @@
                   text-decoration: none;
                 "
                 src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
-                alt="BY" /></a
-            >. You are free to distribute, remix, adapt, and build upon the
-            Licensed Material for any purpose, even commercially.
-          </p>
-
-          <p>
-            This is free software: you can redistribute it and/or modify it
-            under the terms of the
+                alt="BY"
+            /></a>
+            and the
             <a
-              href="https://spdx.org/licenses/GPL-3.0-or-later.html"
+              href="https://www.gnu.org/licenses/gpl-3.0.html"
               target="_blank"
               rel="license noopener noreferrer"
-              >GNU GPL</a
-            >
-            as published by the Free Software Foundation, either version 3 of
-            the License, or (at your option) any later version.
+              ><b>GNU GPL</b></a
+            >, as published by the
+            <a
+              rel="noopener noreferrer"
+              href="https://www.fsf.org"
+              target="_blank"
+              >Free Software<br />
+              Foundation</a
+            >, either version 3 of the License, or (at your option) any later
+            version.
           </p>
-
-          &nbsp;
-
-          <p>
-            This material comes with ABSOLUTELY NO WARRANTY. The Licensor offers
-            the Licensed Material AS-IS and AS-AVAILABLE, and makes no
-            representations or warranties of any kind concerning the Material.
-          </p>
-
-          &nbsp;
-
-          <blockquote
-            cite="https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/LICENSE.md"
-            style="
-              border-left: 3px solid #9e9e9e;
-              padding-left: 10px;
-              margin-left: 10px;
-              font-style: italic;
-            "
-          >
-            <p>
-              For full details, see
-              <a
-                href="https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/LICENSE.md"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Copyright and Licensing</a
-              >.
-            </p>
-          </blockquote>
         </code>
-
-        &nbsp;
       </div>
-    </section>
-    <!-- END LICENSE INFO -->
+    </footer>
+    <!-- END FOOTER -->
+
+    <script src="js/app.js"></script>
   </body>
 </html>

@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
+# This file is part of Network Engineering Pro
+#
+# Ignore artifacts
+
+.*
+**/*.xml
+**/.vscode
+**/.git
+**/.svn
+**/.hg
+**/dist
+**/node_modules
+**/assets/license
+postcss.config.js
+eslint.config.mjs
+babel.config.json
+build
+coverage

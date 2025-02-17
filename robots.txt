@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
+# This file is part of Network Engineering Pro
+#
+# www.robotstxt.org/
+
+# Allow crawling of html, md, xml, and txt only
+User-agent: *
+Disallow: *.svg$
+Disallow: *.png$
+Disallow: *.jpg$
+Disallow: *.ico$
+Disallow: *.json$
+Disallow: *.mjs$
+Disallow: *.js$
+Disallow: /css
+Disallow: /img
+Disallow: /js

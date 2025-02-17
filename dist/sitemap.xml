@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later -->
+<!-- This file is part of Network Engineering Pro -->
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+
+    <loc>https://neteng.pro</loc>
+
+    <lastmod>2025-02-02</lastmod>
+
+    <changefreq>weekly</changefreq>
+
+    <priority>0.9</priority>
+
+  </url>
+
+  <url>
+
+    <loc>https://neteng.pro/README.md</loc>
+
+    <lastmod>2025-02-02</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+    <priority>0.7</priority>
+
+  </url>
+
+  <url>
+
+    <loc>https://neteng.pro/LICENSE.md</loc>
+
+    <lastmod>2025-02-02</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+    <priority>0.6</priority>
+
+  </url>
+
+  <url>
+
+    <loc>https://neteng.pro/legal/TERMS.md</loc>
+
+    <lastmod>2025-02-02</lastmod>
+
+    <changefreq>yearly</changefreq>
+
+    <priority>0.6</priority>
+
+  </url>
+
+  <url>
+
+    <loc>https://neteng.pro/legal.html</loc>
+
+    <lastmod>2025-02-02</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+    <priority>0.6</priority>
+
+  </url>
+
+  <url>
+
+    <loc>https://neteng.pro/legal/MEMBER_TERMS.md</loc>
+
+    <lastmod>2025-02-02</lastmod>
+
+    <changefreq>yearly</changefreq>
+
+    <priority>0.5</priority>
+
+  </url>
+
+  <url>
+
+    <loc>https://neteng.pro/assets/license/COPYING.md</loc>
+
+    <lastmod>2025-02-02</lastmod>
+
+    <changefreq>yearly</changefreq>
+
+    <priority>0.5</priority>
+
+  </url>
+
+  <url>
+
+    <loc>https://neteng.pro/assets/license/CC-BY-4.0.md</loc>
+
+    <lastmod>2025-02-02</lastmod>
+
+    <changefreq>yearly</changefreq>
+
+    <priority>0.5</priority>
+
+  </url>
+
+  <url>
+
+    <loc>https://neteng.pro/assets/license/README.md</loc>
+
+    <lastmod>2025-02-02</lastmod>
+
+    <changefreq>yearly</changefreq>
+
+    <priority>0.4</priority>
+
+  </url>
+
+  <url>
+
+    <loc>https://neteng.pro/assets/license/CC-BY-4.0.xmp</loc>
+
+    <lastmod>2025-02-02</lastmod>
+
+    <changefreq>yearly</changefreq>
+
+    <priority>0.3</priority>
+
+  </url>
+
+  <url>
+
+    <loc>https://neteng.pro/assets/license/CC-BY-4.0.rdf</loc>
+
+    <lastmod>2025-02-02</lastmod>
+
+    <changefreq>yearly</changefreq>
+
+    <priority>0.3</priority>
+
+  </url>
+
+  <url>
+
+    <loc>https://neteng.pro/404.html</loc>
+
+    <lastmod>2025-02-02</lastmod>
+
+    <changefreq>yearly</changefreq>
+
+    <priority>0.1</priority>
+
+  </url>
+
+</urlset>
