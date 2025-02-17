@@ -12,7 +12,7 @@
 #
 # For more information see: https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
 
-name: Build/Test Webpack, Publish to npmjs
+name: Build/Test Webpack, Publish to npmjs old
 
 on:
   release:
@@ -62,16 +62,13 @@ jobs:
         uses: actions/setup-node@v4.2.0
         with:
           node-version: ${{ matrix.node-version }}
+          cache: 'npm'
 
       - name: Cache Node.js modules
         uses: actions/cache@v4.2.0
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ matrix.node-version }}-build-${{ hashFiles('package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-${{ matrix.node-version }}-build-
-            ${{ runner.os }}-node-${{ matrix.node-version }}-
-            ${{ runner.os }}-node-
+          key: ${{ runner.os }}-node-${{ matrix.node-version }}-build-${{ github.run_id }}
+
       - name: Install dependencies
         run: npm ci
 
@@ -119,6 +116,7 @@ jobs:
         with:
           node-version: 22.x
           registry-url: https://registry.npmjs.org/
+          cache: 'npm'
 
       - name: Cache Node.js modules
         uses: actions/cache@v4.2.0
