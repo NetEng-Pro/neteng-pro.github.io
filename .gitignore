@@ -8,6 +8,7 @@
 ### Custom Ignores ###
 python-venv/
 .webpack_cache/
+.github/workflows/disabled/
 .orig/
 server.mjs
 crypto.mjs

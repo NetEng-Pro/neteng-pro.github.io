@@ -3,21 +3,20 @@
 #
 # When a release is creeated or this workflow is manually triggered, it will:
 # (1) confirm the CodeQL analysis was successful, (2) test JavaScript using
-# Mocha framework, (3) lint all JavaScript with ESLint (if enabled), (4) check
-# all formatting with Prettier (if enabled), (5) run builds using node 20.x and
-# 22.x on ubuntu-22.04 and ubuntu-24.04, and then (6) publish a package to
-# GitHub Packages.
+# Mocha framework, (3) check formatting with Prettier and linting with ESLint,
+# without making changes, (4) build the project using node 20.x, 22.x, and 23.x
+# on ubuntu-24.04, and (5) publish a package to the npmjs registry
 #
 # The workflow to upload static content to GitHub Pages (upload.yml) will
 # kick off upon successful completion of this workflow.
 #
 # For more information see: https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
 
-name: Build/Test Webpack, Publish to GitHub Packages
+name: Build/Test Webpack, Publish to npmjs
 
 on:
-  #  release:
-  #    types: [created]
+  release:
+    types: [created]
   workflow_dispatch:
 
 jobs:
@@ -27,7 +26,7 @@ jobs:
     continue-on-error: true
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
 
       - name: Set up GitHub CLI
         run: sudo apt-get install gh
@@ -51,25 +50,25 @@ jobs:
 
   build:
     needs: check-codeql
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
-        os: [ubuntu-22.04, ubuntu-24.04]
-        node-version: [20.x, 22.x]
+        node-version: [20.x, 22.x, 23.x]
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v4.2.0
         with:
           node-version: ${{ matrix.node-version }}
 
       - name: Cache Node.js modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4.2.0
         with:
           path: ~/.npm
-          key: ${{ runner.os }}-node-${{ matrix.node-version }}-build-${{ hashFiles('package-lock.json') }}
+          key: ${{ runner.os }}-node-${{ matrix.node-version }}-build-${{
+            hashFiles('package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-${{ matrix.node-version }}-build-
             ${{ runner.os }}-node-${{ matrix.node-version }}-
@@ -78,12 +77,25 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      #- name: DEBUG - List files before build
+      #  run: ls -la
+
+      #- name: Create dist directory
+      #  run: mkdir -p dist
+
       - name: Run tests using Mocha framework
         run: npm test
         continue-on-error: true
 
+      - name: Check formatting and linting
+        run: npm run lint
+        continue-on-error: true
+
       - name: Build project
         run: npm run build
+
+      #- name: DEBUG - List files after build
+      #  run: ls -la
 
       - name: Ensure dist directory exists
         run: mkdir -p dist
@@ -91,29 +103,33 @@ jobs:
       - name: Copy package.json to dist directory
         run: cp package.json dist/
 
+      #- name: DEBUG - List files in dist directory
+      #  run: ls -la dist/
+
   publish-npm:
     needs: build
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     permissions:
       contents: read
       packages: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v4.2.0
         with:
-          node-version: 20.x
+          node-version: 22.x
+          registry-url: https://registry.npmjs.org/
 
       - name: Cache Node.js modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4.2.0
         with:
           path: ~/.npm
-          key: ${{ runner.os }}-node-20.x-publish-${{ hashFiles('package-lock.json') }}
+          key: ${{ runner.os }}-node-22.x-publish-${{ hashFiles('package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-node-20.x-publish-
-            ${{ runner.os }}-node-20.x-
+            ${{ runner.os }}-node-22.x-publish-
+            ${{ runner.os }}-node-22.x-
             ${{ runner.os }}-node-
 
       - name: Install dependencies
@@ -130,25 +146,11 @@ jobs:
       - name: Copy package.json to dist directory
         run: cp package.json dist/
 
-      # Manually authenticate to npm for GitHub Packages
-      - name: Authenticate to npm for GitHub Packages
-        run: |
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_PAT }}" > ~/.npmrc
-          npm adduser --registry=https://npm.pkg.github.com/
+      - name: DEBUG - List files in dist directory
+        run: ls -la dist/
+
+      - name: Publish package
+        working-directory: ./dist
+        run: npm publish --access public
         env:
-          NPM_USERNAME: sundevil311
-          NPM_PASSWORD: ${{ secrets.GH_PAT }}
-          NPM_EMAIL: github@sl.neteng.pro
-
-      # Increment version and push commit upon successful publish
-      # non-functional for unknown reasons
-      #- name: Increment version
-      #  run: npm version patch
-
-      #- name: Push version commit
-      #  env:
-      #    GH_PAT: ${{ secrets.GH_PAT }}
-      #  run: |
-      #    git remote set-url origin https://x-access-token:${{ secrets.GH_PAT #}}@github.com/NetEng-Pro/neteng-pro.github.io.git
-      #    git push origin HEAD:master
-      #  continue-on-error: true
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
