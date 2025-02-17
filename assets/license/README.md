@@ -239,38 +239,18 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---
 
-<code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none; text-align: center;">
+<code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none; text-align: center; font-size: 12px;">
 
-**[Network Engineering Pro](https://neteng.pro/)** (NetEng-Pro), a Free/Libre
-and Open Source Software Community  
+**[Network Engineering Pro](https://neteng.pro/)** (NetEng-Pro), a Free/Libre and Open Source Software Community  
 Copyright &copy; 2024-2025 **[Scott Lopez](https://bio.neteng.pro)**
 
-Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and
-the **[GNU GPL](https://www.gnu.org/licenses/gpl-3.0.html)**, as published by
-the Free Software Foundation,  
+Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation,  
 either version 3 of the License, or (at your option) any later version.
 
 </code>
 
-&nbsp;
-
-<span style="text-align: center; font-size: 14px;">
-
-This material is free to distribute, remix, adapt, and build upon for any
-purpose, including commercial use. As free software, it can be redistributed and
-modified under the [specified terms](#gnu-gpl).
-
-NetEng-Pro is provided **_as is_** and **_as available_** without any
-warranties, express or implied. The Licensor makes no representations or
-guarantees regarding the Licensed Material and assumes no liability for its use.
-
-</span>
-
-&nbsp;
-
 <span style="text-align: center; font-size: 14px; font-weight: bold;">
 
-Copyright and Licensing
-&nbsp; | &nbsp; [Terms and Conditions](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/TERMS.md)
+[Terms and Conditions](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/pages/terms.md) &nbsp; | &nbsp; Copyright and Licensing
 
 </span>

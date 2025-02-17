@@ -96,10 +96,12 @@ _Be on the lookout for an email message!_ All three may be sent in one email or 
 ---
 
 <pre style="white-space: pre-wrap;">
+
 Terms and Conditions last modified 1/23/2025. T&C are subject to change at any time, for any reason, without notice.
+
 </pre>
 
-<code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
+<code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none; text-align: center; font-size: 12px;">
 
 **[Network Engineering Pro](https://neteng.pro/)** (NetEng-Pro), a Free/Libre and Open Source Software Community  
 Copyright &copy; 2024-2025 **[Scott Lopez](https://bio.neteng.pro)**
