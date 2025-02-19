@@ -47,6 +47,9 @@ Web: <https://bio.neteng.pro>
 
 # <a id="top">Network Engineering Pro</a>
 
+| [![Build/Test Webpack, Publish to npmjs](https://github.com/NetEng-Pro/neteng-pro.github.io/actions/workflows/webpack.yml/badge.svg)](https://github.com/NetEng-Pro/neteng-pro.github.io/actions/workflows/webpack.yml) [![Deploy static content to GitHub Pages](https://github.com/NetEng-Pro/neteng-pro.github.io/actions/workflows/upload.yml/badge.svg)](https://github.com/NetEng-Pro/neteng-pro.github.io/actions/workflows/upload.yml)  
+| [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 **Network Engineering Pro (NetEng-Pro)** is a dedicated community focused on providing guides, reference materials, and resources for **Free/Libre and Open Source Software**, with a primary emphasis on **Android** and **Linux** projects.
 
 _**Table of Contents**_
