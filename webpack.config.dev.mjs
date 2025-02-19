@@ -19,6 +19,8 @@ export default merge(common, {
     liveReload: true, // Enable live reloading
     hot: true, // Enable hot module replacement
     open: true, // Automatically open the browser
+    client: { progress: true },
+    watchFiles: ["./**/*"], // More efficient live reloading
     static: {
       directory: path.resolve(process.cwd(), "./"), // Serve static files from the root directory
     },
@@ -29,6 +31,10 @@ export default merge(common, {
     filename: "js/[name].bundle.js", // Output file name for better caching in development
     chunkFilename: "js/[name].chunk.js", // File name for dynamically loaded chunks
     clean: true, // Clean the output directory before emit
+  },
+  cache: {
+    type: "filesystem",
+    cacheDirectory: path.resolve(process.cwd(), ".webpack_cache"),
   },
   target: "web", // Ensure the target is set to 'web' for browser environments
 });

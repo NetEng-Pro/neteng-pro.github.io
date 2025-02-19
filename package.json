@@ -1,6 +1,6 @@
 {
   "name": "@neteng-pro/nwpro-web",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "description": "Free/Libre & Open Source Software, security, and digital privacy for Android & Linux",
   "keywords": [
@@ -43,6 +43,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@jridgewell/source-map": "^0.3.6",
     "astroturf": "^1.2.0",
     "astroturf-loader": "^1.0.0",
     "autoprefixer": "^10.4.20",
