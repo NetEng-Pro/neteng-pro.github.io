@@ -11,6 +11,10 @@ if (typeof global === "undefined") {
   var global = typeof window !== "undefined" ? window : this;
 }
 
+/* (typeof self !== "undefined" ? self : this).webpackChunk_neteng_pro_nwpro_web =
+  (typeof self !== "undefined" ? self : this)
+    .webpackChunk_neteng_pro_nwpro_web || []; */
+
 // Create a universal way to reference the global context
 (function (globalScope) {
   // Polyfill if 'console' is unavailable in the environment
