@@ -1,0 +1,105 @@
+// webpack.config.prod.mjs
+/*
+SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
+This file is part of Network Engineering Pro
+*/
+
+import CompressionPlugin from "compression-webpack-plugin";
+import CopyPlugin from "copy-webpack-plugin";
+import CssMinimizerPlugin from "css-minimizer-webpack-plugin";
+import HtmlWebpackPlugin from "html-webpack-plugin";
+import path from "path";
+import TerserPlugin from "terser-webpack-plugin";
+import { merge } from "webpack-merge";
+import common from "./webpack.common.mjs";
+
+export default merge(common, {
+  mode: "production",
+  output: {
+    filename: "js/[name].[contenthash].js",
+    path: path.resolve(process.cwd(), "dist"),
+    chunkFilename: "js/[name].[contenthash].js",
+    chunkFormat: "array-push",
+    clean: true,
+  },
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new TerserPlugin({
+        terserOptions: {
+          compress: { drop_console: true },
+          format: {
+            comments: false, // Removes comments while keeping minified output
+            beautify: true,
+          },
+        },
+      }),
+      new CssMinimizerPlugin({
+        minimizerOptions: {
+          preset: [
+            "default",
+            {
+              discardComments: { removeAll: true },
+              normalizeWhitespace: false,
+            },
+          ],
+        },
+      }),
+    ],
+  },
+  plugins: [
+    new CompressionPlugin({
+      filename: "[path][base].br",
+      algorithm: "brotliCompress",
+      test: /\.(js|css|html|svg)$/,
+      threshold: 10240,
+      minRatio: 0.7, // More aggressive Brotli compression
+    }),
+    new CompressionPlugin({
+      filename: "[path][base].gz",
+      algorithm: "gzip",
+      test: /\.(js|css|html|svg)$/,
+      threshold: 10240,
+      minRatio: 0.8, // Less aggressive Gzip compression
+    }),
+    new HtmlWebpackPlugin({
+      template: "./index.html",
+      minify: {
+        removeComments: true,
+        removeRedundantAttributes: true,
+        useShortDoctype: true,
+        removeEmptyAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        keepClosingSlash: true,
+        minifyJS: false,
+        minifyCSS: false,
+        minifyURLs: true,
+      },
+    }),
+    new CopyPlugin({
+      patterns: [
+        { from: "img", to: "img", globOptions: { dot: false } },
+        { from: "css", to: "css", globOptions: { dot: false } },
+        { from: "pages", to: "pages", globOptions: { dot: false } },
+        { from: "legal", to: "legal", globOptions: { dot: false } },
+        { from: "js/vendor", to: "js/vendor", globOptions: { dot: false } },
+        { from: "favicon.svg", to: "favicon.svg" },
+        { from: "favicon.ico", to: "favicon.ico" },
+        { from: "robots.txt", to: "robots.txt" },
+        { from: "favicon-apple.png", to: "favicon-apple.png" },
+        { from: "favicon-512.png", to: "favicon-512.png" },
+        { from: "favicon-192.png", to: "favicon-192.png" },
+        { from: "favicon-light.ico", to: "favicon-light.ico" },
+        { from: "favicon-light.svg", to: "favicon-light.svg" },
+        { from: "legal.html", to: "legal.html" },
+        { from: "LICENSE.md", to: "LICENSE.md" },
+        { from: "README.md", to: "README.md" },
+        { from: "404.html", to: "404.html" },
+        { from: "bimi-svg-tiny-ps.xml", to: "bimi-svg-tiny-ps.xml" },
+        { from: "site.webmanifest", to: "site.webmanifest" },
+        { from: "sitemap.xml", to: "sitemap.xml" },
+        { from: "CNAME", to: "." }, // Correct path to copy CNAME to the root directory
+      ],
+    }),
+  ],
+});
