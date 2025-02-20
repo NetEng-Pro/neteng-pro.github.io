@@ -4,14 +4,24 @@
   This file is part of Network Engineering Pro
 */
 
-/* eslint-env mocha */
+import { expect } from "chai";
 
-import assert from "assert";
+// The function to be tested
+function add(a, b) {
+  return a + b;
+}
 
-describe("Array", function () {
-  describe("#indexOf()", function () {
-    it("should return -1 when the value is not present", function () {
-      assert.strictEqual([1, 2, 3].indexOf(4), -1);
-    });
+// Describe the test suite
+describe("Addition Function", function () {
+  it("should return 5 when adding 2 and 3", function () {
+    const result = add(2, 3);
+    expect(result).to.equal(5);
+  });
+
+  it("should return -1 when adding 2 and -3", function () {
+    const result = add(2, -3);
+    expect(result).to.equal(-1);
   });
 });
+
+export { add };

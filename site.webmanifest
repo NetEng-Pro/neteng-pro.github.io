@@ -3,9 +3,9 @@
   "name": "Network Engineering Pro",
   "icons": [
     {
-      "src": "favicon-512.png",
+      "src": "favicon-192.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "192x192"
     }
   ],
   "start_url": "/?utm_source=homescreen",

@@ -1,6 +1,6 @@
 {
   "name": "@neteng-pro/nwpro-web",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "private": false,
   "description": "Free/Libre & Open Source Software, security, and digital privacy for Android & Linux",
   "keywords": [
@@ -14,7 +14,7 @@
     "privacy",
     "cybersecurity"
   ],
-  "homepage": "https://github.neteng.pro",
+  "homepage": "https://neteng.pro",
   "bugs": {
     "url": "https://github.com/NetEng-Pro/neteng-pro.github.io/issues"
   },
@@ -34,16 +34,17 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha \"test/**/*.js\" \"test/**/*.mjs\" \"test/**/*.cjs\"",
-    "lint": "eslint \"**/*.{js,mjs,cjs}\" && prettier --check .",
-    "fix": "eslint \"**/*.{js,mjs,cjs}\" --fix && prettier --write .",
-    "clean": "rm -rf dist node_modules",
+    "test": "mocha",
+    "lint": "npx eslint && prettier --check .",
+    "fix": "npx eslint --fix && prettier --write .",
+    "clean": "rm -rf dist node_modules package-lock.json",
     "start": "webpack serve --open --config webpack.config.dev.mjs",
     "build": "webpack --config webpack.config.prod.mjs",
     "prepare": "husky"
   },
   "dependencies": {
     "@jridgewell/source-map": "^0.3.6",
+    "@jridgewell/sourcemap-codec": "^1.5.0",
     "astroturf": "^1.2.0",
     "astroturf-loader": "^1.0.0",
     "autoprefixer": "^10.4.20",
@@ -56,16 +57,17 @@
     "@babel/core": "^7.26.9",
     "@babel/plugin-transform-runtime": "^7.26.9",
     "@babel/preset-env": "^7.26.9",
-    "@eslint/js": "^9.19.0",
+    "@eslint/js": "^9.20.0",
     "babel-loader": "^9.2.1",
+    "chai": "^5.2.0",
     "compression-webpack-plugin": "^11.1.0",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^7.1.2",
     "css-minimizer-webpack-plugin": "^7.0.0",
-    "eslint": "^9.19.0",
+    "eslint": "^9.20.1",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-mocha": "^10.5.0",
-    "globals": "^15.14.0",
+    "globals": "^15.15.0",
     "html-webpack-plugin": "^5.6.3",
     "husky": "^9.1.7",
     "mocha": "^11.0.1",

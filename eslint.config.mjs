@@ -5,10 +5,7 @@
 */
 
 import js from "@eslint/js";
-import {
-  default as eslintConfigPrettier,
-  default as prettierConfig,
-} from "eslint-config-prettier";
+import eslintConfigPrettier from "eslint-config-prettier";
 import mocha from "eslint-plugin-mocha";
 import globals from "globals";
 
@@ -26,12 +23,12 @@ const IGNORED_FILES = [
 
 const GLOBALS = {
   ...globals.browser,
-  ...globals.node,
+  ...globals.node, // Include Node.js globals
   ...globals.mocha,
 };
 
 const ESLINT_RULES = {
-  ...prettierConfig.rules,
+  ...eslintConfigPrettier.rules,
   "mocha/no-exclusive-tests": "error",
   "mocha/no-skipped-tests": "warn",
   "mocha/no-hooks-for-single-case": "warn",

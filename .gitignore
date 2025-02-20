@@ -9,6 +9,7 @@
 python-venv/
 .webpack_cache/
 .github/workflows/disabled/
+img/.favicon-old
 .orig/
 server.mjs
 crypto.mjs

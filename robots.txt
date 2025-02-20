@@ -6,12 +6,10 @@
 # Allow crawling of html, md, xml, and txt only
 User-agent: *
 Disallow: *.svg$
-Disallow: *.png$
 Disallow: *.jpg$
 Disallow: *.ico$
 Disallow: *.json$
 Disallow: *.mjs$
 Disallow: *.js$
 Disallow: /css
-Disallow: /img
 Disallow: /js
