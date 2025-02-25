@@ -1,5 +1,7 @@
-<!-- SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later -->
-<!-- This file is part of Network Pro -->
+<!-- =========================================================================
+SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
+This file is part of Network Pro.
+========================================================================== -->
 
 <!--
 Network Pro Strategies (Network Pro)
@@ -113,7 +115,7 @@ discontinue use of all Network Pro platforms immediately._**
 
 ---
 
-<code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none; text-align: center; font-size: 12px;">
+<code style="background: none; border: none; border-radius: 0; font-size: 12px; height: 50vh; outline: none; resize: none; text-align: center; width: 100%;">
 
 **Terms and Conditions last modified 2/22/2025. T&C are subject to change at any time, for any reason, without notice.**
 
@@ -129,9 +131,9 @@ either version 3 of the License, or (at your option) any later version.
 
 &nbsp;
 
-<span style="text-align: center; font-size: 14px; font-weight: bold;">
+<span style="font-size: 14px; font-weight: bold; text-align: center;">
 
-[Copyright and Licensing](https://github.com/NetEng-Pro/netwk-pro-web/blob/master/legal/LICENSE.md)
+[Copyright and Licensing](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/LICENSE.md)
 &nbsp; | &nbsp; Terms and Conditions
 
 </span>

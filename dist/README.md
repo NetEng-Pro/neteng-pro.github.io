@@ -49,10 +49,10 @@ Web: <https://bio.neteng.pro>
 
 # <a id="top">Network Pro</a>
 
-[![Build Webpack, Publish to Registries](https://github.com/NetEng-Pro/netwk-pro-web/actions/workflows/webpack.yml/badge.svg)](https://github.com/NetEng-Pro/netwk-pro-web/actions/workflows/webpack.yml) [![Deploy to GitHub Pages](https://github.com/NetEng-Pro/netwk-pro-web/actions/workflows/upload.yml/badge.svg)](https://github.com/NetEng-Pro/netwk-pro-web/actions/workflows/upload.yml)  
+[![Build Webpack, Publish to Registries](https://github.com/NetEng-Pro/neteng-pro.github.io/actions/workflows/webpack.yml/badge.svg)](https://github.com/NetEng-Pro/neteng-pro.github.io/actions/workflows/webpack.yml) [![Deploy to GitHub Pages](https://github.com/NetEng-Pro/neteng-pro.github.io/actions/workflows/upload.yml/badge.svg)](https://github.com/NetEng-Pro/neteng-pro.github.io/actions/workflows/upload.yml)  
 [![NPM Version](https://img.shields.io/npm/v/%40neteng-pro%2Fnetwk-pro-web?registry_uri=https%3A%2F%2Fregistry.npmjs.com&style=flat&logo=npm&logoSize=auto&labelColor=fffff&color=0c7ebe)](https://www.npmjs.com/package/@neteng-pro/netwk-pro-web) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-At **Network Pro Strategies ("Network Pro")**, we specialize in network security, cyber security, and privacy consulting, offering both strategic advisory services and hands-on implementation. Our expertise extends beyond consulting&mdash;we are committed to public advocacy and education, empowering businesses, policymakers, and the public with the knowledge and tools to navigate today’s complex digital landscape.
+At **Network Pro Strategies (Network Pro)**, we specialize in network security, cyber security, and privacy consulting, offering both strategic advisory services and hands-on implementation. Our expertise extends beyond consulting&mdash;we are committed to public advocacy and education, empowering businesses, policymakers, and the public with the knowledge and tools to navigate today’s complex digital landscape.
 
 Whether securing critical infrastructure, advising on compliance, or leading cyber security awareness initiatives, we bring cutting-edge solutions and strategic insights to protect what matters most.
 
@@ -103,6 +103,6 @@ either version 3 of the License, or (at your option) any later version.
 
 <span style="font-size: 14px; font-weight: bold; text-align: center;">
 
-[Copyright and Licensing](https://github.com/NetEng-Pro/netwk-pro-web/blob/master/LICENSE.md) &nbsp; | &nbsp; [Terms and Conditions](https://github.com/NetEng-Pro/netwk-pro-web/blob/master/legal/TERMS.md)
+[Copyright and Licensing](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; [Terms and Conditions](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/TERMS.md)
 
 </span>

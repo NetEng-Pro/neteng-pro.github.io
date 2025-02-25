@@ -135,11 +135,11 @@ scope of either license, please email me at `contact (at) neteng.pro`.
 ## <a id="cc-by">Creative Commons Attribution 4.0 International</a>
 
 <sup>Formats:
-[Markdown](https://github.com/NetEng-Pro/netwk-pro-web/blob/master/assets/license/CC-BY-4.0.md)
+[Markdown](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/assets/license/CC-BY-4.0.md)
 |
-[XMP](https://raw.githubusercontent.com/NetEng-Pro/netwk-pro-web/refs/heads/master/assets/license/CC-BY-4.0.xmp)
+[XMP](https://raw.githubusercontent.com/NetEng-Pro/neteng-pro.github.io/refs/heads/master/assets/license/CC-BY-4.0.xmp)
 |
-[RDF](https://raw.githubusercontent.com/NetEng-Pro/netwk-pro-web/refs/heads/master/assets/license/CC-BY-4.0.rdf)</sup>
+[RDF](https://raw.githubusercontent.com/NetEng-Pro/neteng-pro.github.io/refs/heads/master/assets/license/CC-BY-4.0.rdf)</sup>
 
 Network Pro (the "Licensed Material") is licensed under **Creative
 Commons Attribution 4.0 International** ("CC BY 4.0")
@@ -177,9 +177,9 @@ this License—may be available as further defined within this document.
 ## <a id="gnu-gpl">GNU General Public License</a>
 
 <sup>Formats:
-[Markdown](https://github.com/NetEng-Pro/netwk-pro-web/blob/master/assets/license/COPYING.md)
+[Markdown](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/assets/license/COPYING.md)
 |
-[ODT](https://github.com/NetEng-Pro/netwk-pro-web/raw/refs/heads/master/assets/license/COPYING.odt)</sup>
+[ODT](https://github.com/NetEng-Pro/neteng-pro.github.io/raw/refs/heads/master/assets/license/COPYING.odt)</sup>
 
 Network Pro (Network Pro) is free software: you can redistribute it
 and/or modify it under the terms of the **GNU General Public License** ("GNU
@@ -253,6 +253,6 @@ either version 3 of the License, or (at your option) any later version.
 
 <span style="font-size: 14px; font-weight: bold; text-align: center;">
 
-[Terms and Conditions](https://github.com/NetEng-Pro/netwk-pro-web/blob/master/legal/TERMS.md) &nbsp; | &nbsp; Copyright and Licensing
+[Terms and Conditions](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; Copyright and Licensing
 
 </span>

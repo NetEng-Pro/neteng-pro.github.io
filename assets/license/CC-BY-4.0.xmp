@@ -23,8 +23,8 @@
             <cc:morePermissions>'https://netwk.pro/legal.html'</cc:morePermissions>
             <dc:title>
                 <rdf:Alt>
-                  <rdf:li xml:lang='x-default'>Network Pro</rdf:li>
-                  <rdf:li xml:lang='en-US'>Network Pro</rdf:li>
+                  <rdf:li xml:lang='x-default'>Network Pro Strategies</rdf:li>
+                  <rdf:li xml:lang='en-US'>Network Pro Strategies</rdf:li>
                 </rdf:Alt>
             </dc:title>
         </rdf:Description>
