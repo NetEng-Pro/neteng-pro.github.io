@@ -89,7 +89,7 @@ Systems that I specialize in:
 
 &nbsp;
 
-<code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
+<code style="background: none; border: none; border-radius: 0; font-size: 12px; height: 50vh; outline: none; resize: none; text-align: center; width: 100%;">
 
 **[Network Pro Strategies](https://netwk.pro/) (Network Pro)**  
 Copyright &copy; 2024-2025 **[Scott Lopez](https://bio.neteng.pro)**
@@ -101,7 +101,7 @@ either version 3 of the License, or (at your option) any later version.
 
 &nbsp;
 
-<span style="text-align: center; font-size: 14px; font-weight: bold;">
+<span style="font-size: 14px; font-weight: bold; text-align: center;">
 
 [Copyright and Licensing](https://github.com/NetEng-Pro/netwk-pro-web/blob/master/LICENSE.md) &nbsp; | &nbsp; [Terms and Conditions](https://github.com/NetEng-Pro/netwk-pro-web/blob/master/legal/TERMS.md)
 

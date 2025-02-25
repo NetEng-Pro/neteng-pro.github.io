@@ -65,7 +65,7 @@ Web: <https://bio.neteng.pro>
 
 ## <a id="copyright">Copyright</a>
 
-<code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
+<code style="background: none; border: none; border-radius: 0; height: 50vh; outline: none; resize: none; width: 100%;">
 
 **[Network Pro Strategies](https://netwk.pro/) (Network Pro)**  
 Copyright &copy; 2024-2025 **[Scott Lopez](https://bio.neteng.pro)**
@@ -161,7 +161,7 @@ presence or absence of errors, whether or not known or discoverable.
 Permissions beyond the scope of this License—or instead of those permitted by
 this License—may be available as further defined within this document.
 
-<code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
+<code style="background: none; border: none; border-radius: 0; height: 50vh; outline: none; resize: none; width: 100%;">
 
 - SPDX Reference:  
   <https://spdx.org/licenses/CC-BY-4.0.html>
@@ -194,7 +194,7 @@ You should have received a copy of the GNU General Public License along with
 this material. If not, see
 <[https://www.gnu.org/licenses/](https://www.gnu.org/licenses/)>.
 
-<code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
+<code style="background: none; border: none; border-radius: 0; height: 50vh; outline: none; resize: none; width: 100%;">
 
 - SPDX Reference:  
    <https://spdx.org/licenses/GPL-3.0-or-later.html>
@@ -207,7 +207,7 @@ this material. If not, see
 
 ---
 
-<code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
+<code style="background: none; border: none; border-radius: 0; height: 50vh; outline: none; resize: none; width: 100%;">
 
 **_Website base structure provided by HTML5 Boilerplate:_**  
 <https://html5boilerplate.com/>
@@ -241,7 +241,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---
 
-<code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none; text-align: center; font-size: 12px;">
+<code style="background: none; border: none; border-radius: 0; font-size: 12px; height: 50vh; outline: none; resize: none; text-align: center; width: 100%;">
 
 **[Network Pro Strategies](https://netwk.pro/) (Network Pro)**  
 Copyright &copy; 2024-2025 **[Scott Lopez](https://bio.neteng.pro)**
@@ -251,7 +251,7 @@ either version 3 of the License, or (at your option) any later version.
 
 </code>
 
-<span style="text-align: center; font-size: 14px; font-weight: bold;">
+<span style="font-size: 14px; font-weight: bold; text-align: center;">
 
 [Terms and Conditions](https://github.com/NetEng-Pro/netwk-pro-web/blob/master/legal/TERMS.md) &nbsp; | &nbsp; Copyright and Licensing
 
