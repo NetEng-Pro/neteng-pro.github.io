@@ -132,7 +132,6 @@ a:active{
 .clearfix:after{
   clear:both;
 }
-
 @media print{
   *,:after,:before{
     background:#fff !important;

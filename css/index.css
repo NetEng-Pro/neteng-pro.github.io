@@ -1,17 +1,17 @@
 /* ==========================================================================
-   SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
-   This file is part of Network Engineering Pro.
-   ========================================================================== */
+SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
+This file is part of Network Pro.
+========================================================================== */
 
 /*
-Network Engineering Pro (NetEng-Pro), a Free/Libre and Open Source Community
+Network Pro Strategies (Network Pro)
 Copyright © 2024-2025 Scott Lopez
 
 ---
 
 I. Creative Commons Attribution 4.0 International
 
-Network Engineering Pro (the "Licensed Material") is licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
+Network Pro (the "Licensed Material") is licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
 To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
 
 Per the terms of the License, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially.
@@ -28,7 +28,7 @@ Permissions beyond the scope of this License—or instead of those permitted by 
 
 II. GNU General Public License
 
-Network Engineering Pro is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License ("GNU GPL") as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+Network Pro is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License ("GNU GPL") as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 This material is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
 FITNESS FOR A PARTICULAR PURPOSE.
@@ -90,9 +90,9 @@ Web: <https://bio.neteng.pro>
   }
 
   .gh-wrap {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
     margin: auto 0;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
   }
 }
 
@@ -137,9 +137,9 @@ Web: <https://bio.neteng.pro>
   }
 
   .soc-wrap {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
     margin: auto 0;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
   }
 }
 
@@ -184,9 +184,9 @@ Web: <https://bio.neteng.pro>
   }
 
   .tg-wrap {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
     margin: auto 0;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
   }
 }
 
@@ -195,15 +195,15 @@ Web: <https://bio.neteng.pro>
    ========================================================================== */
 
 .center-nav {
-  padding: 10px;
   font-size: 14px;
+  padding: 10px;
   text-align: center;
 }
 
 .index1 {
   font-size: 16px;
-  text-align: center;
   font-style: italic;
+  text-align: center;
 }
 
 .index2 {
@@ -234,9 +234,9 @@ Web: <https://bio.neteng.pro>
 
 .bquote {
   border-left: 3px solid #9e9e9e;
-  padding-left: 10px;
-  margin-left: 30px;
   font-style: italic;
+  margin-left: 30px;
+  padding-left: 10px;
 }
 
 .tandc {
