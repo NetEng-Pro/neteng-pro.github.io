@@ -29,9 +29,9 @@
   }
 
   .gh-wrap{
-    overflow-x:auto;
-    -webkit-overflow-scrolling:touch;
     margin:auto 0;
+    -webkit-overflow-scrolling:touch;
+    overflow-x:auto;
   }
 }
 .soc{
@@ -65,9 +65,9 @@
   }
 
   .soc-wrap{
-    overflow-x:auto;
-    -webkit-overflow-scrolling:touch;
     margin:auto 0;
+    -webkit-overflow-scrolling:touch;
+    overflow-x:auto;
   }
 }
 .tg{
@@ -101,9 +101,9 @@
   }
 
   .tg-wrap{
-    overflow-x:auto;
-    -webkit-overflow-scrolling:touch;
     margin:auto 0;
+    -webkit-overflow-scrolling:touch;
+    overflow-x:auto;
   }
 }
 

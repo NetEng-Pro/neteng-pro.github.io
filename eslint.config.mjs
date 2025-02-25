@@ -1,8 +1,8 @@
 // eslint.config.mjs
-/*
-  SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
-  This file is part of Network Engineering Pro
-*/
+/* ==========================================================================
+SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
+This file is part of Network Pro.
+========================================================================== */
 
 import js from "@eslint/js";
 import eslintConfigPrettier from "eslint-config-prettier";

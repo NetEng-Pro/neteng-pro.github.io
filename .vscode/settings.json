@@ -6,5 +6,15 @@
   "prettier.quoteProps": "consistent",
   "editor.defaultFoldingRangeProvider": "esbenp.prettier-vscode",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "notebook.defaultFormatter": "esbenp.prettier-vscode"
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.useESLintClass": true,
+  "eslint.useFlatConfig": true,
+  "eslint.lintTask.enable": true,
+  "markdown.validate.ignoredLinks": [
+    "#top",
+    "#netwk-pro",
+    "#questions",
+    "#cc-by",
+    "#gnu-gpl"
+  ]
 }

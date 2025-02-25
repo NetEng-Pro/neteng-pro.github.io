@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
-# This file is part of Network Engineering Pro
+# This file is part of Network Pro
 
-name: "Dependency Review"
+name: Dependency Review
 on: [pull_request]
 
 permissions:
@@ -13,5 +13,6 @@ jobs:
     steps:
       - name: "Checkout Repository"
         uses: actions/checkout@v4.2.2
+
       - name: "Dependency Review"
         uses: actions/dependency-review-action@v4.5.0

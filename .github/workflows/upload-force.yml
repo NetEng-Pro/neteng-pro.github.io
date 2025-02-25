@@ -1,12 +1,12 @@
 # SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
-# This file is part of Network Engineering Pro
+# This file is part of Network Pro
 #
 # Deploy static content from ./dist to GitHub Pages when manually triggered.
 # This workflow should only be used when deploying to GitHub Pages must be
 # performed regardless of the outcome of the "Build/Test Webpack, Publish to
-# npm" workflow.
+# npmjs" workflow.
 
-name: Deploy static content to GitHub Pages (Forced)
+name: Deploy to GitHub Pages (Forced)
 
 on:
   workflow_dispatch:
@@ -36,14 +36,17 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload dist directory
           path: "./dist"
+
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4.0.5

@@ -1,18 +1,17 @@
 # SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
-# This file is part of Network Engineering Pro
+# This file is part of Network Pro.
 #
 # Created by https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,dreamweaver
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,visualstudiocode,dreamweaver
 
 
 ### Custom Ignores ###
-python-venv/
-.webpack_cache/
 .github/workflows/disabled/
-img/.favicon-old
 .orig/
-server.mjs
+.webpack_cache/
+python-venv/
 crypto.mjs
+server.mjs
 tests.mjs
 
 

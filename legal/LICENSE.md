@@ -1,15 +1,15 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later -->
-<!-- This file is part of Network Engineering Pro -->
+<!-- This file is part of Network Pro -->
 
 <!--
-Network Engineering Pro (NetEng-Pro), a Free/Libre and Open Source Community
+Network Pro Strategies (Network Pro)
 Copyright © 2024-2025 Scott Lopez
 
 ---
 
 I. Creative Commons Attribution 4.0 International
 
-Network Engineering Pro (the "Licensed Material") is licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
+Network Pro (the "Licensed Material") is licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
 To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
 
 Per the terms of the License, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially.
@@ -26,7 +26,7 @@ Permissions beyond the scope of this License—or instead of those permitted by 
 
 II. GNU General Public License
 
-Network Engineering Pro is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License ("GNU GPL") as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+Network Pro is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License ("GNU GPL") as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 This material is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
 FITNESS FOR A PARTICULAR PURPOSE.
@@ -51,7 +51,8 @@ Web: <https://bio.neteng.pro>
 **Table of Contents**
 
 - [Copyright](#copyright)
-- [Abbreviated Business Name](#neteng-pro)
+  - [Graphics](#graphics)
+  - [Abbreviated Business Name](#netwk-pro)
 - [Licensing](#licensing)
   - [Are you sure you can do that?](#questions)
   - [Contact](#contact)
@@ -64,26 +65,28 @@ Web: <https://bio.neteng.pro>
 
 <code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
 
-**[Network Engineering Pro](https://neteng.pro/)** (NetEng-Pro), a Free/Libre and Open Source Software Community  
+**[Network Pro Strategies](https://netwk.pro/) (Network Pro)**  
 Copyright &copy; 2024-2025 **[Scott Lopez](https://bio.neteng.pro)**
 
 </code>
 
-NetEng-Pro is provided **_as is_** and **_as available_** without any
-warranties, express or implied. The Licensor makes no representations or
+Network Pro Strategies is provided **_as is_** and **_as available_** without any warranties, express or implied. The Licensor makes no representations or
 guarantees regarding the Licensed Material and assumes no liability for its use.
 
-> > _Unless otherwise noted, Network Engineering Pro (NetEng-Pro) in its'
+> > _Unless otherwise noted, Network Pro Strategies (Network Pro) in its'
 > > entirety is available exclusively under the licenses outlined herein._
 
 ---
 
-### <a id="neteng-pro">_Use of Abbreviated Business Name_</a>
+### <a id="graphics">Graphics</a>
 
-For clarity, the community's _full business name_, **Network Engineering Pro**,
-and its abbreviated name, **NetEng-Pro**, are legally equivalent. All references
-to 'NetEng-Pro,' whether in text or code, shall be interpreted as references to
-the full business name with equal authority.
+With respect to original website graphics **_only_**, all rights are reserved. Graphics **are not** to be used under CC BY 4.0 or the GPL. The copyright holder retains exclusive rights to use and release graphic content. See [Contact](#contact) if you'd like to request an exception.
+
+---
+
+### <a id="netwk-pro">_Use of Abbreviated Business Name_</a>
+
+For clarity, our _full business name_, **Network Pro Strategies**, and our abbreviated name, **Network Pro**, are legally equivalent. All references to 'Network Pro,' whether in text or code, shall be interpreted as references to the full business name with equal authority.
 
 **This equivalency applies across all media and contexts, including but not
 limited to: legal notices, website content, GitHub repositories and code, as
@@ -93,7 +96,7 @@ well as any business-related documentation.**
 
 ## <a id="licensing">Licensing</a>
 
-Network Engineering Pro is available under the following licenses:
+Network Pro is available under the following licenses:
 
 - **[Creative Commons Attribution 4.0 International](#cc-by)** ('CC BY 4.0')
 - **[GNU General Public License](#gnu-gpl)** ('GNU GPL'), either version 3 of
@@ -130,13 +133,13 @@ scope of either license, please email me at `contact (at) neteng.pro`.
 ## <a id="cc-by">Creative Commons Attribution 4.0 International</a>
 
 <sup>Formats:
-[Markdown](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/assets/license/CC-BY-4.0.md)
+[Markdown](https://github.com/NetEng-Pro/netwk-pro-web/blob/master/assets/license/CC-BY-4.0.md)
 |
-[XMP](https://raw.githubusercontent.com/NetEng-Pro/neteng-pro.github.io/refs/heads/master/assets/license/CC-BY-4.0.xmp)
+[XMP](https://raw.githubusercontent.com/NetEng-Pro/netwk-pro-web/refs/heads/master/assets/license/CC-BY-4.0.xmp)
 |
-[RDF](https://raw.githubusercontent.com/NetEng-Pro/neteng-pro.github.io/refs/heads/master/assets/license/CC-BY-4.0.rdf)</sup>
+[RDF](https://raw.githubusercontent.com/NetEng-Pro/netwk-pro-web/refs/heads/master/assets/license/CC-BY-4.0.rdf)</sup>
 
-Network Engineering Pro (the "Licensed Material") is licensed under **Creative
+Network Pro (the "Licensed Material") is licensed under **Creative
 Commons Attribution 4.0 International** ("CC BY 4.0")
 [<img style="display: inline-block; height: 18px !important; margin-left: 3px; vertical-align: text-bottom; text-decoration: none;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" />](https://creativecommons.org/licenses/by/4.0/)
 [<img style="display: inline-block; height: 18px !important; margin-left: 3px; vertical-align: text-bottom; text-decoration: none;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="BY" />](https://creativecommons.org/licenses/by/4.0/).
@@ -172,11 +175,11 @@ this License—may be available as further defined within this document.
 ## <a id="gnu-gpl">GNU General Public License</a>
 
 <sup>Formats:
-[Markdown](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/assets/license/COPYING.md)
+[Markdown](https://github.com/NetEng-Pro/netwk-pro-web/blob/master/assets/license/COPYING.md)
 |
-[ODT](https://github.com/NetEng-Pro/neteng-pro.github.io/raw/refs/heads/master/assets/license/COPYING.odt)</sup>
+[ODT](https://github.com/NetEng-Pro/netwk-pro-web/raw/refs/heads/master/assets/license/COPYING.odt)</sup>
 
-Network Engineering Pro (NetEng-Pro) is free software: you can redistribute it
+Network Pro (Network Pro) is free software: you can redistribute it
 and/or modify it under the terms of the **GNU General Public License** ("GNU
 GPL") as published by the [Free Software Foundation](https://www.fsf.org/),
 either version 3 of the License, or (at your option) any later version.
@@ -209,8 +212,6 @@ _**Website base structure provided by HTML5 Boilerplate:**_
 
 </code>
 
-&nbsp;
-
 ```
 ################################################################################
 
@@ -240,7 +241,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 <code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none; text-align: center; font-size: 12px;">
 
-**[Network Engineering Pro](https://neteng.pro/)** (NetEng-Pro), a Free/Libre and Open Source Software Community  
+**[Network Pro Strategies](https://netwk.pro/) (Network Pro)**  
 Copyright &copy; 2024-2025 **[Scott Lopez](https://bio.neteng.pro)**
 
 Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation,  
@@ -250,6 +251,6 @@ either version 3 of the License, or (at your option) any later version.
 
 <span style="text-align: center; font-size: 14px; font-weight: bold;">
 
-[Terms and Conditions](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/pages/terms.md) &nbsp; | &nbsp; Copyright and Licensing
+[Terms and Conditions](https://github.com/NetEng-Pro/netwk-pro-web/blob/master/legal/TERMS.md) &nbsp; | &nbsp; Copyright and Licensing
 
 </span>
