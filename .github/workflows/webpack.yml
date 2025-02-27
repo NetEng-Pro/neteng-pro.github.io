@@ -140,58 +140,58 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-  publish-gpr:
-    needs: [check-codeql, build]
-    runs-on: ubuntu-24.04
+#  publish-gpr:
+#    needs: [check-codeql, build]
+#    runs-on: ubuntu-24.04
     # Complete workflow even if this job fails
-    continue-on-error: true
-    permissions:
-      contents: read
-      packages: write
-    steps:
-      - name: Set up .npmrc file for GPR
-        run: |
-          echo "@neteng-pro:registry=https://npm.pkg.github.com/" > ~/.npmrc
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_PAT }}" >> ~/.npmrc
+#    continue-on-error: true
+#    permissions:
+#      contents: read
+#      packages: write
+#    steps:
+#      - name: Set up .npmrc file for GPR
+#        run: |
+#          echo "@neteng-pro:registry=https://npm.pkg.github.com/" > ~/.npmrc
+#          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_PAT }}" >> ~/.npmrc
 
-      - name: Login to GitHub Package Registry
-        run: npm login --registry=https://npm.pkg.github.com/ --scope=@neteng-pro --always-auth --username "sundevil311" --authToken ${{ secrets.GH_PAT }}
+#      - name: Login to GitHub Package Registry
+#        run: npm login --registry=https://npm.pkg.github.com/ --scope=@neteng-pro --always-auth --username "sundevil311" --authToken ${{ secrets.GH_PAT }}
 
-      - name: Checkout repository
-        uses: actions/checkout@v4.2.2
+#      - name: Checkout repository
+#        uses: actions/checkout@v4.2.2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4.2.0
-        with:
-          node-version: 22.x
-          registry-url: https://npm.pkg.github.com/
+#      - name: Set up Node.js
+#        uses: actions/setup-node@v4.2.0
+#        with:
+#          node-version: 22.x
+#          registry-url: https://npm.pkg.github.com/
 
-      - name: Cache Node.js modules
-        uses: actions/cache@v4.2.0
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-22.x-publish-${{ hashFiles('package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-22.x-publish-
-            ${{ runner.os }}-node-22.x-
-            ${{ runner.os }}-node-
+#      - name: Cache Node.js modules
+#        uses: actions/cache@v4.2.0
+#        with:
+#          path: ~/.npm
+#          key: ${{ runner.os }}-node-22.x-publish-${{ hashFiles('package-lock.json') }}
+#          restore-keys: |
+#            ${{ runner.os }}-node-22.x-publish-
+#            ${{ runner.os }}-node-22.x-
+#            ${{ runner.os }}-node-
 
-      - name: Install dependencies
-        run: npm ci
+#      - name: Install dependencies
+#        run: npm ci
 
-      - name: Set up Git user
-        run: |
-          git config --global user.email "github@sl.neteng.cc"
-          git config --global user.name "SunDevil311"
+#      - name: Set up Git user
+#        run: |
+#          git config --global user.email "github@sl.neteng.cc"
+#          git config --global user.name "SunDevil311"
 
-      - name: Ensure dist directory exists
-        run: mkdir -p dist
+#      - name: Ensure dist directory exists
+#        run: mkdir -p dist
 
-      - name: Copy package.json to dist directory
-        run: cp package.json dist/
+#      - name: Copy package.json to dist directory
+#        run: cp package.json dist/
 
-      - name: Publish package
-        working-directory: ./dist
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GH_PAT }}
+#      - name: Publish package
+#        working-directory: ./dist
+#        run: npm publish
+#        env:
+ #         NODE_AUTH_TOKEN: ${{ secrets.GH_PAT }}
