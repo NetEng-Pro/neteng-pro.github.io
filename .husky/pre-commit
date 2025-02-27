@@ -1,6 +1,16 @@
+#!/usr/bin/env bash
 # .husky/pre-commit
 
-#!/bin/sh
+# Run Mocha test framework
+npm run test
+
+# Run markdownlint-cli2 on all Markdown files and allow commit to proceed even if there are linting errors
+npx markdownlint-cli2 '**/*.md' || true
+
+# Run stylelint against all CSS and SCSS files and allow commit to proceed even if there are linting errors
+npx stylelint '**/*.css' '**/*.scss' || true
+
+# Run prettier against all staged files
 FILES=$(git diff --cached --name-only --diff-filter=ACMR | sed 's| |\\ |g')
 [ -z "$FILES" ] && exit 0
 
@@ -13,6 +23,3 @@ echo "$FILES" | xargs git add
 git update-index --again
 
 exit 0
-
-#prettier $(git diff --cached --name-only --diff-filter=ACMR | sed 's| |\\ |g') --write --ignore-unknown
-
