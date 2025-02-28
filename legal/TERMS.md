@@ -50,7 +50,7 @@ Web: <https://bio.neteng.pro>
 
 # <a id="top">Terms and Conditions</a>
 
-**Network Pro Strategies**
+**Network Pro Strategies**  
 **Effective Date:** 2/27/2025
 
 ## 1. Introduction
