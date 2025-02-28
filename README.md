@@ -63,7 +63,7 @@ Whether securing critical infrastructure, advising on compliance, or leading cyb
 **GitHub Profile:**  
 [https://github.com/SunDevil311](https://github.com/SunDevil311)
 
-I'm an experienced Network Security and Cyber Security Engineer with over 10 years of experience in designing, implementing, and securing complex network infrastructure. Passionate about advancing network and cyber security standards through continous innovation, with expertise driving secure, scalable, and efficient infrastructures across global and regional projects.
+I am an experienced Network Security and Cyber Security Engineer with over 10 years of experience in designing, implementing, and securing complex network infrastructure. Passionate about advancing network and cyber security standards through continous innovation, with expertise driving secure, scalable, and efficient infrastructures across global and regional projects.
 
 Systems that I specialize in:
 
@@ -73,7 +73,7 @@ Systems that I specialize in:
 
 &nbsp;
 
-<img src="img/qr/pgp.png" width="150px" height="150px"><br />
+<img src="img/qr/pgp.png" width="150px" height="150px" alt="PGP Key"><br />
 &nbsp; &nbsp;<span style="font-size: 14px">PGP Key: <a href="https://raw.githubusercontent.com/NetEng-Pro/neteng-pro.github.io/refs/heads/master/assets/files/support_at_neteng_pro.aexpk" type="application/pgp-keys">aexpk</a> | <a href="https://raw.githubusercontent.com/NetEng-Pro/neteng-pro.github.io/refs/heads/master/assets/files/support_at_neteng_pro.asc" type="text/plain">
 asc</a>
 </span>
@@ -109,8 +109,8 @@ either version 3 of the License, or (at your option) any later version.
 
 &nbsp;
 
-<span style="font-size: 14px; font-weight: bold; text-align: center;">
+<span style="font-size: 12px; font-weight: bold; text-align: center;">
 
-[Copyright and Licensing](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; [Terms and Conditions](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/TERMS.md)
+[Terms and Conditions](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; [Privacy Policy](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/PRIVACY.md)
 
 </span>

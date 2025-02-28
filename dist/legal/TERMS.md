@@ -45,6 +45,8 @@ Email: <contact@neteng.pro>
 Web: <https://bio.neteng.pro>
 -->
 
+<!-- markdownlint-disable MD001 -->
+
 # <a id="top">Terms and Conditions</a>
 
 ### 1. Introduction
@@ -117,7 +119,7 @@ discontinue use of all Network Pro platforms immediately._**
 
 <code style="background: none; border: none; border-radius: 0; font-size: 12px; height: 50vh; outline: none; resize: none; text-align: center; width: 100%;">
 
-**Terms and Conditions last modified 2/22/2025. T&C are subject to change at any time, for any reason, without notice.**
+**Terms and Conditions last modified 2/27/2025. T&C are subject to change at any time, for any reason, without notice.**
 
 &nbsp;
 
@@ -131,9 +133,8 @@ either version 3 of the License, or (at your option) any later version.
 
 &nbsp;
 
-<span style="font-size: 14px; font-weight: bold; text-align: center;">
+<span style="font-size: 12px; font-weight: bold; text-align: center;">
 
-[Copyright and Licensing](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/LICENSE.md)
-&nbsp; | &nbsp; Terms and Conditions
+Terms and Conditions &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; [Privacy Policy](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/PRIVACY.md)
 
 </span>

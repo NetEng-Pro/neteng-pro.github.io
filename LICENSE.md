@@ -11,11 +11,9 @@ Copyright © 2024-2025 Scott Lopez
 
 I. Creative Commons Attribution 4.0 International
 
-Network Pro (the "Licensed Material") is licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
-To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
+Network Pro (the "Licensed Material") is licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0"). To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
 
-Per the terms of the License, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially.
-You must give appropriate credit, provide a link to the License, and indicate if changes were made.
+Per the terms of the License, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially. You must give appropriate credit, provide a link to the License, and indicate if changes were made.
 
 The Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable.
 
@@ -30,8 +28,7 @@ II. GNU General Public License
 
 Network Pro is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License ("GNU GPL") as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-This material is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
-FITNESS FOR A PARTICULAR PURPOSE.
+This material is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 See the GNU General Public License for more details.
 
@@ -50,7 +47,11 @@ Web: <https://bio.neteng.pro>
 
 # <a id="top">Copyright and Licensing</a>
 
-**Table of Contents** <!-- markdownlint-disable MD036 -->
+<!-- markdownlint-disable MD036 -->
+
+**Table of Contents**
+
+<!-- markdownlint-enable MD036 -->
 
 - [Copyright](#copyright)
   - [Graphics](#graphics)
@@ -106,7 +107,11 @@ Network Pro is available under the following licenses:
 
 &nbsp;
 
-#### <a id="questions">_Are you sure you can do that?_</a> <!-- markdownlint-disable MD001 -->
+<!-- markdownlint-disable MD001 -->
+
+#### <a id="questions">_Are you sure you can do that?_</a>
+
+<!-- markdownlint-enable MD001 -->
 
 - "You may offer the licensed material under other licenses in addition to the
   CC license (a practice commonly referred to as 'dual licensing')."
@@ -251,8 +256,8 @@ either version 3 of the License, or (at your option) any later version.
 
 </code>
 
-<span style="font-size: 14px; font-weight: bold; text-align: center;">
+<span style="font-size: 12px; font-weight: bold; text-align: center;">
 
-[Terms and Conditions](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; Copyright and Licensing
+[Terms and Conditions](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; Copyright and Licensing &nbsp; | &nbsp; [Privacy Policy](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/PRIVACY.md)
 
 </span>
