@@ -11,11 +11,9 @@ Copyright © 2024-2025 Scott Lopez
 
 I. Creative Commons Attribution 4.0 International
 
-Network Pro (the "Licensed Material") is licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
-To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
+Network Pro (the "Licensed Material") is licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0"). To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
 
-Per the terms of the License, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially.
-You must give appropriate credit, provide a link to the License, and indicate if changes were made.
+Per the terms of the License, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially. You must give appropriate credit, provide a link to the License, and indicate if changes were made.
 
 The Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable.
 
@@ -74,7 +72,7 @@ Systems that I specialize in:
 &nbsp;
 
 <img src="img/qr/pgp.png" width="150px" height="150px" alt="PGP Key"><br />
-&nbsp; &nbsp;<span style="font-size: 14px">PGP Key: <a href="https://raw.githubusercontent.com/NetEng-Pro/neteng-pro.github.io/refs/heads/master/assets/files/support_at_neteng_pro.aexpk" type="application/pgp-keys">aexpk</a> | <a href="https://raw.githubusercontent.com/NetEng-Pro/neteng-pro.github.io/refs/heads/master/assets/files/support_at_neteng_pro.asc" type="text/plain">
+&nbsp;<span style="font-size: 14px">PGP Key: <a href="https://raw.githubusercontent.com/NetEng-Pro/neteng-pro.github.io/refs/heads/master/assets/files/support_at_neteng_pro.aexpk" type="application/pgp-keys">aexpk</a> | <a href="https://raw.githubusercontent.com/NetEng-Pro/neteng-pro.github.io/refs/heads/master/assets/files/support_at_neteng_pro.asc" type="text/plain">
 asc</a>
 </span>
 
@@ -92,8 +90,16 @@ asc</a>
 
 ---
 
-| [![cc-by](https://forthebadge.com/images/badges/cc-by.png)](https://creativecommons.org/licenses/by/4.0/) | ![gnu-gpl](https://img.shields.io/badge/LICENSE-GPLv3-red?style=for-the-badge&labelColor=9b9b9b&color=d0021b) | [![fsf](img/fsf-member.png)](https://my.fsf.org/join?referrer=6725885) |
-| :-------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------: |
+| [![cc-by](https://forthebadge.com/images/badges/cc-by.png)](https://creativecommons.org/licenses/by/4.0/) | [![gnu-gpl](https://img.shields.io/badge/LICENSE-GPLv3-red?style=for-the-badge&labelColor=9b9b9b&color=d0021b)](https://www.gnu.org/licenses/gpl-3.0.html) | [![fsf](img/fsf-member.png)](https://my.fsf.org/join?referrer=6725885) |
+| :-------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------: |
+
+&nbsp;
+
+<span style="font-size: 12px; font-weight: bold; text-align: center;">
+
+[Terms and Conditions](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; [Privacy Policy](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/PRIVACY.md)
+
+</span>
 
 &nbsp;
 
@@ -106,11 +112,3 @@ Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and
 either version 3 of the License, or (at your option) any later version.
 
 </code>
-
-&nbsp;
-
-<span style="font-size: 12px; font-weight: bold; text-align: center;">
-
-[Terms and Conditions](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; [Privacy Policy](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/PRIVACY.md)
-
-</span>

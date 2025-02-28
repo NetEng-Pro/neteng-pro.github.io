@@ -5,10 +5,10 @@
 npm run test
 
 # Run markdownlint-cli2 on all Markdown files and allow commit to proceed even if there are linting errors
-npx markdownlint-cli2 '**/*.md' || true
+npx markdownlint-cli2 "**/*.md" "!node_modules/**" "!dist/**" || true
 
 # Run stylelint against all CSS and SCSS files and allow commit to proceed even if there are linting errors
-npx stylelint '**/*.css' '**/*.scss' || true
+npx stylelint "**/*.css" "**/*.scss" || true
 
 # Run prettier against all staged files
 FILES=$(git diff --cached --name-only --diff-filter=ACMR | sed 's| |\\ |g')

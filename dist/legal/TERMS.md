@@ -45,11 +45,15 @@ Email: <contact@neteng.pro>
 Web: <https://bio.neteng.pro>
 -->
 
-<!-- markdownlint-disable MD001 -->
+[SPDX-License-Identifier](https://spdx.dev/learn/handling-license-info/):
+`CC-BY-4.0 OR GPL-3.0-or-later`
 
 # <a id="top">Terms and Conditions</a>
 
-### 1. Introduction
+**Network Pro Strategies**
+**Effective Date:** 2/27/2025
+
+## 1. Introduction
 
 Welcome to Network Pro Strategies ("Network Pro")! By accessing or using any of our platforms, you agree to be bound by these Terms and Conditions ("T&C"). If you do not agree to these terms, please refrain from using our services. _For the purposes of this document, "Network Pro Strategies" and "Network Pro" collectively refer to the business, its owners, operators, and all associated platforms._
 
@@ -57,7 +61,7 @@ Welcome to Network Pro Strategies ("Network Pro")! By accessing or using any of 
 > apply. Additional platforms not explicitly mentioned may still be subject to
 > these T&C.
 
-### 2. Platforms Covered
+## 2. Platforms Covered
 
 These Terms & Conditions apply to all platforms associated with Network Pro,
 including but not limited to:
@@ -75,36 +79,40 @@ including but not limited to:
 - **Social media accounts (e.g., Facebook, Instagram, X, and similar
   platforms)**
 
-### 3. Disclaimer of Warranties
+## 3. Disclaimer of Warranties
 
 Network Pro provides its platforms and services on an "as is" and "as available"
 basis without warranties of any kind, whether express or implied. We do not
 guarantee the accuracy, reliability, availability, or security of our services.
 
-### 4. Assumption of Risk
+## 4. Assumption of Risk
 
 Your use of Network Pro platforms is entirely at your own risk. We do not
 guarantee the security, integrity, or reliability of data stored on external or
 third-party infrastructure.
 
-### 5. Limitation of Liability
+## 5. Limitation of Liability
 
 To the fullest extent permitted by law, Network Pro, its affiliates, owners, operators, and contributors shall not be liable for any direct, indirect, incidental, consequential, or punitive damages, including but not limited to data loss, loss of profits, or damages arising from reliance on or use of our platforms.
 
-### 6. Indemnification
+## 6. Indemnification
 
 By using Network Pro's platforms, you agree to indemnify, defend, and hold
 harmless Network Pro, its affiliates, owners, operators, and contributors from any claims, damages, liabilities, losses, or expenses (including legal fees) arising from or related to your use of our services.
 
-### 7. Governing Law and Jurisdiction
+## 7. Governing Law and Jurisdiction
 
-Network Pro Strategies is an unincorporated business based in Arizona, United States. Any legal action or dispute arising from these Terms and Conditions shall be resolved exclusively in the courts of Maricopa County, Arizona, or the U.S. District Court for the District of Arizona. These Terms and Conditions are governed by and construed in accordance with the [Arizona Revised Statutes](https://www.azleg.gov/arstitle/) ("A.R.S") and applicable provisions of the [United States Code](https://uscode.house.gov/) ("U.S.C.").
+Network Pro Strategies is an unincorporated business based in Arizona, United States. Any legal action or dispute arising from these Terms and Conditions shall be resolved exclusively in the courts of Maricopa County, Arizona, or the U.S. District Court for the District of Arizona. These Terms and Conditions are governed by and construed in accordance with the [Arizona Revised Statutes](https://www.azleg.gov/arstitle/) (ARS) and applicable provisions of the [United States Code](https://uscode.house.gov/) (USC).
 
-### 8. Acceptance of Terms
+## 8. Acceptance of Terms
 
 By accessing or using any of Network Pro’s platforms, whether specifically listed in this document or not, you acknowledge and agree to these Terms and
 Conditions. **Continued use of our services constitutes ongoing acceptance of
 these terms.**
+
+## 9. Changes to This Policy
+
+We may update these Terms and Conditions periodically. Changes will be posted on this page with an updated effective date. Updates will comply with applicable changes to **Arizona Revised Statutes and United States Code**.
 
 &nbsp;
 
@@ -117,11 +125,15 @@ discontinue use of all Network Pro platforms immediately._**
 
 ---
 
-<code style="background: none; border: none; border-radius: 0; font-size: 12px; height: 50vh; outline: none; resize: none; text-align: center; width: 100%;">
+<span style="font-size: 12px; font-weight: bold; text-align: center;">
 
-**Terms and Conditions last modified 2/27/2025. T&C are subject to change at any time, for any reason, without notice.**
+Terms and Conditions &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; [Privacy Policy](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/PRIVACY.md)
+
+</span>
 
 &nbsp;
+
+<code style="background: none; border: none; border-radius: 0; font-size: 12px; height: 50vh; outline: none; resize: none; text-align: center; width: 100%;">
 
 **[Network Pro Strategies](https://netwk.pro/)** (Network Pro)  
 Copyright &copy; 2024-2025 **[Scott Lopez](https://bio.neteng.pro)**
@@ -130,11 +142,3 @@ Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and
 either version 3 of the License, or (at your option) any later version.
 
 </code>
-
-&nbsp;
-
-<span style="font-size: 12px; font-weight: bold; text-align: center;">
-
-Terms and Conditions &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; [Privacy Policy](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/PRIVACY.md)
-
-</span>

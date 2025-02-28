@@ -246,6 +246,14 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---
 
+<span style="font-size: 12px; font-weight: bold; text-align: center;">
+
+[Terms and Conditions](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; Copyright and Licensing &nbsp; | &nbsp; [Privacy Policy](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/PRIVACY.md)
+
+</span>
+
+&nbsp;
+
 <code style="background: none; border: none; border-radius: 0; font-size: 12px; height: 50vh; outline: none; resize: none; text-align: center; width: 100%;">
 
 **[Network Pro Strategies](https://netwk.pro/) (Network Pro)**  
@@ -255,9 +263,3 @@ Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and
 either version 3 of the License, or (at your option) any later version.
 
 </code>
-
-<span style="font-size: 12px; font-weight: bold; text-align: center;">
-
-[Terms and Conditions](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; Copyright and Licensing &nbsp; | &nbsp; [Privacy Policy](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/PRIVACY.md)
-
-</span>
