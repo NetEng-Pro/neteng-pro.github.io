@@ -53,6 +53,8 @@ Web: <https://bio.neteng.pro>
 **Network Pro Strategies**  
 **Effective Date:** 2/27/2025
 
+&nbsp;
+
 ## 1. Introduction
 
 Welcome to Network Pro Strategies ("Network Pro")! By accessing or using any of our platforms, you agree to be bound by these Terms and Conditions ("T&C"). If you do not agree to these terms, please refrain from using our services. _For the purposes of this document, "Network Pro Strategies" and "Network Pro" collectively refer to the business, its owners, operators, and all associated platforms._
