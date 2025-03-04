@@ -102,7 +102,7 @@ We do not sell or rent personal information. However, we may share your data in 
 
 ## 5. Data Security
 
-We implement industry-standard security measures to protect your data. However, no method of transmission over the Internet or electronic storage is completely secure, and we cannot guarantee absolute security. In compliance with **ARS § 18-552**, we will notify affected individuals in the event of a data breach involving personal information.
+We implement industry-standard security measures to protect your data. Our website employs encryption via TLS 1.2 or 1.3 only. However, no method of transmission over the Internet or electronic storage is completely secure, and we cannot guarantee absolute security. In compliance with **A.R.S. § 18-552**, we will notify affected individuals in the event of a data breach involving personal information.
 
 ## 6. Your Rights and Choices
 
