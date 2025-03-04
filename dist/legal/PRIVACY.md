@@ -5,7 +5,7 @@ This file is part of Network Pro.
 
 <!--
 Network Pro Strategies (Network Pro)
-Copyright © 2024-2025 Scott Lopez
+Copyright © 2025 Scott Lopez
 
 ---
 
@@ -154,7 +154,7 @@ Network Pro Strategies
 <code style="background: none; border: none; border-radius: 0; font-size: 12px; height: 50vh; outline: none; resize: none; text-align: center; width: 100%;">
 
 **[Network Pro Strategies](https://netwk.pro/) (Network Pro)**  
-Copyright &copy; 2024-2025 **[Scott Lopez](https://bio.neteng.pro)**
+Copyright &copy; 2025 **[Scott Lopez](https://bio.neteng.pro)**
 
 Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation,  
 either version 3 of the License, or (at your option) any later version.

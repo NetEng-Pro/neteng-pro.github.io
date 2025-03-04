@@ -5,7 +5,7 @@ This file is part of Network Pro.
 
 <!--
 Network Pro Strategies (Network Pro)
-Copyright © 2024-2025 Scott Lopez
+Copyright © 2025 Scott Lopez
 
 ---
 
@@ -55,7 +55,7 @@ Web: <https://bio.neteng.pro>
 
 ## 1. Introduction
 
-Welcome to Network Pro Strategies ("Network Pro")! By accessing or using any of our platforms, you agree to be bound by these Terms and Conditions ("T&C"). If you do not agree to these terms, please refrain from using our services. _For the purposes of this document, "Network Pro Strategies" and "Network Pro" collectively refer to the business, its owners, operators, and all associated platforms._
+Welcome! By accessing or using any of the platforms operated by Network Pro Strategies ("Company," "we," "us," or "our"), you agree to be bound by these Terms and Conditions ("T&C"). If you do not agree to these terms, please refrain from using our services. _For the purposes of this document, "Network Pro Strategies" and "Network Pro" collectively refer to the business, its owners, operators, and all associated platforms._
 
 > 📌 Note: This is not an exhaustive list of platforms to which these terms
 > apply. Additional platforms not explicitly mentioned may still be subject to
@@ -102,7 +102,7 @@ harmless Network Pro, its affiliates, owners, operators, and contributors from a
 
 ## 7. Governing Law and Jurisdiction
 
-Network Pro Strategies is an unincorporated business based in Arizona, United States. Any legal action or dispute arising from these Terms and Conditions shall be resolved exclusively in the courts of Maricopa County, Arizona, or the U.S. District Court for the District of Arizona. These Terms and Conditions are governed by and construed in accordance with the [Arizona Revised Statutes](https://www.azleg.gov/arstitle/) (A.R.S.) and applicable provisions of the [United States Code](https://uscode.house.gov/) (U.S.C.).
+**Network Pro Strategies** is an unincorporated business based in Maricopa County, Arizona. Any legal action or dispute arising from these Terms and Conditions shall be resolved exclusively in the courts of Maricopa County, Arizona, or the U.S. District Court for the District of Arizona. These Terms and Conditions are governed by and construed in accordance with the [Arizona Revised Statutes](https://www.azleg.gov/arstitle/) (A.R.S.) and applicable provisions of the [United States Code](https://uscode.house.gov/) (U.S.C.).
 
 ## 8. Acceptance of Terms
 
@@ -136,7 +136,7 @@ Terms and Conditions &nbsp; | &nbsp; [Copyright and Licensing](https://github.co
 <code style="background: none; border: none; border-radius: 0; font-size: 12px; height: 50vh; outline: none; resize: none; text-align: center; width: 100%;">
 
 **[Network Pro Strategies](https://netwk.pro/)** (Network Pro)  
-Copyright &copy; 2024-2025 **[Scott Lopez](https://bio.neteng.pro)**
+Copyright &copy; 2025 **[Scott Lopez](https://bio.neteng.pro)**
 
 Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation,  
 either version 3 of the License, or (at your option) any later version.
