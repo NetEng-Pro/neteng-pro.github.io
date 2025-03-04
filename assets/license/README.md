@@ -148,8 +148,8 @@ scope of either license, please email me at `contact (at) neteng.pro`.
 
 Network Pro (the "Licensed Material") is licensed under **Creative
 Commons Attribution 4.0 International** ("CC BY 4.0")
-[<img style="display: inline-block; height: 18px !important; margin-left: 3px; vertical-align: text-bottom; text-decoration: none;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" />](https://creativecommons.org/licenses/by/4.0/)
-[<img style="display: inline-block; height: 18px !important; margin-left: 3px; vertical-align: text-bottom; text-decoration: none;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="BY" />](https://creativecommons.org/licenses/by/4.0/).
+[<img decoding="async" loading="lazy" style="display: inline-block; height: 18px !important; margin-left: 3px; vertical-align: text-bottom; text-decoration: none;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" />](https://creativecommons.org/licenses/by/4.0/)
+[<img decoding="async" loading="lazy" style="display: inline-block; height: 18px !important; margin-left: 3px; vertical-align: text-bottom; text-decoration: none;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="BY" />](https://creativecommons.org/licenses/by/4.0/).
 
 Per the terms of the License, you are free to distribute, remix, adapt, and
 build upon the Licensed Material for any purpose, even commercially. You must

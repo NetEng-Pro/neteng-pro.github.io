@@ -50,22 +50,34 @@ Web: <https://bio.neteng.pro>
 # <a id="top">Privacy Policy</a>
 
 **Network Pro Strategies**  
-**Effective Date:** 2/27/2025
+**Effective Date:** 3/4/2025
 
 &nbsp;
 
 ## 1. Introduction
 
-Network Pro Strategies ("Company," "we," "us," or "our") is committed to protecting the privacy of our clients and website visitors. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or engage our security and privacy consulting services. This policy complies with applicable laws and regulations in Maricopa County, Arizona, including the **[Arizona Revised Statutes](https://www.azleg.gov/arstitle/) (ARS)** and relevant federal laws under the **[United States Code](https://uscode.house.gov/) (USC)** as interpreted by the **United States District Court for the District of Arizona**.
+Network Pro Strategies ("Company," "we," "us," or "our") is committed to protecting the privacy of our clients and website visitors. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or engage our security and privacy consulting services. This policy complies with applicable laws and regulations in Maricopa County, Arizona, including the **[Arizona Revised Statutes](https://www.azleg.gov/arstitle/) (A.R.S.)** and relevant federal laws under the **[United States Code](https://uscode.house.gov/) (U.S.C.)** as interpreted by the **United States District Court for the District of Arizona**.
 
-## 2. Information We Collect
+## **2. Information We Collect**
 
 We may collect and process the following types of information:
 
 - **Personal Information**: Name, email address, phone number, and other contact details.
 - **Business Information**: Company name, job title, and industry.
-- **Technical Data**: IP address, browser type, and other analytics data.
+- **Technical Data**: IP address, browser type, device information, and analytics data.
 - **Client Data**: Information provided in connection with our consulting services.
+
+### **Future Collection of Payment Information**
+
+As we plan to accept credit and debit card payments, we may collect and process the following **payment information**:
+
+- **Cardholder Name**
+- **Debit/Credit Card Number**
+- **Expiration Date**
+- **CVV Code**
+- **Magnetic Stripe Data** (if applicable)
+
+To ensure security and compliance, we will process payment information strictly for transaction purposes. Once a payment is completed and funds are verified, all payment data will be securely disposed of within **90 days**.
 
 ## 3. How We Use Your Information
 
@@ -73,33 +85,36 @@ We use the information we collect to:
 
 - Provide, operate, and improve our services.
 - Communicate with you regarding inquiries, contracts, and service updates.
-- Ensure security and compliance with legal obligations under **ARS Title 44, Chapter 39 (Arizona Data Security Breach Notification Law)**.
+- Process payment information for services rendered.
+- Ensure security and compliance with legal obligations under **A.R.S. Title 18, § 18-551 and § 18-552 (Arizona Data Breach Notification Law)**.
 - Improve website functionality and user experience.
 - Conduct analytics and business development.
 
 ## 4. Sharing and Disclosure
 
+**Data Sharing Policy**
+
 We do not sell or rent personal information. However, we may share your data in the following circumstances:
 
-- **With Service Providers**: Third-party vendors assisting in business operations.
-- **Legal Compliance**: If required by law, subpoena, or government request, including compliance with **ARS Title 18 (Government Information Technology and Data Protection)** and relevant provisions under **Title 18 of the USC (Federal Cybersecurity and Privacy Laws)**.
-- **Business Transfers**: In case of mergers, acquisitions, or asset sales.
+- **With Service Providers**: We may share information with trusted third-party vendors who assist in our business operations, such as payment processing, analytics, and customer support.
+- **Legal Compliance**: We may disclose information if required by law, subpoena, or government request, including to comply with **A.R.S. Title 13** and applicable provisions of **Title 18 of the U.S.C.**.
+- **Business Transfers**: If our company undergoes a merger, acquisition, or sale of assets, we will make every reasonable effort to prevent the sharing of personal information. If a transfer of data is unavoidable, we will take all necessary steps to ensure continued protection and compliance with our privacy commitments.
 
 ## 5. Data Security
 
-We implement industry-standard security measures to protect your data. However, no method of transmission over the Internet or electronic storage is completely secure, and we cannot guarantee absolute security. In compliance with **ARS § 44-7601**, we will notify affected individuals in the event of a data breach involving personal information.
+We implement industry-standard security measures to protect your data. However, no method of transmission over the Internet or electronic storage is completely secure, and we cannot guarantee absolute security. In compliance with **ARS § 18-552**, we will notify affected individuals in the event of a data breach involving personal information.
 
 ## 6. Your Rights and Choices
 
-Under Arizona and federal law, you may have the following rights regarding your data:
+**Your Data Rights**
 
-- Access, update, or delete your personal information.
-- Opt-out of marketing communications.
-- Restrict or object to data processing in certain circumstances.
-- Request data portability, where applicable under **ARS Title 44 and relevant federal statutes**.
+Under applicable state and federal law, you may have the following rights regarding your personal data:
 
-To exercise these rights, please contact us at [support (at) neteng.pro](mailto:support@neteng.pro).  
-You may also use our [contact form](https://tr.ee/HAI1inalZH) to excercise these rights.
+- **Access, update, or delete** your personal information, subject to legal and contractual limitations.
+- **Opt out of marketing communications** at any time.
+- **Restrict or object to data processing** under certain conditions, as permitted by law.
+
+To exercise these rights, please use our [contact form](https://tr.ee/HAI1inalZH) or email us at [support (at) neteng.pro](mailto:support@neteng.pro).
 
 ## 7. Third-Party Links
 
@@ -107,14 +122,14 @@ Our website may contain links to third-party sites. We are not responsible for t
 
 ## 8. Disclaimers
 
-- **No Legal or Professional Liability**: The information and recommendations provided by Network Pro Strategies are based on industry best practices and expertise. However, we do not guarantee the accuracy, effectiveness, or completeness of our consulting services, and we are not liable for decisions made based on our advice. That said, we go to great lengths to ensure the accuracy and effectiveness of our recommendations. **_If for any reason you are dissatisfied with our services, we will work with you to try and make it right._**
+- **No Legal or Professional Liability**: The information and recommendations provided by Network Pro Strategies are based on industry best practices and expertise. However, we do not guarantee the accuracy, effectiveness, or completeness of our consulting services, and we are not liable for decisions made based on our advice. That said, we go to great lengths to ensure the accuracy and effectiveness of our recommendations. **_If for any reason you are dissatisfied with our services, we will work with you to make it right._**
 - **No Guarantees**: While we strive to provide high-quality security and privacy consulting, we do not guarantee specific outcomes or results from our services unless otherwise specified. _This clause does not apply to specific outcomes or results if they are defined within the scope of work._
 - **Limitation of Liability**: Network Pro Strategies shall not be held liable for any direct, indirect, incidental, or consequential damages arising from the use of our services.
 - **Third-Party Services**: We may recommend or integrate third-party vendors for certain services. However, we are not responsible for the actions, policies, or reliability of these third parties.
 
 ## 9. Changes to This Policy
 
-We may update this Privacy Policy periodically. Changes will be posted on this page with an updated effective date. Updates will comply with applicable changes to **Arizona Revised Statutes and United States Code**.
+We may update this Privacy Policy periodically. Changes will be posted on this page with an updated effective date. Updates will comply with applicable changes to the **Arizona Revised Statutes and United States Code**.
 
 ## 10. Contact Us
 

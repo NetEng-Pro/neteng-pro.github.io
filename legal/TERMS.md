@@ -11,11 +11,9 @@ Copyright © 2024-2025 Scott Lopez
 
 I. Creative Commons Attribution 4.0 International
 
-Network Pro (the "Licensed Material") is licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
-To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
+Network Pro (the "Licensed Material") is licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0"). To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
 
-Per the terms of the License, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially.
-You must give appropriate credit, provide a link to the License, and indicate if changes were made.
+Per the terms of the License, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially. You must give appropriate credit, provide a link to the License, and indicate if changes were made.
 
 The Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable.
 
@@ -72,7 +70,7 @@ including but not limited to:
 
 - **Website (hosted via GitHub Pages)**
 
-- **Communication platforms such as Slack, Microsoft Teams, Discord, and other instant messaging services**
+- **Communication platforms such as Discord, Slack, Microsoft Teams, and other instant messaging services**
 
 - **Stack Overflow Teams**
 
@@ -104,7 +102,7 @@ harmless Network Pro, its affiliates, owners, operators, and contributors from a
 
 ## 7. Governing Law and Jurisdiction
 
-Network Pro Strategies is an unincorporated business based in Arizona, United States. Any legal action or dispute arising from these Terms and Conditions shall be resolved exclusively in the courts of Maricopa County, Arizona, or the U.S. District Court for the District of Arizona. These Terms and Conditions are governed by and construed in accordance with the [Arizona Revised Statutes](https://www.azleg.gov/arstitle/) (ARS) and applicable provisions of the [United States Code](https://uscode.house.gov/) (USC).
+Network Pro Strategies is an unincorporated business based in Arizona, United States. Any legal action or dispute arising from these Terms and Conditions shall be resolved exclusively in the courts of Maricopa County, Arizona, or the U.S. District Court for the District of Arizona. These Terms and Conditions are governed by and construed in accordance with the [Arizona Revised Statutes](https://www.azleg.gov/arstitle/) (A.R.S.) and applicable provisions of the [United States Code](https://uscode.house.gov/) (U.S.C.).
 
 ## 8. Acceptance of Terms
 
