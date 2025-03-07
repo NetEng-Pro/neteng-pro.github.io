@@ -5,11 +5,11 @@
 # Webpack, Publish to js" workflow completes successfully (OR) when manually
 # triggered.
 
-name: Deploy to GitHub Pages
+name: Deploy to GH Pages
 
 on:
   workflow_run:
-    workflows: ["Build Webpack, Publish to Registries"]
+    workflows: ["Build/Test, Publish to Registries"]
     types:
       - completed
   workflow_dispatch:
