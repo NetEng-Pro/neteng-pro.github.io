@@ -48,9 +48,9 @@ Web: <https://bio.neteng.pro>
 # <a id="top">Network Pro</a>
 
 [![Build Webpack, Publish to Registries](https://github.com/NetEng-Pro/neteng-pro.github.io/actions/workflows/webpack.yml/badge.svg)](https://github.com/NetEng-Pro/neteng-pro.github.io/actions/workflows/webpack.yml) [![Deploy to GitHub Pages](https://github.com/NetEng-Pro/neteng-pro.github.io/actions/workflows/upload.yml/badge.svg)](https://github.com/NetEng-Pro/neteng-pro.github.io/actions/workflows/upload.yml)  
-[![NPM Version](https://img.shields.io/npm/v/%40neteng-pro%2Fnetwk-pro-web?registry_uri=https%3A%2F%2Fregistry.npmjs.com&style=flat&logo=npm&logoSize=auto&labelColor=fffff&color=0c7ebe)](https://www.npmjs.com/package/@neteng-pro/netwk-pro-web) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![npm version](https://img.shields.io/npm/v/%40neteng-pro%2Fnetwk-pro-web?registry_uri=https%3A%2F%2Fregistry.npmjs.com&style=flat&logo=npm&logoSize=auto&labelColor=fffff&color=0c7ebe)](https://www.npmjs.com/package/@neteng-pro/netwk-pro-web) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-At **Network Pro Strategies (Network Pro)**, we specialize in network security, cyber security, and privacy consulting, offering both strategic advisory services and hands-on implementation. Our expertise extends beyond consulting&mdash;we are committed to public advocacy and education, empowering businesses, policymakers, and the public with the knowledge and tools to navigate today’s complex digital landscape.
+At **Network Pro Strategies (Network Pro)**, we specialize in network security, cybersecurity, and privacy consulting, offering both strategic advisory services and hands-on implementation. Our expertise extends beyond consulting&mdash;we are committed to public advocacy and education, empowering businesses, policymakers, and the public with the knowledge and tools to navigate today’s complex digital landscape.
 
 Whether securing critical infrastructure, advising on compliance, or leading cyber security awareness initiatives, we bring cutting-edge solutions and strategic insights to protect what matters most.
 
@@ -61,7 +61,7 @@ Whether securing critical infrastructure, advising on compliance, or leading cyb
 **GitHub Profile:**  
 [https://github.com/SunDevil311](https://github.com/SunDevil311)
 
-I am an experienced Network Security and Cyber Security Engineer with over 10 years of experience in designing, implementing, and securing complex network infrastructure. Passionate about advancing network and cyber security standards through continous innovation, with expertise driving secure, scalable, and efficient infrastructures across global and regional projects.
+I am an experienced Network Security and Cybersecurity Engineer with over 10 years of experience in designing, implementing, and securing complex network infrastructure. Passionate about advancing network and cyber security standards through continous innovation, with expertise driving secure, scalable, and efficient infrastructures across global and regional projects.
 
 Systems that I specialize in:
 
@@ -71,7 +71,7 @@ Systems that I specialize in:
 
 &nbsp;
 
-<img src="img/qr/pgp.png" width="150px" height="150px" alt="PGP Key"><br />
+<img src="https://netwk.pro/img/qr/pgp.png" width="150px" height="150px" alt="PGP Key"><br />
 &nbsp;<span style="font-size: 14px">PGP Key: <a href="https://raw.githubusercontent.com/NetEng-Pro/neteng-pro.github.io/refs/heads/master/assets/files/support_at_neteng_pro.aexpk" type="application/pgp-keys">aexpk</a> | <a href="https://raw.githubusercontent.com/NetEng-Pro/neteng-pro.github.io/refs/heads/master/assets/files/support_at_neteng_pro.asc" type="text/plain">
 asc</a>
 </span>
@@ -90,8 +90,8 @@ asc</a>
 
 ---
 
-| [![cc-by](https://forthebadge.com/images/badges/cc-by.png)](https://creativecommons.org/licenses/by/4.0/) | [![gnu-gpl](https://img.shields.io/badge/LICENSE-GPLv3-red?style=for-the-badge&labelColor=9b9b9b&color=d0021b)](https://www.gnu.org/licenses/gpl-3.0.html) | [![fsf](img/fsf-member.png)](https://my.fsf.org/join?referrer=6725885) |
-| :-------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------: |
+| [![cc-by](https://forthebadge.com/images/badges/cc-by.png)](https://creativecommons.org/licenses/by/4.0/) | [![gnu-gpl](https://img.shields.io/badge/LICENSE-GPLv3-red?style=for-the-badge&labelColor=9b9b9b&color=d0021b)](https://www.gnu.org/licenses/gpl-3.0.html) | [![fsf](https://netwk.pro/img/fsf-member.png)](https://my.fsf.org/join?referrer=6725885) |
+| :-------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: |
 
 &nbsp;
 
@@ -103,12 +103,12 @@ asc</a>
 
 &nbsp;
 
-<code style="background: none; border: none; border-radius: 0; font-size: 12px; height: 50vh; outline: none; resize: none; text-align: center; width: 100%;">
+<span style="font-size: 12px; text-align: center;">
 
-**[Network Pro Strategies](https://netwk.pro/) (Network Pro)**  
+**[Network Pro Strategies](https://netwk.pro/)** (Network Pro)  
 Copyright &copy; 2025 **[Scott Lopez](https://bio.neteng.pro)**
 
 Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation,  
 either version 3 of the License, or (at your option) any later version.
 
-</code>
+</span>

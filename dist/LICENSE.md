@@ -259,12 +259,12 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 &nbsp;
 
-<code style="background: none; border: none; border-radius: 0; font-size: 12px; height: 50vh; outline: none; resize: none; text-align: center; width: 100%;">
+<span style="font-size: 12px; text-align: center;">
 
-**[Network Pro Strategies](https://netwk.pro/) (Network Pro)**  
+**[Network Pro Strategies](https://netwk.pro/)** (Network Pro)  
 Copyright &copy; 2025 **[Scott Lopez](https://bio.neteng.pro)**
 
 Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation,  
 either version 3 of the License, or (at your option) any later version.
 
-</code>
+</span>
