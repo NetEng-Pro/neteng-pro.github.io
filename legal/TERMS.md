@@ -126,7 +126,7 @@ discontinue use of all Network Pro platforms immediately._**
 
 <span style="font-size: 12px; font-weight: bold; text-align: center;">
 
-Terms and Conditions &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; [Privacy Policy](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/PRIVACY.md)
+Terms of Use &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; [Privacy Policy](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/PRIVACY.md)
 
 </span>
 

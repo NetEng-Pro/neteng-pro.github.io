@@ -256,7 +256,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 <span style="font-size: 12px; font-weight: bold; text-align: center;">
 
-[Terms and Conditions](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; Copyright and Licensing &nbsp; | &nbsp; [Privacy Policy](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/PRIVACY.md)
+[Terms of Use](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; Copyright and Licensing &nbsp; | &nbsp; [Privacy Policy](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/PRIVACY.md)
 
 </span>
 

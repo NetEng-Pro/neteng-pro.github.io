@@ -145,7 +145,7 @@ support (at) neteng.pro
 
 <span style="font-size: 12px; font-weight: bold; text-align: center;">
 
-[Terms and Conditions](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; Privacy Policy
+[Terms of Use](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; Privacy Policy
 
 </span>
 
