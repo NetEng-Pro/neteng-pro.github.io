@@ -48,7 +48,7 @@ Web: <https://bio.neteng.pro>
 # <a id="top">Copyright and Licensing</a>
 
 **Network Pro Strategies**  
-**Effective Date:** 3/4/2025
+**Effective Date:** 3/9/2025
 
 &nbsp;
 
@@ -58,14 +58,31 @@ Web: <https://bio.neteng.pro>
 
 <!-- markdownlint-enable MD036 -->
 
+- [Licensed Material](#lmaterial)
+  - [Abbreviated Business Name](#netwk-pro)
 - [Copyright](#copyright)
   - [Graphics](#graphics)
-  - [Abbreviated Business Name](#netwk-pro)
 - [Licensing](#licensing)
   - [Are you sure you can do that?](#questions)
   - [Contact](#contact)
 - [CC BY 4.0](#cc-by)
 - [GNU GPL](#gnu-gpl)
+
+---
+
+## <a id="lmaterial">Licensed Material</a>
+
+For copyright and licensing purposes, _"Licensed Material"_ refers to all public websites and public repositories. This includes all associated code (e.g., HTML, CSS, JavaScript, Markdown). **This definition explicitly excludes the Network Pro Strategies company as a whole.**
+
+---
+
+### <a id="netwk-pro">_Use of Abbreviated Business Name_</a>
+
+For clarity, our _full business name_, **Network Pro Strategies**, and our abbreviated name, **Network Pro**, are legally equivalent. All references to 'Network Pro,' whether in text or code, shall be interpreted as references to the full business name with equal authority.
+
+**This equivalency applies across all media and contexts, including but not
+limited to: legal notices, website content, GitHub repositories and code, as
+well as any business-related documentation.**
 
 ---
 
@@ -86,19 +103,9 @@ guarantees regarding the Licensed Material and assumes no liability for its use.
 
 ---
 
-### <a id="graphics">Graphics</a>
+### <a id="graphics">_Graphics_</a>
 
-With respect to original website graphics **_only_**, all rights are reserved. Graphics **are not** to be used under CC BY 4.0 or the GPL. The copyright holder retains exclusive rights to use and release graphic content. See [Contact](#contact) if you'd like to request an exception.
-
----
-
-### <a id="netwk-pro">_Use of Abbreviated Business Name_</a>
-
-For clarity, our _full business name_, **Network Pro Strategies**, and our abbreviated name, **Network Pro**, are legally equivalent. All references to 'Network Pro,' whether in text or code, shall be interpreted as references to the full business name with equal authority.
-
-**This equivalency applies across all media and contexts, including but not
-limited to: legal notices, website content, GitHub repositories and code, as
-well as any business-related documentation.**
+All rights to original website graphics are **strictly reserved.** These graphics **are not** covered under CC BY 4.0 or the GPL. The copyright holder retains exclusive rights to their use and distribution. To request an exception, see [Contact](#contact).
 
 ---
 
@@ -114,7 +121,7 @@ Network Pro is available under the following licenses:
 
 <!-- markdownlint-disable MD001 -->
 
-#### <a id="questions">_Are you sure you can do that?_</a>
+### <a id="questions">_Are you sure you can do that?_</a>
 
 <!-- markdownlint-enable MD001 -->
 
@@ -133,10 +140,10 @@ Network Pro is available under the following licenses:
 
 &nbsp;
 
-#### <a id="contact">_Contact_</a>
+### <a id="contact">_Contact_</a>
 
 For questions not covered here, or to request permissions not covered by the
-scope of either license, please email me at `contact (at) neteng.pro`.
+scope of either license, please email me at <a href="mailto:contact@neteng.pro">`contact (at) neteng.pro`</a>.
 
 <sub>[Top](#top)</sub>
 
@@ -264,7 +271,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **[Network Pro Strategies](https://netwk.pro/)** (Network Pro)  
 Copyright &copy; 2025 **[Scott Lopez](https://bio.neteng.pro)**
 
-Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation,  
-either version 3 of the License, or (at your option) any later version.
+Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 </span>
