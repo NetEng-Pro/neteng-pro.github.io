@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
 # .husky/pre-commit
+#
+# SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
+# This file is part of Network Pro.
 
 # Run Mocha test framework
 npm run test
 
 # Run markdownlint-cli2 on all Markdown files and allow commit to proceed even if there are linting errors
-npx markdownlint-cli2 "**/*.md" "!node_modules/**" "!dist/**" || true
+npx markdownlint-cli2 "**/*.md" "#node_modules/**" "#dist/**" || true
 
 # Run stylelint against all CSS and SCSS files and allow commit to proceed even if there are linting errors
 npx stylelint "**/*.css" "**/*.scss" || true

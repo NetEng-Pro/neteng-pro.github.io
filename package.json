@@ -1,6 +1,6 @@
 {
   "name": "@neteng-pro/netwk-pro-web",
-  "version": "0.2.17",
+  "version": "0.3.0",
   "private": false,
   "description": "Locking Down Networks, Unlocking Confidence — Network Pro",
   "keywords": [
@@ -13,11 +13,11 @@
   ],
   "homepage": "https://netwk.pro",
   "bugs": {
-    "url": "https://github.com/NetEng-Pro/neteng-pro.github.io/issues"
+    "url": "https://github.com/netwk-pro/netwk-pro.github.io/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NetEng-Pro/neteng-pro.github.io.git"
+    "url": "git+https://github.com/netwk-pro/netwk-pro.github.io.git"
   },
   "license": "CC-BY-4.0 OR GPL-3.0-or-later",
   "author": {

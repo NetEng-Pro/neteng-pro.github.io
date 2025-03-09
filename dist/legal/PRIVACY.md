@@ -50,7 +50,7 @@ Web: <https://bio.neteng.pro>
 # <a id="top">Privacy Policy</a>
 
 **Network Pro Strategies**  
-**Effective Date:** 3/4/2025
+**Effective Date:** 3/9/2025
 
 &nbsp;
 
@@ -114,7 +114,7 @@ Under applicable state and federal law, you may have the following rights regard
 - **Opt out of marketing communications** at any time.
 - **Restrict or object to data processing** under certain conditions, as permitted by law.
 
-To exercise these rights, please use our [contact form](https://tr.ee/HAI1inalZH) or email us at [support (at) neteng.pro](mailto:support@neteng.pro).
+To exercise these rights, please use our [contact form](https://tr.ee/HAI1inalZH) or email us at `support (at) neteng.pro`.
 
 ## 7. Third-Party Links
 
@@ -122,7 +122,7 @@ Our website may contain links to third-party sites. We are not responsible for t
 
 ## 8. Disclaimers
 
-- **No Legal or Professional Liability**: The information and recommendations provided by Network Pro Strategies are based on industry best practices and expertise. However, we do not guarantee the accuracy, effectiveness, or completeness of our consulting services, and we are not liable for decisions made based on our advice. That said, we go to great lengths to ensure the accuracy and effectiveness of our recommendations. **_If for any reason you are dissatisfied with our services, we will work with you to make it right._**
+- **No Legal or Professional Liability**: Network Pro Strategies provides information and recommendations based on industry best practices and expertise. However, we do not guarantee the accuracy, effectiveness, or completeness of our public advocacy efforts and are not liable for any decisions made based on our advice. _This limitation **does not** apply to our consulting and implementation services._
 - **No Guarantees**: While we strive to provide high-quality security and privacy consulting, we do not guarantee specific outcomes or results from our services unless otherwise specified. _This clause does not apply to specific outcomes or results if they are defined within the scope of work._
 - **Limitation of Liability**: Network Pro Strategies shall not be held liable for any direct, indirect, incidental, or consequential damages arising from the use of our services.
 - **Third-Party Services**: We may recommend or integrate third-party vendors for certain services. However, we are not responsible for the actions, policies, or reliability of these third parties.
@@ -136,7 +136,7 @@ We may update this Privacy Policy periodically. Changes will be posted on this p
 For any questions or concerns regarding this Privacy Policy, please contact us at:
 
 Network Pro Strategies  
-[support (at) neteng.pro](mailto:support@neteng.pro)  
+support (at) neteng.pro
 (623) 252-4350
 
 <sub>[Top](#top)</sub>
@@ -145,18 +145,17 @@ Network Pro Strategies
 
 <span style="font-size: 12px; font-weight: bold; text-align: center;">
 
-[Terms and Conditions](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; Privacy Policy
+[Terms and Conditions](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; Privacy Policy
 
 </span>
 
 &nbsp;
 
-<code style="background: none; border: none; border-radius: 0; font-size: 12px; height: 50vh; outline: none; resize: none; text-align: center; width: 100%;">
+<span style="font-size: 12px; text-align: center;">
 
 **[Network Pro Strategies](https://netwk.pro/) (Network Pro)**  
 Copyright &copy; 2025 **[Scott Lopez](https://bio.neteng.pro)**
 
-Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation,  
-either version 3 of the License, or (at your option) any later version.
+Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-</code>
+</span>

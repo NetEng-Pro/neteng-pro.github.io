@@ -46,7 +46,7 @@ Web: <https://bio.neteng.pro>
 [SPDX-License-Identifier](https://spdx.dev/learn/handling-license-info/):
 `CC-BY-4.0 OR GPL-3.0-or-later`
 
-# <a id="top">Terms and Conditions</a>
+# <a id="top">Terms of Use</a>
 
 **Network Pro Strategies**  
 **Effective Date:** 3/9/2025
@@ -126,17 +126,17 @@ discontinue use of all Network Pro platforms immediately._**
 
 <span style="font-size: 12px; font-weight: bold; text-align: center;">
 
-Terms and Conditions &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; [Privacy Policy](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/legal/PRIVACY.md)
+Terms and Conditions &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; [Privacy Policy](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/PRIVACY.md)
 
 </span>
 
 &nbsp;
 
-<code style="font-size: 12px; text-align: center;">
+<span style="font-size: 12px; text-align: center;">
 
 **[Network Pro Strategies](https://netwk.pro/)** (Network Pro)  
 Copyright &copy; 2025 **[Scott Lopez](https://bio.neteng.pro)**
 
 Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-</code>
+</span>

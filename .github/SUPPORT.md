@@ -3,6 +3,5 @@
 
 # Support
 
-For support requests related to Network Pro (NetEng-Pro) please use
-Stack Overflow Teams ([`Network Pro`](https://stack.neteng.pro) tag)
-or email contact (at) neteng.pro.
+For support requests related to Network Pro Strategies (Network Pro), please use
+Stack Overflow Teams ([`Network Pro`](https://stack.neteng.pro) tag) or email social (at) neteng.pro.
