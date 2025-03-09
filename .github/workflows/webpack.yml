@@ -190,6 +190,10 @@ jobs:
       - name: Copy package.json to dist directory
         run: cp package.json dist/
 
+      - name: Update package name for GPR
+        run: |
+          sed -i 's/"name": ".*"/"name": "@netwk-pro\/netwk-pro-web"/' dist/package.json
+
       - name: Publish package
         working-directory: ./dist
         run: npm publish
