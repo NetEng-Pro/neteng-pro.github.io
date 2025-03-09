@@ -49,7 +49,7 @@ Web: <https://bio.neteng.pro>
 # <a id="top">Terms and Conditions</a>
 
 **Network Pro Strategies**  
-**Effective Date:** 3/4/2025
+**Effective Date:** 3/9/2025
 
 &nbsp;
 
@@ -76,8 +76,7 @@ including but not limited to:
 
 - **Nextcloud**
 
-- **Social media accounts (e.g., Facebook, Instagram, X, and similar
-  platforms)**
+- **Social media accounts (e.g., Facebook, Instagram, X, and similar platforms)**
 
 ## 3. Disclaimer of Warranties
 
@@ -112,7 +111,7 @@ these terms.**
 
 ## 9. Changes to This Policy
 
-We may update these Terms and Conditions periodically. Changes will be posted on this page with an updated effective date. Updates will comply with applicable changes to **Arizona Revised Statutes and United States Code**.
+We may update these Terms and Conditions periodically. Changes will be posted on this page with an updated effective date. Updates will comply with applicable changes to the **Arizona Revised Statutes and United States Code**.
 
 &nbsp;
 
@@ -133,12 +132,11 @@ Terms and Conditions &nbsp; | &nbsp; [Copyright and Licensing](https://github.co
 
 &nbsp;
 
-<code style="background: none; border: none; border-radius: 0; font-size: 12px; height: 50vh; outline: none; resize: none; text-align: center; width: 100%;">
+<code style="font-size: 12px; text-align: center;">
 
 **[Network Pro Strategies](https://netwk.pro/)** (Network Pro)  
 Copyright &copy; 2025 **[Scott Lopez](https://bio.neteng.pro)**
 
-Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation,  
-either version 3 of the License, or (at your option) any later version.
+Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 </code>
