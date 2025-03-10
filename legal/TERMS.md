@@ -55,15 +55,15 @@ Web: <https://bio.neteng.pro>
 
 ## 1. Introduction
 
-Welcome! By accessing or using any of the platforms operated by Network Pro Strategies ("Company," "we," "us," or "our"), you agree to be bound by these Terms and Conditions ("T&C"). If you do not agree to these terms, please refrain from using our services. _For the purposes of this document, "Network Pro Strategies" and "Network Pro" collectively refer to the business, its owners, operators, and all associated platforms._
+Welcome! By accessing or using any of the platforms operated by Network Pro Strategies ("Company," "we," "us," or "our"), you agree to be bound by these Terms of Use ("Terms"). If you do not agree to these terms, please refrain from using our services. _For the purposes of this document, "Network Pro Strategies" and "Network Pro" collectively refer to the business, its owners, operators, and all associated platforms._
 
 > 📌 Note: This is not an exhaustive list of platforms to which these terms
 > apply. Additional platforms not explicitly mentioned may still be subject to
-> these T&C.
+> these Terms.
 
 ## 2. Platforms Covered
 
-These Terms & Conditions apply to all platforms associated with Network Pro,
+These Terms of Use apply to all platforms associated with Network Pro,
 including but not limited to:
 
 - **GitHub**
@@ -101,21 +101,20 @@ harmless Network Pro, its affiliates, owners, operators, and contributors from a
 
 ## 7. Governing Law and Jurisdiction
 
-**Network Pro Strategies** is an unincorporated business based in Maricopa County, Arizona. Any legal action or dispute arising from these Terms and Conditions shall be resolved exclusively in the courts of Maricopa County, Arizona, or the U.S. District Court for the District of Arizona. These Terms and Conditions are governed by and construed in accordance with the [Arizona Revised Statutes](https://www.azleg.gov/arstitle/) (A.R.S.) and applicable provisions of the [United States Code](https://uscode.house.gov/) (U.S.C.).
+**Network Pro Strategies** is an unincorporated business based in Maricopa County, Arizona. Any legal action or dispute arising from these Terms of Use shall be subject to the exclusive jurisdiction of the state and federal courts located in Maricopa County, Arizona, including the U.S. District Court for the District of Arizona. These Terms of Use shall be governed by and construed in accordance with the [Arizona Revised Statutes](https://www.azleg.gov/arstitle/) (A.R.S.) and applicable provisions of the [United States Code](https://uscode.house.gov/) (U.S.C.).
 
 ## 8. Acceptance of Terms
 
-By accessing or using any of Network Pro’s platforms, whether specifically listed in this document or not, you acknowledge and agree to these Terms and
-Conditions. **Continued use of our services constitutes ongoing acceptance of
-these terms.**
+By accessing or using any of Network Pro’s platforms, whether specifically listed in this document or not, you acknowledge and agree to these Terms of Use. **Continued use of our services constitutes ongoing acceptance of
+these Terms.**
 
 ## 9. Changes to This Policy
 
-We may update these Terms and Conditions periodically. Changes will be posted on this page with an updated effective date. Updates will comply with applicable changes to the **Arizona Revised Statutes and United States Code**.
+We may update these Terms of Use periodically. Changes will be posted on this page with an updated effective date. Updates will comply with applicable changes to the **Arizona Revised Statutes and United States Code**.
 
 &nbsp;
 
-⚠️ **_If you do not agree with any part of these Terms and Conditions, you must
+⚠️ **_If you do not agree with any part of these Terms of Use, you must
 discontinue use of all Network Pro platforms immediately._**
 
 &nbsp;
