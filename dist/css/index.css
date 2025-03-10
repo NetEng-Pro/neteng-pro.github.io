@@ -116,6 +116,7 @@
 .index1{
   font-size:16px;
   font-style:italic;
+  font-weight:700;
 }
 
 .index1,.index2{
@@ -123,23 +124,24 @@
 }
 
 .index2{
-  font-size:20px;
   font-variant:small-caps;
 }
 
-.community{
+.community,.index2{
   font-size:22px;
 }
 
 .voice1{
-  font-size:18px;
   font-weight:700;
 }
 
-.voice2{
-  font-size:18px;
-  font-style:italic;
+.voice1,.voice2{
+  font-size:16px;
   text-align:center;
+}
+
+.voice2{
+  font-style:italic;
 }
 
 .copyright{
