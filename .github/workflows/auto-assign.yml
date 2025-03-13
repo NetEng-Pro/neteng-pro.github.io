@@ -1,25 +1,30 @@
 # SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
 # This file is part of Network Pro
 #
-# This workflow will auto-assign an issue to a specific user
-# when a new issue is opened
+# This workflow will auto-assign an issue or PR to a specific user
+# when a new issuPRor PR is opened.
 
 name: Auto Assign
+
 on:
   issues:
     types: [opened]
   pull_request:
-    types: [opened]
+    types: [opened, edited, synchronize, reopened]
+
 jobs:
-  run:
+  auto-assign:
     runs-on: ubuntu-24.04
+
     permissions:
       issues: write
       pull-requests: write
+
     steps:
-      - name: "Auto-assign issue"
+      - name: "Auto-assign issue or PR"
         uses: pozil/auto-assign-issue@v2.2.0
         with:
-          repo-token: ${{ secrets.GH_PAT }}
+          repo-token: ${{ secrets.SD311 }}
           assignees: SunDevil311
           numOfAssignee: 1
+          allowSelfAssign: true
