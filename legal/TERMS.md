@@ -4,8 +4,7 @@ This file is part of Network Pro.
 ========================================================================== -->
 
 <!--
-Network Pro Strategies (Network Pro)
-Copyright © 2025 Scott Lopez
+Copyright © 2025 Network Pro Strategies (Network Pro)
 
 ---
 
@@ -125,7 +124,8 @@ discontinue use of all Network Pro platforms immediately._**
 
 <span style="font-size: 12px; font-weight: bold; text-align: center;">
 
-Terms of Use &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; [Privacy Policy](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/PRIVACY.md)
+Terms of Use &nbsp; | &nbsp; [Privacy Policy](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/PRIVACY.md)  
+[Copyright and Licensing](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/LICENSE.md)
 
 </span>
 
@@ -133,8 +133,7 @@ Terms of Use &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/netwk-
 
 <span style="font-size: 12px; text-align: center;">
 
-**[Network Pro Strategies](https://netwk.pro/)** (Network Pro)  
-Copyright &copy; 2025 **[Scott Lopez](https://bio.neteng.pro)**
+Copyright &copy; 2025 by **[Network Pro Strategies](https://netwk.pro/)** (Network Pro)
 
 Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 

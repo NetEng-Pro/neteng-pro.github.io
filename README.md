@@ -4,8 +4,7 @@ This file is part of Network Pro.
 ========================================================================== -->
 
 <!--
-Network Pro Strategies (Network Pro)
-Copyright © 2025 Scott Lopez
+Copyright © 2025 Network Pro Strategies (Network Pro)
 
 ---
 
@@ -66,7 +65,7 @@ At Network Pro, we bring **over a decade of expertise** in networking, cybersecu
 
 Our **blend of deep technical expertise and business insight** ensures that security is not just a safeguard&mdash;it’s a **strategic advantage** that enhances efficiency, customer trust, and operational excellence.
 
-🔹 Let’s connect to discuss how we can help secure and strengthen your business today.
+🔹 [Let’s connect](https://contact.neteng.pro) to discuss how we can help secure and strengthen your business today.
 
 &nbsp;
 
@@ -130,8 +129,7 @@ Let’s work together to **enhance your network security posture** and create a 
 
 <span style="font-size: 12px; text-align: center;">
 
-**[Network Pro Strategies](https://netwk.pro/)** (Network Pro)  
-Copyright &copy; 2025 **[Scott Lopez](https://bio.neteng.pro)**
+Copyright &copy; 2025 by **[Network Pro Strategies](https://netwk.pro/)** (Network Pro)
 
 Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
