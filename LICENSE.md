@@ -4,8 +4,7 @@ This file is part of Network Pro.
 ========================================================================== -->
 
 <!--
-Network Pro Strategies (Network Pro)
-Copyright © 2025 Scott Lopez
+Copyright © 2025 Network Pro Strategies (Network Pro)
 
 ---
 
@@ -48,7 +47,7 @@ Web: <https://bio.neteng.pro>
 # <a id="top">Copyright and Licensing</a>
 
 **Network Pro Strategies**  
-**Effective Date:** 3/9/2025
+**Effective Date:** 3/13/2025
 
 &nbsp;
 
@@ -88,8 +87,7 @@ well as any business-related documentation.**
 
 ## <a id="copyright">Copyright</a>
 
-**[Network Pro Strategies](https://netwk.pro/) (Network Pro)**  
-Copyright &copy; 2025 **[Scott Lopez](https://bio.neteng.pro)**
+Copyright &copy; 2025 by **[Network Pro Strategies](https://netwk.pro/) (Network Pro)**
 
 Network Pro Strategies is provided **_as is_** and **_as available_** without any warranties, express or implied. The Licensor makes no representations or
 guarantees regarding the Licensed Material and assumes no liability for its use.
@@ -154,7 +152,7 @@ scope of either license, please email us at `support (at) neteng.pro`.
 |
 [RDF](https://raw.githubusercontent.com/netwk-pro/netwk-pro.github.io/refs/heads/master/assets/license/CC-BY-4.0.rdf)</sup>
 
-Network Pro (the "Licensed Material") is licensed under **Creative
+Network Pro Strategies (the "Licensed Material") is licensed under **Creative
 Commons Attribution 4.0 International** ("CC BY 4.0")
 [<img decoding="async" loading="lazy" style="display: inline-block; height: 18px !important; margin-left: 3px; vertical-align: text-bottom; text-decoration: none;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" />](https://creativecommons.org/licenses/by/4.0/)
 [<img decoding="async" loading="lazy" style="display: inline-block; height: 18px !important; margin-left: 3px; vertical-align: text-bottom; text-decoration: none;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="BY" />](https://creativecommons.org/licenses/by/4.0/).
@@ -194,7 +192,7 @@ this License—may be available as further defined within this document.
 |
 [ODT](https://github.com/netwk-pro/netwk-pro.github.io/raw/refs/heads/master/assets/license/COPYING.odt)</sup>
 
-Network Pro (Network Pro) is free software: you can redistribute it
+Network Pro Strategies (Network Pro) is free software: you can redistribute it
 and/or modify it under the terms of the **GNU General Public License** ("GNU
 GPL") as published by the [Free Software Foundation](https://www.fsf.org/),
 either version 3 of the License, or (at your option) any later version.
@@ -256,7 +254,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 <span style="font-size: 12px; font-weight: bold; text-align: center;">
 
-[Terms of Use](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; Copyright and Licensing &nbsp; | &nbsp; [Privacy Policy](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/PRIVACY.md)
+[Terms of Use](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; [Privacy Policy](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/PRIVACY.md)  
+Copyright and Licensing
 
 </span>
 
@@ -264,8 +263,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 <span style="font-size: 12px; text-align: center;">
 
-**[Network Pro Strategies](https://netwk.pro/)** (Network Pro)  
-Copyright &copy; 2025 **[Scott Lopez](https://bio.neteng.pro)**
+Copyright &copy; 2025 by **[Network Pro Strategies](https://netwk.pro/)** (Network Pro)
 
 Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 

@@ -4,8 +4,7 @@ This file is part of Network Pro.
 ========================================================================== -->
 
 <!--
-Network Pro Strategies (Network Pro)
-Copyright © 2025 Scott Lopez
+Copyright © 2025 Network Pro Strategies (Network Pro)
 
 ---
 
@@ -56,7 +55,9 @@ Web: <https://bio.neteng.pro>
 
 ## 1. Introduction
 
-Network Pro Strategies ("Company," "we," "us," or "our") is committed to protecting the privacy of our clients and website visitors. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or engage our security and privacy consulting services. This policy complies with applicable laws and regulations in Maricopa County, Arizona, including the **[Arizona Revised Statutes](https://www.azleg.gov/arstitle/) (A.R.S.)** and relevant federal laws under the **[United States Code](https://uscode.house.gov/) (U.S.C.)** as interpreted by the **United States District Court for the District of Arizona**.
+Network Pro Strategies ("Company," "we," "us," or "our") is committed to protecting the privacy of our clients and website visitors. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or engage our security and privacy consulting services.
+
+This policy complies with applicable laws and regulations in Maricopa County, Arizona, including the **[Arizona Revised Statutes](https://www.azleg.gov/arstitle/) (A.R.S.)** and relevant federal laws under the **[United States Code](https://uscode.house.gov/) (U.S.C.)** as interpreted by the **United States District Court for the District of Arizona**.
 
 ## **2. Information We Collect**
 
@@ -145,7 +146,8 @@ support (at) neteng.pro
 
 <span style="font-size: 12px; font-weight: bold; text-align: center;">
 
-[Terms of Use](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; Privacy Policy
+[Terms of Use](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; Privacy Policy  
+[Copyright and Licensing](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/LICENSE.md)
 
 </span>
 
@@ -153,8 +155,7 @@ support (at) neteng.pro
 
 <span style="font-size: 12px; text-align: center;">
 
-**[Network Pro Strategies](https://netwk.pro/) (Network Pro)**  
-Copyright &copy; 2025 **[Scott Lopez](https://bio.neteng.pro)**
+Copyright &copy; 2025 by **[Network Pro Strategies](https://netwk.pro/) (Network Pro)**
 
 Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 

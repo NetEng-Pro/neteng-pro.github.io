@@ -1,3 +1,6 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later -->
+<!-- This file is part of Network Pro -->
+
 ## Types of changes
 
 <!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
@@ -14,6 +17,7 @@
 - [ ] My code follows the code style of this project.
 - [ ] My change requires a change to the documentation.
 - [ ] I have updated the documentation accordingly.
+- [ ] I have read the **[CONTRIBUTING](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/.github/CONTRIBUTING.md)** document.
 - [ ] I have added tests to cover my changes.
 - [ ] All new and existing tests passed.
 
